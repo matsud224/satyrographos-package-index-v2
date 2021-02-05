@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Row, Col, Table } from 'react-bootstrap'
+import { Row, Col, Table, Jumbotron, Button } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
 import Helmet from "react-helmet"
 import FiberNewIcon from '@material-ui/icons/FiberNew';
@@ -32,15 +32,18 @@ export default function Home({ data }) {
       </Helmet>
       <Row>
         <Col>
-          <h1>Welcome to Satyrographos Package Index</h1>
+          <Jumbotron>
+            <h1>Welcome to Satyrographos Package Index</h1>
+            <p>
+              Satyrographos Package Index provides a list of available packages for <ExternalLink href="https://github.com/na4zagin3/satyrographos">Satyrographos</ExternalLink>, the package manager for <ExternalLink href="https://github.com/gfngfn/SATySFi">SATySFi</ExternalLink>.
+            </p>
+            <div>
+              <Button variant="outline-primary"><ExternalLink href="https://github.com/na4zagin3/satyrographos/blob/master/README.md#satyrographos">How to use Satyrographos</ExternalLink></Button>{' '}
+              <Button variant="outline-primary"><ExternalLink href="https://github.com/na4zagin3/satyrographos/blob/master/README.md#for-library-authors">Publish your package</ExternalLink></Button>
+            </div>
+          </Jumbotron>
         </Col>
       </Row>
-      <HomeItem title="Notice">
-        <ul>
-          <li>This website provides a list of available packages for <ExternalLink href="https://github.com/na4zagin3/satyrographos">Satyrographos</ExternalLink>, the package manager for <ExternalLink href="https://github.com/gfngfn/SATySFi">SATySFi</ExternalLink>.</li>
-          <li>If you found any problem, <ExternalLink href="https://github.com/matsud224/satyrographos-package-index-v2/issues">send an issue</ExternalLink>.</li>
-        </ul>
-      </HomeItem>
       <HomeItem title="Recent updates">
         <p><Link to="/packages">show all packages...</Link></p>
         <Table>

@@ -31,6 +31,9 @@ export default function Layout({ children }) {
             <Nav.Item as="li">
               <Link to="/snapshots" className="nav-link" activeClassName="active">Snapshots</Link>
             </Nav.Item>
+            <Nav.Item as="li">
+              <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" className="nav-link" activeClassName="active" target="_blank" rel="noopener noreferrer">Feedback</a>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
