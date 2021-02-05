@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import marked from 'marked';
 import { getPackageAbbrevName, getPackagePath, getPackagePathWithVersion } from "../components/common"
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import Helmet from "react-helmet"
 
 function TextItem(props) {
 	if (!props.value) return (null);
@@ -24,7 +25,7 @@ function LinkItem(props) {
     <div>
       <h5>{props.title}</h5>
       <p>
-        <a href={props.value} target="_blank">
+        <a href={props.value} target="__blank">
           {props.value}
         </a>
       </p>
@@ -152,6 +153,9 @@ export default function PackageDetails({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{abbrevName} - Satyrographos Package Index</title>
+      </Helmet>
 			<Row>
 				<Col>
 					<h1>{abbrevName}</h1>
@@ -239,7 +243,7 @@ export default function PackageDetails({ data }) {
               rowFunc={(f) =>
                 <tr>
                   <td>
-                    <a href={`../../${f}`} target="_blank">
+                    <a href={`../../${f}`} target="__blank">
                       <img src="/file.svg" style={fileImageStyle} alt="" class="file-img" />
                       {basename(f)}
                     </a>

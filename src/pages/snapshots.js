@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { getSnapshotPath } from "../components/common"
 import { Table, Row, Col } from 'react-bootstrap'
+import Helmet from "react-helmet"
 
 function SnapshotTable(props) {
   return (
@@ -36,6 +37,9 @@ export default function SnapshotList({data}) {
   const developSnapshots = allSnapshots.filter(({node}) => node.name.includes("develop"))
   return (
     <Layout>
+      <Helmet>
+        <title>Snapshots - Satyrographos Package Index</title>
+      </Helmet>
       <Row>
         <Col>
           <h1>Snapshots</h1>

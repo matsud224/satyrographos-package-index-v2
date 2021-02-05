@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Row, Col, Table } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
+import Helmet from "react-helmet"
 
 function HomeItem(props) {
   return (
@@ -18,6 +19,9 @@ function HomeItem(props) {
 export default function Home({ data }) {
   return (
     <Layout>
+      <Helmet>
+        <title>Satyrographos Package Index</title>
+      </Helmet>
       <Row>
         <Col>
           <h1>Welcome to Satyrograhos Package Index</h1>

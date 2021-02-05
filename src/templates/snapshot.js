@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { Row, Col, InputGroup, FormControl, Button, Table } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import Helmet from "react-helmet"
 
 function CommandLineItem(props) {
 	if (!props.value) return (null);
@@ -36,6 +37,9 @@ export default function SnapshotDetails({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{node.name} - Satyrographos Package Index</title>
+      </Helmet>
       <Row className="my-3">
         <Col>
           <h1>{node.name}</h1>
