@@ -20,7 +20,7 @@ function HomeItem(props) {
 
 function ExternalLink(props) {
   return (
-    <a href={props.href} rel="noopener noreferrer">{props.children}</a>
+    <a href={props.href} target="_blank" rel="noopener noreferrer">{props.children}</a>
   )
 }
 
