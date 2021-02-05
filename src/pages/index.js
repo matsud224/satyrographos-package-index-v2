@@ -24,7 +24,7 @@ export default function Home({ data }) {
       </Helmet>
       <Row>
         <Col>
-          <h1>Welcome to Satyrograhos Package Index</h1>
+          <h1>Welcome to Satyrographos Package Index</h1>
         </Col>
       </Row>
       <HomeItem title="Notice">
