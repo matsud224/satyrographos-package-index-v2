@@ -129,8 +129,15 @@ let basename = function(path) {
 };
 
 const rawMarkup = (markup) => {
-    const rawMarkup = marked(markup);
-    return { __html: rawMarkup };
+  const renderer = new marked.Renderer();
+  const linkRenderer = renderer.link;
+  renderer.link = (href, title, text) => {
+    const html = linkRenderer.call(renderer, href, title, text);
+    return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ');
+  };
+  const rawMarkup = marked(markup, { renderer });
+
+  return { __html: rawMarkup };
 };
 
 const fileImageStyle = {
