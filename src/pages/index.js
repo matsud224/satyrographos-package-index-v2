@@ -47,8 +47,8 @@ export default function Home({ data }) {
             </tr>
           </thead>
           <tbody>
-            {data.allPackagesJson.edges.map(({ node }, index) => (
-              <tr key={index}>
+            {data.allPackagesJson.edges.map(({ node }) => (
+              <tr key={node.name}>
                 <td>{node.versions.length > 1 ? <AutorenewIcon /> : <FiberNewIcon />}</td>
                 <td><Link to={`/packages/` + getPackageAbbrevName(node.name)}>{getPackageAbbrevName(node.name)}</Link></td>
                 <td>{node.versions[0].synopsis}</td>

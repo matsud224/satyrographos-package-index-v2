@@ -44,7 +44,7 @@ export default function PackageList({ data, location }) {
 					<tbody>
 						{results.map(result => {
 								return (
-									<tr>
+									<tr key={result.name}>
 										<td>
 											<Link to={`/packages/${getPackageAbbrevName(result.name)}`}>
 												{getPackageAbbrevName(result.name)}

@@ -8,6 +8,22 @@ import { CopyToClipboard } from 'react-copy-to-clipboard'
 import Helmet from "react-helmet"
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 
+const rawMarkup = (markup) => {
+  const renderer = new marked.Renderer();
+  const linkRenderer = renderer.link;
+  renderer.link = (href, title, text) => {
+    const html = linkRenderer.call(renderer, href, title, text);
+    return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ');
+  };
+  const rawMarkup = marked(markup, { renderer });
+
+  return { __html: rawMarkup };
+};
+
+function Markdown(props) {
+  return <span dangerouslySetInnerHTML={rawMarkup(props.content)} />
+}
+
 function TextItem(props) {
 	if (!props.value) return (null);
 
@@ -26,9 +42,7 @@ function LinkItem(props) {
     <div>
       <h5>{props.title}</h5>
       <p>
-        <a href={props.value} target="_blank" rel="noopener noreferrer">
-          {props.value}
-        </a>
+        <Markdown content={props.value} />
       </p>
     </div>
 	)
@@ -129,17 +143,6 @@ let basename = function(path) {
   return lst[lst.length-1];
 };
 
-const rawMarkup = (markup) => {
-  const renderer = new marked.Renderer();
-  const linkRenderer = renderer.link;
-  renderer.link = (href, title, text) => {
-    const html = linkRenderer.call(renderer, href, title, text);
-    return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ');
-  };
-  const rawMarkup = marked(markup, { renderer });
-
-  return { __html: rawMarkup };
-};
 
 export default function PackageDetails({ data }) {
   const node = data.allSitePage.edges[0].node.context
@@ -203,7 +206,7 @@ export default function PackageDetails({ data }) {
 				<Col>
 					<div>
 						<hr />
-						<span dangerouslySetInnerHTML={rawMarkup(thisVersionInfo.description)} />
+						<Markdown content={thisVersionInfo.description} />
 						<hr />
 					</div>
 				</Col>
@@ -218,19 +221,19 @@ export default function PackageDetails({ data }) {
 			</Row>
 			<Row className="my-3">
 				<Col>
-					<LinkItem title="Homepage" value={thisVersionInfo.homepage.join()} />
+					<LinkItem title="Homepage" value={thisVersionInfo.homepage.join(', ')} />
 				</Col>
 				<Col>
-					<LinkItem title="Bug reports" value={thisVersionInfo.bug_reports.join()} />
+					<LinkItem title="Bug reports" value={thisVersionInfo.bug_reports.join(', ')} />
 				</Col>
 				<Col>
-					<TextItem title="Author" value={thisVersionInfo.authors.join()} />
+					<TextItem title="Author" value={thisVersionInfo.authors.join(', ')} />
 				</Col>
 				<Col>
-					<TextItem title="Maintainer" value={thisVersionInfo.maintainer.join()} />
+					<TextItem title="Maintainer" value={thisVersionInfo.maintainer.join(', ')} />
 				</Col>
 				<Col>
-					<TextItem title="License" value={thisVersionInfo.license.join()} />
+					<TextItem title="License" value={thisVersionInfo.license.join(', ')} />
 				</Col>
 				<Col>
 					<TextItem title="Published on" value={thisVersionInfo.published_on} />
@@ -243,7 +246,7 @@ export default function PackageDetails({ data }) {
               title="Document files"
               items={thisVersionInfo.documents}
               rowFunc={(f) =>
-                <tr>
+                <tr key={f}>
                   <td>
                     <a href={`../../${f}`} target="_blank" rel="noopener noreferrer">
                       <DescriptionOutlinedIcon />
@@ -263,7 +266,7 @@ export default function PackageDetails({ data }) {
               title="Dependencies"
               items={filteredDeps}
               rowFunc={(dep) =>
-                <tr>
+                <tr key={dep.name}>
                   <td>
                     <Link to={getPackagePath(dep.name)}>
                       {getPackageAbbrevName(dep.name)}
@@ -282,7 +285,7 @@ export default function PackageDetails({ data }) {
               title="Font files"
               items={thisVersionInfo.fonts}
               initialNumRows={5}
-              rowFunc={(f) => <tr><td>{f}</td></tr>}
+              rowFunc={(f) => <tr key={f}><td>{f}</td></tr>}
             />
           </Col>
         </Row>

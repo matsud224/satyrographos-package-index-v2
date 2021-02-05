@@ -18,8 +18,8 @@ function SnapshotTable(props) {
             </tr>
           </thead>
           <tbody>
-            {props.items.map(({node}, index) => (
-              <tr key={index}>
+            {props.items.map(({node}) => (
+              <tr key={node.name}>
                 <td><Link to={getSnapshotPath(node.name)}>{node.name}</Link></td>
                 <td>{node.published_on}</td>
               </tr>

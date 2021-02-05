@@ -63,8 +63,8 @@ export default function SnapshotDetails({ data }) {
               </tr>
             </thead>
             <tbody>
-              {filteredPkgs.map((pkg, index) => (
-                <tr key={index}>
+              {filteredPkgs.map((pkg) => (
+                <tr key={pkg.name}>
                   <td>
                     <Link to={`/packages/${getPackageAbbrevName(pkg.name)}/${pkg.version}`}>
                       {getPackageAbbrevName(pkg.name)}
