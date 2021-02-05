@@ -17,21 +17,22 @@ export default function Layout({ children }) {
   )
   return (
 		<div>
-      <Navbar bg="primary" variant="dark">
-        <Navbar.Brand>
-          {data.site.siteMetadata.title}
-        </Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Item as="li">
-            <Link to="/" className="nav-link" activeClassName="active">Home</Link>
-          </Nav.Item>
-          <Nav.Item as="li">
-            <Link to="/packages" className="nav-link" activeClassName="active">Packages</Link>
-          </Nav.Item>
-          <Nav.Item as="li">
-            <Link to="/snapshots" className="nav-link" activeClassName="active">Snapshots</Link>
-          </Nav.Item>
-        </Nav>
+      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar.Brand>{data.site.siteMetadata.title}</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Item as="li">
+              <Link to="/" className="nav-link" activeClassName="active">Home</Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="/packages" className="nav-link" activeClassName="active">Packages</Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="/snapshots" className="nav-link" activeClassName="active">Snapshots</Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
       <Container className="mx-auto my-3">
         {children}

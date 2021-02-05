@@ -5,8 +5,8 @@ require 'slack/incoming/webhooks'
 
 
 begin
-  oldjson = JSON.parse(File.read(ARGV[0]))
-  newjson = JSON.parse(File.read(ARGV[1]))
+  oldinfo = JSON.parse(File.read(ARGV[0]))
+  newinfo = JSON.parse(File.read(ARGV[1]))
 rescue
   puts 'invalid JSON file'
   exit
@@ -17,9 +17,6 @@ WEBHOOK_URL = ARGV[2]
 if WEBHOOK_URL == '' then
   exit
 end
-
-oldinfo = oldjson['data']
-newinfo = newjson['data']
 
 # find added package
 added = []
