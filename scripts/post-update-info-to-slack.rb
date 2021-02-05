@@ -14,7 +14,7 @@ end
 
 WEBHOOK_URL = ARGV[2]
 
-if WEBHOOK_URL == '' then
+if WEBHOOK_URL == nil then
   exit
 end
 
