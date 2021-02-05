@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SearchForm from "../components/search-form"
 import { Index } from "lunr"
 import Helmet from "react-helmet"
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { getPackageAbbrevName } from "../components/common"
 import { Table } from 'react-bootstrap'
 
