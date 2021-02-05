@@ -18,6 +18,12 @@ function HomeItem(props) {
   )
 }
 
+function ExternalLink(props) {
+  return (
+    <a href={props.href} rel="noopener noreferrer">{props.children}</a>
+  )
+}
+
 export default function Home({ data }) {
   return (
     <Layout>
@@ -31,8 +37,8 @@ export default function Home({ data }) {
       </Row>
       <HomeItem title="Notice">
         <ul>
-          <li>This website is under development.</li>
-          <li>If you found any problem, <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" target="_blank" rel="noopener noreferrer">send an issue</a>.</li>
+          <li>This website provides a list of available packages for <ExternalLink href="https://github.com/na4zagin3/satyrographos">Satyrographos</ExternalLink>, the package manager for <ExternalLink href="https://github.com/gfngfn/SATySFi">SATySFi</ExternalLink>.</li>
+          <li>If you found any problem, <ExternalLink href="https://github.com/matsud224/satyrographos-package-index-v2/issues">send an issue</ExternalLink>.</li>
         </ul>
       </HomeItem>
       <HomeItem title="Recent updates">
