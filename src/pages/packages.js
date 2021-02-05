@@ -10,7 +10,7 @@ import { Table } from 'react-bootstrap'
 export default function PackageList({ data, location }) {
   const params = new URLSearchParams(location.search.slice(1))
   const q = params.get("q") || ""
- 
+
   const { store } = data.LunrIndex
   const index = Index.load(data.LunrIndex.index)
   let results = []
