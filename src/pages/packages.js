@@ -28,7 +28,7 @@ export default function PackageList({ data, location }) {
 	return (
 		<Layout>
       <Helmet>
-        <title>Search results - Satyrographos Package Index</title>
+        <title>{q ? `Search results for "${q}"` : `Packages`} - Satyrographos Package Index</title>
       </Helmet>
       <h1>Packages</h1>
       <div className="my-3">
