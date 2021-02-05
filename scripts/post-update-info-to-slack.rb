@@ -5,8 +5,8 @@ require 'slack/incoming/webhooks'
 
 
 begin
-  oldinfo = JSON.parse(File.read(ARGV[0]))
-  newinfo = JSON.parse(File.read(ARGV[1]))
+  olddb = JSON.parse(File.read(ARGV[0]))
+  newdb = JSON.parse(File.read(ARGV[1]))
 rescue
   puts 'invalid JSON file'
   exit
@@ -20,16 +20,16 @@ end
 
 # find added package
 added = []
-newinfo.each do |p|
-  if not oldinfo.any? {|q| p['name'] == q['name'] } then
+newdb.each do |p|
+  if not olddb.any? {|q| p['name'] == q['name'] } then
     added.push(p)
   end
 end
 
 # find updated package
 updated = []
-oldinfo.each do |p|
-  newinfo.each do |q|
+olddb.each do |p|
+  newdb.each do |q|
     if p['name'] == q['name'] then
       if p['last_update'] != q['last_update'] then
         updated.push([p,q])
@@ -40,8 +40,8 @@ end
 
 # find removed package
 removed = []
-oldinfo.each do |p|
-  if not newinfo.any? {|q| p['name'] == q['name'] } then
+olddb.each do |p|
+  if not newdb.any? {|q| p['name'] == q['name'] } then
     removed.push(p)
   end
 end
@@ -56,10 +56,11 @@ added.each do |p|
   puts "\"#{p['name']}\""
 
   name = p['name']
-  version = p['latest_version']
-  homepage = p['homepage']
-  synopsis = p['synopsis']
-  authors = p['authors']
+  latest = p['versions'][0]
+  version = latest['version']
+  homepage = latest['homepage'].join(', ')
+  synopsis = latest['synopsis']
+  authors = latest['authors'].join(', ')
 
   pretext = ":tada: New package \"#{name}\" was published."
 
@@ -88,11 +89,11 @@ updated.each do |pair|
   puts "\"#{p['name']}\""
 
   name = p['name']
-  old_version = p_old['latest_version']
-  new_version = p['latest_version']
-  homepage = p['homepage']
-  synopsis = p['synopsis']
-  authors = p['authors']
+  old_version = p_old['versions'][0]['version']
+  new_version = p['versions'][0]['version']
+  homepage = p['versions'][0]['homepage'].join(', ')
+  synopsis = p['versions'][0]['synopsis']
+  authors = p[['versions'][0]'authors'].join(', ')
 
   if old_version == new_version then
     pretext = ":exclamation: \"#{name}\" was updated."
