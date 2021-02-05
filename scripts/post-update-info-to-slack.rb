@@ -14,6 +14,10 @@ end
 
 WEBHOOK_URL = ARGV[2]
 
+if WEBHOOK_URL == '' then
+  exit
+end
+
 oldinfo = oldjson['data']
 newinfo = newjson['data']
 

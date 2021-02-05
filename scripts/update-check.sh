@@ -8,7 +8,7 @@ DIFF_SNAPSHOTS=$?
 if [ $DIFF_PKGS = 0 ] && [ $DIFF_SNAPSHOTS = 0 ]; then
   echo "no updates found"
 else
-  scripts/post-update-info-to-slack.rb src/data/package.json repo2json/packages.json $WEBHOOK_URL
+  scripts/post-update-info-to-slack.rb src/data/packages.json repo2json/packages.json $WEBHOOK_URL
   mv repo2json/packages.json src/data/packages.json
   mv repo2json/snapshots.json src/data/snapshots.json
   git config user.name github-actions
