@@ -25,7 +25,7 @@ function LinkItem(props) {
     <div>
       <h5>{props.title}</h5>
       <p>
-        <a href={props.value} target="__blank">
+        <a href={props.value} target="_blank" rel="noopener noreferrer">
           {props.value}
         </a>
       </p>
@@ -243,7 +243,7 @@ export default function PackageDetails({ data }) {
               rowFunc={(f) =>
                 <tr>
                   <td>
-                    <a href={`../../${f}`} target="__blank">
+                    <a href={`../../${f}`} target="_blank" rel="noopener noreferrer">
                       <img src="/file.svg" style={fileImageStyle} alt="" class="file-img" />
                       {basename(f)}
                     </a>

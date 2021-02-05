@@ -30,7 +30,7 @@ export default function Home({ data }) {
       <HomeItem title="Notice">
         <ul>
           <li>This website is under development.</li>
-          <li>If you found any problem, <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" target="__blank">send an issue</a>.</li>
+          <li>If you found any problem, <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" target="_blank" rel="noopener noreferrer">send an issue</a>.</li>
         </ul>
       </HomeItem>
       <HomeItem title="Recent updates">
