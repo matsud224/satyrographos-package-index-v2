@@ -26,7 +26,7 @@ export default function Home({ data }) {
       <HomeItem title="Notice">
         <ul>
           <li>This website is under development.</li>
-          <li>If you found any problem, <Link to="https://github.com/matsud224/satyrographos-package-index/issues">send an issue</Link>.</li>
+          <li>If you found any problem, <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" target="_blank">send an issue</Link>.</li>
         </ul>
       </HomeItem>
       <HomeItem title="Recent updates">
