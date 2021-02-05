@@ -4,3 +4,4 @@ dune-project
 docs
 fonts
 satyrographos-repo
+*.json

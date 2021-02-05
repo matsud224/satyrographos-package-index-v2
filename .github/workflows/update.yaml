@@ -35,12 +35,14 @@ jobs:
           opam update
           opam install satyrographos-snapshot-stable || true # workaround
           satyrographos install
-          rm -rf docs
+          cd repo2json
           cp -rL $HOME/.satysfi/dist/docs .
-          rm -rf fonts
           cp -rL $HOME/.satysfi/dist/fonts .
-          find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
+          find ./docs -name "*.pdf" -type f -exec ../scripts/remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make
-          dune exec ./pkgjson.exe data_new.json
-          ./update-check.sh
+          dune exec ./repo2json.exe packages.json snapshots.json
+          cd ..
+          rm -rf static/docs
+          cp -rL repo2json/docs static/docs
+          scripts/update-check.sh

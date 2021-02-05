@@ -57,10 +57,11 @@ export const query = graphql`
         }
       }
     }
-    allSnapshotsJson {
+    allSnapshotsJson(sort: { fields: [published_on], order: DESC }) {
       edges {
         node {
           name
+          published_on(fromNow: true)
           packages {
             name
             version

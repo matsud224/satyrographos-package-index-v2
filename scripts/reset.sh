@@ -1,5 +1,7 @@
 #!/bin/bash
 
-rm -rf docs
-rm -rf data.json
-touch data.json
+rm -rf static/docs
+rm -rf src/data/packages.json
+touch  src/data/packages.json
+rm -rf src/data/snapshots.json
+touch  src/data/snapshots.json
