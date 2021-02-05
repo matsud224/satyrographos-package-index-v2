@@ -1,0 +1,10 @@
+@require: list
+
+let-block ctx +centered it =
+    let ib = inline-fil ++ read-inline ctx it ++ inline-fil in
+    line-break true true ctx ib
+
+let-block ctx +arrange its =
+    let ibs = List.map (read-inline ctx) its in
+    let ib  = List.fold-left (fun l r -> l ++ inline-fil ++ r) inline-nil ibs ++ inline-fil in
+      line-break true true ctx ib

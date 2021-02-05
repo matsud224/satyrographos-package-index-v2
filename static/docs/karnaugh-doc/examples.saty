@@ -1,0 +1,84 @@
+@require: stdjareport
+@require: karnaugh/karnaugh
+@import: local
+
+
+document (|
+  author = {github.com/takagiy};
+  title  = {satysfi-karnaugh/examples};
+|) '<
+  +arrange {|
+    \karnaugh-map(${zw})(${xy})([
+      ${| 0         | 0         | 0         | 1         |};
+      ${| 0         | 1         | 1         | 0         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 0         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.box (1, 1);
+      Karnaugh.slim (3, 3);
+    ]);
+  |
+    \karnaugh-map(${zw})(${xy})([
+      ${| 0         | 0         | 0         | 0         |};
+      ${| 0         | 0         | 1         | 1         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 0         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.box (2, 1);
+    ]);
+  |
+    \karnaugh-map(${zw})(${xy})([
+      ${| 0         | 0         | 1         | 0         |};
+      ${| 0         | 0         | 0         | 0         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 0         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.slim (2, 3);
+    ]);
+  |}
+  +arrange {|
+    \karnaugh-map(${zw})(${xy})([
+      ${| 1         | 0         | 0         | 1         |};
+      ${| 0         | 1         | 0         | 0         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 1         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.box (3, 3);
+      Karnaugh.slim (1, 1);
+    ]);
+  |
+    \karnaugh-map(${zw})(${xy})([
+      ${| 1         | 0         | 0         | 1         |};
+      ${| 1         | 1         | 0         | 1         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 1         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.tall (3, 0);
+      Karnaugh.box (0, 1);
+    ]);
+  |
+    \karnaugh-map(${zw})(${xy})([
+      ${| 0         | 0         | 1         | 1         |};
+      ${| 1         | 0         | 0         | 0         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 1         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.box (3, 2);
+      Karnaugh.box (2, 3);
+      Karnaugh.slim (0, 1);
+    ]);
+  |}
+  +arrange {|
+    \karnaugh-map(${zw})(${xy})([
+      ${| 0         | 1         | 0         | 1         |};
+      ${| 0         | 0         | 0         | 0         |};
+      ${| \dontcare | \dontcare | \dontcare | \dontcare |};
+      ${| 1         | 0         | \dontcare | \dontcare |};
+    ])([
+      Karnaugh.minimum (1, 0);
+      Karnaugh.box (3, 2);
+      Karnaugh.slim (3, 3);
+    ]);
+  |}
+>
+

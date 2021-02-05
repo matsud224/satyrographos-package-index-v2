@@ -1,0 +1,3 @@
+(executable
+  (name repo2json)
+  (libraries str yojson opam-file-format opam-core unix core))

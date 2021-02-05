@@ -1,0 +1,43 @@
+@require: stdjareport
+@require: matrix/matrix
+
+document (|
+  title = {Examples of Matrix Library};
+  author = {\@nekketsuuu};
+|) '<
+  +p {
+    Linear equation:
+  }
+  +math (${
+    \matrix![[${1}; ${2}]; [${2}; ${3}]] \matrix![[${x}]; [${y}]] = \matrix![[${1}]; [${2}]]
+  });
+  +p {
+    Inverse of a matrix:
+  }
+  +math (${
+    \matrix![[${1}; ${2}]; [${3}; ${4}]]^{-1} = -\frac{1}{2} \matrix![[${4}; ${-2}]; [${-3}; ${1}]]
+  });
+  +p {
+    Vandermonde matrix:
+  }
+  +math (
+    let row i = [${1}; ${x_#i}; ${x_#i^2}; ${\cdots}; ${x_#i^{n-1}}] in
+    let dotrow = [${\vdots}; ${\vdots}; ${\vdots}; ${\ddots}; ${\vdots}] in
+    let vandermonde =
+      [row ${1}; row ${2}; dotrow; row ${n}]
+    in ${
+      \matrix!(vandermonde)
+  });
+
+  +p{
+    Transpose:
+  }
+
+  +math(${
+    \sqbracket{
+      \matrix-body![[${1}; ${2}]; [${3}; ${4}]; [${5}; ${6}]]
+    }^T = \sqbracket{
+      \matrix-body![[${1}; ${3}; ${5}]; [${2}; ${4}; ${6}]]
+    }
+  });
+>

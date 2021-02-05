@@ -1,0 +1,46 @@
+name: update-packege-data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: amutake/satysfi:latest
+    steps:
+      - name: Prepare apt
+        run: apt update
+      - name: Install packages
+        run: |
+          apt install -y xz-utils ruby
+          gem install origami slack-incoming-webhooks
+      - name: Install git
+        run: |
+          apt install -y software-properties-common
+          add-apt-repository -y ppa:git-core/ppa
+          apt update -y
+          apt install -y git
+          git --version
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Check diffs and update
+        env:
+          WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          export HOME=/root
+          eval $(opam env)
+          opam update
+          opam install satyrographos-snapshot-stable || true # workaround
+          satyrographos install
+          rm -rf docs
+          cp -rL $HOME/.satysfi/dist/docs .
+          rm -rf fonts
+          cp -rL $HOME/.satysfi/dist/fonts .
+          find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
+          git clone https://github.com/na4zagin3/satyrographos-repo.git
+          make
+          dune exec ./pkgjson.exe data_new.json
+          ./update-check.sh
