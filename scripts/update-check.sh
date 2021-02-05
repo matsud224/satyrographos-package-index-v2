@@ -13,7 +13,7 @@ else
   mv repo2json/snapshots.json src/data/snapshots.json
   git config user.name github-actions
   git config user.email github-actions@github.com
-  git add src/data/pacakges.json
+  git add src/data/packages.json
   git add src/data/snapshots.json
   git add static/docs/*
   git commit -m "update package data"
