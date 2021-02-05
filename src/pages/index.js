@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import { Row, Col, Table } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
 import Helmet from "react-helmet"
+import FiberNewIcon from '@material-ui/icons/FiberNew';
+import AutorenewIcon from '@material-ui/icons/Autorenew';
 
 function HomeItem(props) {
   return (
@@ -47,7 +49,7 @@ export default function Home({ data }) {
           <tbody>
             {data.allPackagesJson.edges.map(({ node }, index) => (
               <tr key={index}>
-                <td>{node.versions.length > 1 ? `[Updated]` : `[New]`}</td>
+                <td>{node.versions.length > 1 ? <AutorenewIcon /> : <FiberNewIcon />}</td>
                 <td><Link to={`/packages/` + getPackageAbbrevName(node.name)}>{getPackageAbbrevName(node.name)}</Link></td>
                 <td>{node.versions[0].synopsis}</td>
                 <td>{node.last_update}</td>

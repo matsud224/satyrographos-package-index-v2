@@ -6,6 +6,7 @@ import marked from 'marked';
 import { getPackageAbbrevName, getPackagePath, getPackagePathWithVersion } from "../components/common"
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import Helmet from "react-helmet"
+import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 
 function TextItem(props) {
 	if (!props.value) return (null);
@@ -140,12 +141,6 @@ const rawMarkup = (markup) => {
   return { __html: rawMarkup };
 };
 
-const fileImageStyle = {
-  width: "1.5em",
-  height: "1.5em",
-  marginRight: "2pt"
-};
-
 export default function PackageDetails({ data }) {
   const node = data.allSitePage.edges[0].node.context
   const packageName = node.base.name
@@ -251,7 +246,7 @@ export default function PackageDetails({ data }) {
                 <tr>
                   <td>
                     <a href={`../../${f}`} target="_blank" rel="noopener noreferrer">
-                      <img src="/file.svg" style={fileImageStyle} alt="" class="file-img" />
+                      <DescriptionOutlinedIcon />
                       {basename(f)}
                     </a>
                   </td>
