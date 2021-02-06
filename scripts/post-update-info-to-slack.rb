@@ -93,7 +93,7 @@ updated.each do |pair|
   new_version = p['versions'][0]['version']
   homepage = p['versions'][0]['homepage'].join(', ')
   synopsis = p['versions'][0]['synopsis']
-  authors = p[['versions'][0]'authors'].join(', ')
+  authors = p['versions'][0]['authors'].join(', ')
 
   if old_version == new_version then
     pretext = ":exclamation: \"#{name}\" was updated."
