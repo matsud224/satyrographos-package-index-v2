@@ -13,14 +13,12 @@ function SnapshotTable(props) {
           <thead>
             <tr>
               <th>Snapshot</th>
-              <th>Published</th>
             </tr>
           </thead>
           <tbody>
             {props.items.map(({node}) => (
               <tr key={node.name}>
                 <td><Link to={getSnapshotPath(node.name)}>{node.name}</Link></td>
-                <td>{node.published_on}</td>
               </tr>
             ))}
           </tbody>
@@ -53,7 +51,7 @@ export const query = graphql`
 			edges {
 				node {
 					name
-          published_on(fromNow: true)
+          published_on
 				}
 			}
 		}

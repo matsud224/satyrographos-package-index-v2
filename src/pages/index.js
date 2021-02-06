@@ -48,7 +48,6 @@ export default function Home({ data }) {
               <th></th>
               <th>Package</th>
               <th>Synopsis</th>
-              <th>Last update</th>
             </tr>
           </thead>
           <tbody>
@@ -57,7 +56,6 @@ export default function Home({ data }) {
                 <td>{node.versions.length > 1 ? <AutorenewIcon /> : <FiberNewIcon />}</td>
                 <td><Link to={`/packages/` + getPackageAbbrevName(node.name)}>{getPackageAbbrevName(node.name)}</Link></td>
                 <td>{node.versions[0].synopsis}</td>
-                <td>{node.last_update}</td>
               </tr>
             ))}
           </tbody>
@@ -75,7 +73,7 @@ export const query = graphql`
 				node {
 					name
           type
-				  last_update(fromNow: true)
+				  last_update
 					versions {
 						version
 						synopsis
