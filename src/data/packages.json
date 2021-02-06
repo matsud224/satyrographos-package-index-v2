@@ -233,8 +233,47 @@
   {
     "name": "satysfi",
     "type": "Satysfi",
-    "last_update": "2021-01-23",
+    "last_update": "2021-02-06",
     "versions": [
+      {
+        "version": "0.0.6",
+        "synopsis": "A statically-typed, functional typesetting system",
+        "description":
+          "\nSATySFi is a typesetting system equipped with a statically-typed, functional programming language. It consists mainly of two “layers” ― the text layer and the program layer. The former is for writing documents in LaTeX-like syntax. The latter, which has OCaml-like syntax, is for defining functions and commands. SATySFi enables you to write documents markuped with flexible commands of your own making. In addition, its informative type error reporting will be a good help to your writing.",
+        "maintainer": [ "gfngfn" ],
+        "authors": [ "gfngfn" ],
+        "license": [],
+        "homepage": [ "https://github.com/gfngfn/SATySFi" ],
+        "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
+        "dependencies": [
+          { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
+          { "name": "batteries", "constraint": "(any)" },
+          { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
+          { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
+          { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
+          {
+            "name": "cppo",
+            "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
+          },
+          { "name": "depext", "constraint": "(any)" },
+          { "name": "dune", "constraint": "build" },
+          { "name": "menhir", "constraint": "(any)" },
+          { "name": "ocamlfind", "constraint": "build" },
+          { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
+          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "re", "constraint": "build" },
+          { "name": "uutf", "constraint": "(any)" },
+          {
+            "name": "yojson-with-position",
+            "constraint": "= \"1.4.2+satysfi\""
+          },
+          { "name": "omd", "constraint": "(any)" }
+        ],
+        "published_on": "2021-02-06",
+        "documents": [],
+        "fonts": [],
+        "tags": []
+      },
       {
         "version": "0.0.5-83-g360d941",
         "synopsis": "A statically-typed, functional typesetting system",
@@ -2450,8 +2489,25 @@
   {
     "name": "satysfi-dist",
     "type": "Library",
-    "last_update": "2021-01-23",
+    "last_update": "2021-02-06",
     "versions": [
+      {
+        "version": "0.0.6",
+        "synopsis": "Standard library of SATySFi",
+        "description": "\nProvides the standard library of SATySFi",
+        "maintainer": [ "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>" ],
+        "authors": [ "gfngfn" ],
+        "license": [],
+        "homepage": [ "https://github.com/gfngfn/SATySFi" ],
+        "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
+        "dependencies": [
+          { "name": "satysfi", "constraint": "version}%\"" }
+        ],
+        "published_on": "2021-02-06",
+        "documents": [],
+        "fonts": [],
+        "tags": []
+      },
       {
         "version": "0.0.5-83-g360d941",
         "synopsis": "Standard library of SATySFi",
