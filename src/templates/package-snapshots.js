@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Table } from 'react-bootstrap'
 import { getPackageAbbrevName, getSnapshotPath } from "../components/common"
-import Helmet from "react-helmet"
 
 export default function PackageSnapshots({ data }) {
   const node = data.allSitePage.edges[0].node.context;
@@ -19,10 +18,7 @@ export default function PackageSnapshots({ data }) {
   });
 
   return (
-    <Layout>
-      <Helmet>
-        <title>Snapshots containing {abbrevName} - Satyrographos Package Index</title>
-      </Helmet>
+    <Layout title={`Snapshots containing "${abbrevName}" - Satyrographos Package Index`}>
       <h1>Snapshots containing &quot;{abbrevName}&quot;</h1>
       <div className="my-3">
         <Table>

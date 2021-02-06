@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import marked from 'marked';
 import { getPackageAbbrevName, getPackagePath, getPackagePathWithVersion } from "../components/common"
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import Helmet from "react-helmet"
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 
 const rawMarkup = (markup) => {
@@ -157,10 +156,7 @@ export default function PackageDetails({ data }) {
     dep.name === "satysfi" || dep.name === "satyrographos" || dep.name.startsWith('satysfi-'));
 
   return (
-    <Layout>
-      <Helmet>
-        <title>{abbrevName} - Satyrographos Package Index</title>
-      </Helmet>
+    <Layout title={`${abbrevName} - Satyrographos Package Index`}>
 			<Row>
 				<Col>
 					<h1>{abbrevName}</h1>

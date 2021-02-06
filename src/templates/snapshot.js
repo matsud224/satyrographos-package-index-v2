@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import { Row, Col, InputGroup, FormControl, Button, Table } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import Helmet from "react-helmet"
 
 function CommandLineItem(props) {
 	if (!props.value) return (null);
@@ -36,10 +35,7 @@ export default function SnapshotDetails({ data }) {
   const filteredPkgs = node.packages.filter((pkg) => !pkg.name.endsWith('-doc'))
 
   return (
-    <Layout>
-      <Helmet>
-        <title>{node.name} - Satyrographos Package Index</title>
-      </Helmet>
+    <Layout title={`${node.name} - Satyrographos Package Index`}>
       <Row className="my-3">
         <Col>
           <h1>{node.name}</h1>

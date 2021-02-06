@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Row, Col, Table, Jumbotron, Button } from 'react-bootstrap'
 import { getPackageAbbrevName } from "../components/common"
-import Helmet from "react-helmet"
 import FiberNewIcon from '@material-ui/icons/FiberNew';
 import AutorenewIcon from '@material-ui/icons/Autorenew';
 
@@ -26,10 +25,7 @@ function ExternalLink(props) {
 
 export default function Home({ data }) {
   return (
-    <Layout>
-      <Helmet>
-        <title>Satyrographos Package Index</title>
-      </Helmet>
+    <Layout title="Satyrographos Package Index">
       <Row>
         <Col>
           <Jumbotron>

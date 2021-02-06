@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SearchForm from "../components/search-form"
 import { Index } from "lunr"
-import Helmet from "react-helmet"
 import { Link, graphql } from 'gatsby'
 import { getPackageAbbrevName } from "../components/common"
 import { Table } from 'react-bootstrap'
@@ -26,10 +25,7 @@ export default function PackageList({ data, location }) {
   }
 
 	return (
-		<Layout>
-      <Helmet>
-        <title>{q ? `Search results for "${q}"` : `Packages`} - Satyrographos Package Index</title>
-      </Helmet>
+		<Layout title={(q ? `Search results for "${q}"` : `Packages`) + ' - Satyrographos Package Index'}>
       <h1>Packages</h1>
       <div className="my-3">
 				{q ? <h4>Search results for &quot;{q}&quot;: {results.length} packages</h4> : null}
