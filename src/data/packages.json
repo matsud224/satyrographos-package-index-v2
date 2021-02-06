@@ -962,7 +962,7 @@
   {
     "name": "satysfi-arrows",
     "type": "Library",
-    "last_update": "2020-09-10",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.0",
@@ -977,16 +977,13 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5+dev2020.09.05\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.5+dev2020.09.05\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          {
-            "name": "satysfi-dist",
-            "constraint": ">= \"0.0.5\" & < \"0.0.6\""
-          },
+          { "name": "satysfi-dist", "constraint": "(any)" },
           { "name": "satysfi-base", "constraint": ">= \"1.3\"" }
         ],
         "published_on": "2020-09-08",
@@ -999,7 +996,7 @@
   {
     "name": "satysfi-arrows-doc",
     "type": "Document",
-    "last_update": "2020-09-10",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.0",
@@ -1014,16 +1011,13 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5+dev2020.09.05\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.5+dev2020.09.05\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          {
-            "name": "satysfi-dist",
-            "constraint": ">= \"0.0.5\" & < \"0.0.6\""
-          },
+          { "name": "satysfi-dist", "constraint": "(any)" },
           { "name": "satysfi-arrows", "constraint": "version}%\"" }
         ],
         "published_on": "2020-09-08",
@@ -1036,7 +1030,7 @@
   {
     "name": "satysfi-assert-eq",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.1",
@@ -1050,11 +1044,12 @@
           "https://github.com/puripuri2100/SATySFi-assert-eq/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
-          }
+          },
+          { "name": "satysfi-dist", "constraint": "(any)" }
         ],
         "published_on": "2020-03-22",
         "documents": [],
@@ -1089,7 +1084,7 @@
   {
     "name": "satysfi-azmath",
     "type": "Library",
-    "last_update": "2020-11-07",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.3",
@@ -1103,7 +1098,7 @@
         "homepage": [ "https://github.com/monaqa/satysfi-azmath" ],
         "bug_reports": [ "https://github.com/monaqa/satysfi-azmath/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1146,7 +1141,7 @@
   {
     "name": "satysfi-azmath-doc",
     "type": "Document",
-    "last_update": "2020-11-07",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.3",
@@ -1160,7 +1155,7 @@
         "homepage": [ "https://github.com/monaqa/satysfi-azmath" ],
         "bug_reports": [ "https://github.com/monaqa/satysfi-azmath/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1205,7 +1200,7 @@
   {
     "name": "satysfi-base",
     "type": "Library",
-    "last_update": "2020-12-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.4.0",
@@ -1223,7 +1218,7 @@
         "homepage": [ "https://github.com/nyuichi/satysfi-base" ],
         "bug_reports": [ "https://github.com/nyuichi/satysfi-base/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           { "name": "satysfi-dist", "constraint": "(any)" },
           {
             "name": "satyrographos",
@@ -1381,7 +1376,7 @@
   {
     "name": "satysfi-bibyfi",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.2",
@@ -1396,7 +1391,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4+dev2020.04.25\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.4+dev2020.04.25\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -1420,7 +1415,7 @@
   {
     "name": "satysfi-bibyfi-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.2",
@@ -1434,7 +1429,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4+dev2020.04.25\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.4+dev2020.04.25\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -1453,7 +1448,7 @@
   {
     "name": "satysfi-cancel",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.0",
@@ -1466,7 +1461,7 @@
         "homepage": [ "https://github.com/yuhr/satysfi-cancel" ],
         "bug_reports": [ "https://github.com/yuhr/satysfi-cancel/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.3\" & < \"0.0.3\""
@@ -1483,7 +1478,7 @@
   {
     "name": "satysfi-class-exdesign",
     "type": "Class",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2",
@@ -1495,7 +1490,7 @@
         "homepage": [ "https://github.com/puripuri2100/exdesign" ],
         "bug_reports": [ "https://github.com/puripuri2100/exdesign/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1511,7 +1506,7 @@
   {
     "name": "satysfi-class-exdesign-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2",
@@ -1525,7 +1520,7 @@
         "homepage": [ "https://github.com/puripuri2100/exdesign" ],
         "bug_reports": [ "https://github.com/puripuri2100/exdesign/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1543,7 +1538,7 @@
   {
     "name": "satysfi-class-mdbook-satysfi",
     "type": "Class",
-    "last_update": "2021-01-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -1561,7 +1556,7 @@
           "https://github.com/puripuri2100/satysfi-class-mdbook-satysfi/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -1593,7 +1588,7 @@
   {
     "name": "satysfi-class-mdbook-satysfi-doc",
     "type": "Document",
-    "last_update": "2021-01-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -1611,7 +1606,7 @@
           "https://github.com/puripuri2100/satysfi-class-mdbook-satysfi/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -1632,7 +1627,7 @@
   {
     "name": "satysfi-class-slydifi",
     "type": "Class",
-    "last_update": "2020-09-12",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -1646,7 +1641,7 @@
         "homepage": [ "https://github.com/monaqa/slydifi" ],
         "bug_reports": [ "https://github.com/monaqa/slydifi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1687,7 +1682,7 @@
   {
     "name": "satysfi-class-slydifi-doc",
     "type": "Document",
-    "last_update": "2020-09-12",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -1701,7 +1696,7 @@
         "homepage": [ "https://github.com/monaqa/slydifi" ],
         "bug_reports": [ "https://github.com/monaqa/slydifi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1761,7 +1756,7 @@
           "https://github.com/puripuri2100/stjarticle/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.1\" & < \"0.0.3\""
@@ -1780,7 +1775,7 @@
   {
     "name": "satysfi-class-stjarticle-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.3.2",
@@ -1796,7 +1791,7 @@
           "https://github.com/puripuri2100/stjarticle/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -1814,7 +1809,7 @@
   {
     "name": "satysfi-class-yabaitech",
     "type": "Class",
-    "last_update": "2020-12-25",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.7",
@@ -1835,7 +1830,7 @@
           "https://github.com/yabaitechtokyo/satysfi-class-yabaitech/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -2199,7 +2194,7 @@
   {
     "name": "satysfi-class-yabaitech-doc",
     "type": "Document",
-    "last_update": "2020-12-25",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.7",
@@ -2216,7 +2211,7 @@
           "https://github.com/yabaitechtokyo/satysfi-class-yabaitech/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -2395,7 +2390,7 @@
   {
     "name": "satysfi-debug-show-value",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.1",
@@ -2411,7 +2406,7 @@
           "https://github.com/puripuri2100/SATySFi-debug-show-value/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -2452,7 +2447,7 @@
   {
     "name": "satysfi-derive",
     "type": "Library",
-    "last_update": "2021-01-02",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -2468,7 +2463,7 @@
           "https://github.com/yabaitechtokyo/satysfi-derive/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           { "name": "satysfi-dist", "constraint": "(any)" },
           {
             "name": "satysfi-base",
@@ -2806,7 +2801,7 @@
   {
     "name": "satysfi-easytable",
     "type": "Library",
-    "last_update": "2020-11-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -2820,7 +2815,7 @@
           "https://github.com/monaqa/satysfi-easytable/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -2838,7 +2833,7 @@
   {
     "name": "satysfi-easytable-doc",
     "type": "Document",
-    "last_update": "2020-07-19",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -2852,7 +2847,7 @@
           "https://github.com/monaqa/satysfi-easytable/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -2871,7 +2866,7 @@
   {
     "name": "satysfi-enumitem",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.0.0",
@@ -2887,7 +2882,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4+dev2020.06.07\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.4+dev2020.06.07\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -2954,7 +2949,7 @@
   {
     "name": "satysfi-enumitem-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.0.0",
@@ -2970,7 +2965,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4+dev2020.06.07\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.4+dev2020.06.07\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -2989,7 +2984,7 @@
   {
     "name": "satysfi-fonts-asana-math",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "000.958+1+satysfi0.0.4",
@@ -3006,7 +3001,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-asana-math/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -3024,7 +3019,7 @@
   {
     "name": "satysfi-fonts-asana-math-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "000.958+1+satysfi0.0.4",
@@ -3040,7 +3035,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-asana-math/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -3060,7 +3055,7 @@
   {
     "name": "satysfi-fonts-bodoni-star",
     "type": "Font",
-    "last_update": "2020-09-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.3+satysfi0.0.5",
@@ -3077,7 +3072,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3126,7 +3121,7 @@
   {
     "name": "satysfi-fonts-bodoni-star-doc",
     "type": "Document",
-    "last_update": "2020-09-25",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.3+satysfi0.0.5",
@@ -3143,7 +3138,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3165,7 +3160,7 @@
   {
     "name": "satysfi-fonts-charis-sil",
     "type": "Font",
-    "last_update": "2021-01-21",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -3180,7 +3175,7 @@
           "https://github.com/yuhr/satysfi-fonts-charis-sil/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3199,7 +3194,7 @@
   {
     "name": "satysfi-fonts-charis-sil-doc",
     "type": "Document",
-    "last_update": "2021-01-21",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -3214,7 +3209,7 @@
           "https://github.com/yuhr/satysfi-fonts-charis-sil/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3232,7 +3227,7 @@
   {
     "name": "satysfi-fonts-computer-modern-unicode",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.7.0+satysfi0.0.4",
@@ -3251,7 +3246,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -3280,7 +3275,7 @@
   {
     "name": "satysfi-fonts-computer-modern-unicode-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.7.0+satysfi0.0.4",
@@ -3300,7 +3295,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -3322,7 +3317,7 @@
   {
     "name": "satysfi-fonts-cormorant",
     "type": "Font",
-    "last_update": "2020-09-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "3.601+satysfi0.0.5",
@@ -3339,7 +3334,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-cormorant/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3380,7 +3375,7 @@
   {
     "name": "satysfi-fonts-cormorant-doc",
     "type": "Document",
-    "last_update": "2020-09-25",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "3.601+satysfi0.0.5",
@@ -3397,7 +3392,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-cormorant/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3416,7 +3411,7 @@
   {
     "name": "satysfi-fonts-dejavu",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.37+satysfi0.0.4",
@@ -3433,7 +3428,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -3502,7 +3497,7 @@
   {
     "name": "satysfi-fonts-dejavu-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.37+satysfi0.0.4",
@@ -3519,7 +3514,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.12\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -3565,7 +3560,7 @@
   {
     "name": "satysfi-fonts-inconsolata",
     "type": "Font",
-    "last_update": "2021-01-28",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "3.001",
@@ -3582,7 +3577,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-inconsolata/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -3673,7 +3668,7 @@
   {
     "name": "satysfi-fonts-inconsolata-doc",
     "type": "Document",
-    "last_update": "2021-01-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "3.001",
@@ -3689,7 +3684,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-inconsolata/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3711,7 +3706,7 @@
   {
     "name": "satysfi-fonts-junicode",
     "type": "Font",
-    "last_update": "2020-09-12",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0002+satysfi0.0.5",
@@ -3726,7 +3721,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-junicode/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3747,7 +3742,7 @@
   {
     "name": "satysfi-fonts-junicode-doc",
     "type": "Document",
-    "last_update": "2020-09-12",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0002+satysfi0.0.5",
@@ -3762,7 +3757,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-junicode/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -3780,7 +3775,7 @@
   {
     "name": "satysfi-fonts-noto-emoji",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.05+uh+2",
@@ -3797,7 +3792,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-noto-emoji/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -3843,7 +3838,7 @@
   {
     "name": "satysfi-fonts-noto-emoji-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.05+uh+2",
@@ -3859,7 +3854,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-noto-emoji/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -3910,7 +3905,7 @@
   {
     "name": "satysfi-fonts-noto-sans",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -3927,7 +3922,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-sans/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4088,7 +4083,7 @@
   {
     "name": "satysfi-fonts-noto-sans-cjk-jp",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4105,7 +4100,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-sans-cjk-jp/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4166,7 +4161,7 @@
   {
     "name": "satysfi-fonts-noto-sans-cjk-jp-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4184,7 +4179,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-sans-cjk-jp/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4240,7 +4235,7 @@
   {
     "name": "satysfi-fonts-noto-sans-cjk-sc",
     "type": "Font",
-    "last_update": "2020-10-04",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1",
@@ -4257,7 +4252,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-noto-sans-cjk-sc/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4281,7 +4276,7 @@
   {
     "name": "satysfi-fonts-noto-sans-cjk-sc-doc",
     "type": "Document",
-    "last_update": "2020-10-05",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1",
@@ -4299,7 +4294,7 @@
           "https://github.com/puripuri2100/SATySFi-fonts-noto-sans-cjk-sc/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4319,7 +4314,7 @@
   {
     "name": "satysfi-fonts-noto-sans-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4335,7 +4330,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-sans/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4389,7 +4384,7 @@
   {
     "name": "satysfi-fonts-noto-serif",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4406,7 +4401,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-serif/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4573,7 +4568,7 @@
   {
     "name": "satysfi-fonts-noto-serif-cjk-jp",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4590,7 +4585,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4649,7 +4644,7 @@
   {
     "name": "satysfi-fonts-noto-serif-cjk-jp-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4667,7 +4662,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4723,7 +4718,7 @@
   {
     "name": "satysfi-fonts-noto-serif-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.001+1+satysfi0.0.4",
@@ -4739,7 +4734,7 @@
           "https://github.com/zeptometer/SATySFi-fonts-noto-serif/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4793,7 +4788,7 @@
   {
     "name": "satysfi-fonts-theano",
     "type": "Font",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
@@ -4809,7 +4804,7 @@
           "https://github.com/na4zagin3/SATySFi-fonts-theano/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -4856,7 +4851,7 @@
   {
     "name": "satysfi-fonts-theano-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
@@ -4874,7 +4869,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -4893,7 +4888,7 @@
   {
     "name": "satysfi-fss",
     "type": "Library",
-    "last_update": "2020-12-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -4905,7 +4900,7 @@
         "homepage": [ "https://github.com/na4zagin3/satysfi-fss" ],
         "bug_reports": [ "https://github.com/na4zagin3/satysfi-fss/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -4952,7 +4947,7 @@
   {
     "name": "satysfi-fss-doc",
     "type": "Document",
-    "last_update": "2020-12-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -4964,7 +4959,7 @@
         "homepage": [ "https://github.com/na4zagin3/satysfi-fss" ],
         "bug_reports": [ "https://github.com/na4zagin3/satysfi-fss/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -5009,7 +5004,7 @@
   {
     "name": "satysfi-fss-fontset-bodoni-star",
     "type": "Library",
-    "last_update": "2020-12-12",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.3",
@@ -5021,7 +5016,7 @@
         "homepage": [ "https://github.com/na4zagin3/satysfi-fss" ],
         "bug_reports": [ "https://github.com/na4zagin3/satysfi-fss/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -5045,7 +5040,7 @@
   {
     "name": "satysfi-grcnum",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2",
@@ -5062,7 +5057,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.7\""
           },
           {
             "name": "satysfi-fonts-theano",
@@ -5083,7 +5078,7 @@
   {
     "name": "satysfi-grcnum-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2",
@@ -5101,7 +5096,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -5124,7 +5119,7 @@
   {
     "name": "satysfi-karnaugh",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.1",
@@ -5139,7 +5134,7 @@
           "https://github.com/takagiy/satysfi-karnaugh/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -5159,7 +5154,7 @@
   {
     "name": "satysfi-karnaugh-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.1",
@@ -5174,7 +5169,7 @@
           "https://github.com/takagiy/satysfi-karnaugh/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -5369,7 +5364,7 @@
   {
     "name": "satysfi-lipsum",
     "type": "Library",
-    "last_update": "2020-08-20",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -5383,7 +5378,7 @@
           "https://github.com/puripuri2100/SATySFi-lipsum/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -5400,7 +5395,7 @@
   {
     "name": "satysfi-make-html",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.0",
@@ -5414,7 +5409,7 @@
           "https://github.com/puripuri2100/SATySFi-make-html/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -5430,7 +5425,7 @@
   {
     "name": "satysfi-make-latex",
     "type": "Library",
-    "last_update": "2020-11-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -5444,7 +5439,7 @@
           "https://github.com/puripuri2100/SATySFi-make-latex/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.4\""
@@ -5461,7 +5456,7 @@
   {
     "name": "satysfi-make-latex-doc",
     "type": "Document",
-    "last_update": "2020-11-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -5475,7 +5470,7 @@
           "https://github.com/puripuri2100/SATySFi-make-latex/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -5493,7 +5488,7 @@
   {
     "name": "satysfi-make-markdown",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.0",
@@ -5509,7 +5504,7 @@
           "https://github.com/puripuri2100/SATySFi-make-markdown/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -5525,7 +5520,7 @@
   {
     "name": "satysfi-matrix",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.1+dev2019.10.15",
@@ -5540,7 +5535,7 @@
           "https://github.com/nekketsuuu/satysfi-matrix/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -5562,7 +5557,7 @@
   {
     "name": "satysfi-matrix-doc",
     "type": "Document",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.1+dev2019.10.15",
@@ -5577,7 +5572,7 @@
           "https://github.com/nekketsuuu/satysfi-matrix/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -5594,7 +5589,7 @@
   {
     "name": "satysfi-matrixcd",
     "type": "Library",
-    "last_update": "2020-12-27",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.0.2",
@@ -5608,7 +5603,7 @@
           "https://github.com/abenori/satysfi-matrixcd/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satysfi-base",
             "constraint": ">= \"1.3.0\" & < \"2.0.0\""
@@ -5652,7 +5647,7 @@
   {
     "name": "satysfi-musikui",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.0",
@@ -5668,7 +5663,7 @@
           "https://github.com/puripuri2100/musikui.satyh/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -5684,7 +5679,7 @@
   {
     "name": "satysfi-ncsq",
     "type": "Library",
-    "last_update": "2020-09-13",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.1.0",
@@ -5697,15 +5692,12 @@
         "homepage": [ "https://github.com/uemurax/satysfi-ncsq" ],
         "bug_reports": [ "https://github.com/uemurax/satysfi-ncsq/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          {
-            "name": "satysfi-dist",
-            "constraint": ">= \"0.0.5\" & < \"0.0.6\""
-          },
+          { "name": "satysfi-dist", "constraint": "(any)" },
           { "name": "satysfi-base", "constraint": ">= \"1.2.1\"" },
           { "name": "satysfi-zrbase", "constraint": ">= \"0.4.0\"" },
           { "name": "satysfi-arrows", "constraint": ">= \"0.1.0\"" }
@@ -5880,7 +5872,7 @@
   {
     "name": "satysfi-ncsq-doc",
     "type": "Document",
-    "last_update": "2020-09-13",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "2.1.0",
@@ -5893,15 +5885,12 @@
         "homepage": [ "https://github.com/uemurax/satysfi-ncsq" ],
         "bug_reports": [ "https://github.com/uemurax/satysfi-ncsq/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          {
-            "name": "satysfi-dist",
-            "constraint": ">= \"0.0.5\" & < \"0.0.6\""
-          },
+          { "name": "satysfi-dist", "constraint": "(any)" },
           { "name": "satysfi-ncsq", "constraint": "version}%\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" },
           {
@@ -6085,7 +6074,7 @@
   {
     "name": "satysfi-num-conversion",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.1",
@@ -6103,7 +6092,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4+dev2020.02.22\" & < \"0.0.6\""
+            "constraint": ">= \"0.0.4+dev2020.02.22\" & < \"0.0.7\""
           },
           {
             "name": "satyrographos",
@@ -6121,7 +6110,7 @@
   {
     "name": "satysfi-quotation",
     "type": "Library",
-    "last_update": "2021-01-21",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -6135,7 +6124,7 @@
           "https://github.com/puripuri2100/SATySFi-quotation/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6176,7 +6165,7 @@
   {
     "name": "satysfi-quotation-doc",
     "type": "Document",
-    "last_update": "2021-01-21",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -6190,7 +6179,7 @@
           "https://github.com/puripuri2100/SATySFi-quotation/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6235,7 +6224,7 @@
   {
     "name": "satysfi-ruby",
     "type": "Library",
-    "last_update": "2020-09-30",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.2",
@@ -6249,7 +6238,7 @@
           "https://github.com/puripuri2100/SATySFi-ruby/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.1\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.1\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -6290,7 +6279,7 @@
   {
     "name": "satysfi-ruby-doc",
     "type": "Document",
-    "last_update": "2020-09-30",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.2",
@@ -6304,7 +6293,7 @@
           "https://github.com/puripuri2100/SATySFi-ruby/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.1\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.1\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
@@ -6347,7 +6336,7 @@
   {
     "name": "satysfi-simple-itemize",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "1.0.0",
@@ -6363,7 +6352,7 @@
           "https://github.com/puripuri2100/SATySFi-simple-itemize/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -6380,7 +6369,7 @@
   {
     "name": "satysfi-siunitx",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1",
@@ -6395,7 +6384,7 @@
           "https://github.com/puripuri2100/SATySFi-siunitx/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -6411,7 +6400,7 @@
   {
     "name": "satysfi-texlogo",
     "type": "Library",
-    "last_update": "2020-11-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.1",
@@ -6425,7 +6414,7 @@
           "https://github.com/puripuri2100/SATySFi-texlogo/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6442,7 +6431,7 @@
   {
     "name": "satysfi-texlogo-doc",
     "type": "Document",
-    "last_update": "2020-11-17",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.1.1",
@@ -6456,7 +6445,7 @@
           "https://github.com/puripuri2100/SATySFi-texlogo/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6475,7 +6464,7 @@
   {
     "name": "satysfi-tombo",
     "type": "Library",
-    "last_update": "2020-11-10",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -6489,7 +6478,7 @@
           "https://github.com/puripuri2100/satysfi-tombo/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6530,7 +6519,7 @@
   {
     "name": "satysfi-tombo-doc",
     "type": "Document",
-    "last_update": "2020-11-10",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -6544,7 +6533,7 @@
           "https://github.com/puripuri2100/satysfi-tombo/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -6587,7 +6576,7 @@
   {
     "name": "satysfi-uline",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.2.0",
@@ -6601,7 +6590,7 @@
           "https://github.com/puripuri2100/SATySFi-uline/issues"
         ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
@@ -6617,7 +6606,7 @@
   {
     "name": "satysfi-zrbase",
     "type": "Library",
-    "last_update": "2020-07-11",
+    "last_update": "2021-02-06",
     "versions": [
       {
         "version": "0.4.0",
@@ -6630,7 +6619,7 @@
         "homepage": [ "https://github.com/zr-tex8r/satysfi-zrbase" ],
         "bug_reports": [ "https://github.com/zr-tex8r/satysfi-zrbase" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.6\"" },
+          { "name": "satysfi", "constraint": ">= \"0.0.4\" & < \"0.0.7\"" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
