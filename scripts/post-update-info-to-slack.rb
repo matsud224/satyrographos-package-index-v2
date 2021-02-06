@@ -95,11 +95,7 @@ updated.each do |pair|
   synopsis = p['versions'][0]['synopsis']
   authors = p['versions'][0]['authors'].join(', ')
 
-  if old_version == new_version then
-    pretext = ":exclamation: \"#{name}\" was updated."
-  else
-    pretext = ":exclamation: \"#{name}\" was updated from #{old_version} to #{new_version}."
-  end
+  pretext = ":exclamation: \"#{name}\" was updated from #{old_version} to #{new_version}."
 
   attachments = {
     fallback: pretext,

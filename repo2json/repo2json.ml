@@ -294,7 +294,7 @@ let get_package_info name =
   {
     name     = name;
     pkg_type = get_package_type name;
-    last_update = get_package_updated_date name (List.hd versions);
+    last_update = get_package_published_date name (List.hd versions);
     versions = List.map (get_per_version_info name) versions;
   }
 
@@ -317,7 +317,7 @@ let convert_to_snapshot_info_list pkg =
   |> List.map (fun ver ->
     {
       name = pkg.name ^ "." ^ ver.version;
-      published_on= get_package_published_date pkg.name ver.version;
+      published_on = get_package_published_date pkg.name ver.version;
       packages = aux ver.dependencies [];
     }
   )
