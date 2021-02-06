@@ -14,10 +14,8 @@ function getPackageAbbrevName(name) {
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const fs = require('fs')
 
   const pkgtemplate = path.resolve("./src/templates/package.js")
-  const packageSearchData = []
 
   pkgdata.forEach(node => {
     const path = `packages/${getPackageAbbrevName(node.name)}`
@@ -28,19 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
       component: pkgtemplate,
       context: { base: node, thisVersion: latestVersion }
     })
-
-    if (!node.name.endsWith('-doc')) {
-      packageSearchData.push({
-        name: node.name,
-        synopsis: latestVersion.synopsis,
-        description: latestVersion.description,
-        fonts: latestVersion.fonts.join(' '),
-        tags: latestVersion.tags.join(' '),
-      })
-    }
   })
-
-  fs.writeFileSync('./static/package-search-data.json', JSON.stringify(packageSearchData, null, 2))
 
   pkgdata.forEach(node => {
     node.versions.forEach(version => {
