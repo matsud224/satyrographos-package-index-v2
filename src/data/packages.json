@@ -1577,7 +1577,9 @@
           { "name": "satysfi-fonts-dejavu", "constraint": "(any)" }
         ],
         "published_on": "2021-01-27",
-        "documents": [],
+        "documents": [
+          "./docs/class-mdbook-satysfi-doc/class-mdbook-satysfi-demo.pdf"
+        ],
         "fonts": [],
         "tags": []
       }
@@ -3181,7 +3183,10 @@
         ],
         "published_on": "2021-01-19",
         "documents": [ "./docs/fonts-charis-sil-doc/manual.pdf" ],
-        "fonts": [],
+        "fonts": [
+          "CharisSIL-B.ttf", "CharisSIL-BI.ttf", "CharisSIL-I.ttf",
+          "CharisSIL-R.ttf"
+        ],
         "tags": []
       }
     ]
@@ -3579,8 +3584,83 @@
           }
         ],
         "published_on": "2021-01-24",
-        "documents": [],
-        "fonts": [],
+        "documents": [
+          "./docs/fonts-inconsolata-doc/doc-fonts-inconsolata.pdf"
+        ],
+        "fonts": [
+          "Inconsolata-Black.ttf", "Inconsolata-Bold.ttf",
+          "Inconsolata-Condensed.ttf", "Inconsolata-CondensedBlack.ttf",
+          "Inconsolata-CondensedBold.ttf",
+          "Inconsolata-CondensedExtraBold.ttf",
+          "Inconsolata-CondensedExtraLight.ttf",
+          "Inconsolata-CondensedLight.ttf",
+          "Inconsolata-CondensedMedium.ttf",
+          "Inconsolata-CondensedRegular.ttf",
+          "Inconsolata-CondensedSemiBold.ttf", "Inconsolata-Expanded.ttf",
+          "Inconsolata-ExpandedBlack.ttf", "Inconsolata-ExpandedBold.ttf",
+          "Inconsolata-ExpandedExtraBold.ttf",
+          "Inconsolata-ExpandedExtraLight.ttf",
+          "Inconsolata-ExpandedLight.ttf", "Inconsolata-ExpandedMedium.ttf",
+          "Inconsolata-ExpandedRegular.ttf",
+          "Inconsolata-ExpandedSemiBold.ttf", "Inconsolata-ExtraBold.ttf",
+          "Inconsolata-ExtraCondensed.ttf",
+          "Inconsolata-ExtraCondensedBlack.ttf",
+          "Inconsolata-ExtraCondensedBold.ttf",
+          "Inconsolata-ExtraCondensedExtraBold.ttf",
+          "Inconsolata-ExtraCondensedExtraLight.ttf",
+          "Inconsolata-ExtraCondensedLight.ttf",
+          "Inconsolata-ExtraCondensedMedium.ttf",
+          "Inconsolata-ExtraCondensedRegular.ttf",
+          "Inconsolata-ExtraCondensedSemiBold.ttf",
+          "Inconsolata-ExtraExpanded.ttf",
+          "Inconsolata-ExtraExpandedBlack.ttf",
+          "Inconsolata-ExtraExpandedBold.ttf",
+          "Inconsolata-ExtraExpandedExtraBold.ttf",
+          "Inconsolata-ExtraExpandedExtraLight.ttf",
+          "Inconsolata-ExtraExpandedLight.ttf",
+          "Inconsolata-ExtraExpandedMedium.ttf",
+          "Inconsolata-ExtraExpandedRegular.ttf",
+          "Inconsolata-ExtraExpandedSemiBold.ttf",
+          "Inconsolata-ExtraLight.ttf", "Inconsolata-Light.ttf",
+          "Inconsolata-Medium.ttf", "Inconsolata-Regular.ttf",
+          "Inconsolata-SemiBold.ttf", "Inconsolata-SemiCondensed.ttf",
+          "Inconsolata-SemiCondensedBlack.ttf",
+          "Inconsolata-SemiCondensedBold.ttf",
+          "Inconsolata-SemiCondensedExtraBold.ttf",
+          "Inconsolata-SemiCondensedExtraLight.ttf",
+          "Inconsolata-SemiCondensedLight.ttf",
+          "Inconsolata-SemiCondensedMedium.ttf",
+          "Inconsolata-SemiCondensedRegular.ttf",
+          "Inconsolata-SemiCondensedSemiBold.ttf",
+          "Inconsolata-SemiExpanded.ttf",
+          "Inconsolata-SemiExpandedBlack.ttf",
+          "Inconsolata-SemiExpandedBold.ttf",
+          "Inconsolata-SemiExpandedExtraBold.ttf",
+          "Inconsolata-SemiExpandedExtraLight.ttf",
+          "Inconsolata-SemiExpandedLight.ttf",
+          "Inconsolata-SemiExpandedMedium.ttf",
+          "Inconsolata-SemiExpandedRegular.ttf",
+          "Inconsolata-SemiExpandedSemiBold.ttf",
+          "Inconsolata-UltraCondensed.ttf",
+          "Inconsolata-UltraCondensedBlack.ttf",
+          "Inconsolata-UltraCondensedBold.ttf",
+          "Inconsolata-UltraCondensedExtraBold.ttf",
+          "Inconsolata-UltraCondensedExtraLight.ttf",
+          "Inconsolata-UltraCondensedLight.ttf",
+          "Inconsolata-UltraCondensedMedium.ttf",
+          "Inconsolata-UltraCondensedRegular.ttf",
+          "Inconsolata-UltraCondensedSemiBold.ttf",
+          "Inconsolata-UltraExpanded.ttf",
+          "Inconsolata-UltraExpandedBlack.ttf",
+          "Inconsolata-UltraExpandedBold.ttf",
+          "Inconsolata-UltraExpandedExtraBold.ttf",
+          "Inconsolata-UltraExpandedExtraLight.ttf",
+          "Inconsolata-UltraExpandedLight.ttf",
+          "Inconsolata-UltraExpandedMedium.ttf",
+          "Inconsolata-UltraExpandedRegular.ttf",
+          "Inconsolata-UltraExpandedSemiBold.ttf", "Ligconsolata-Bold.ttf",
+          "Ligconsolata-Regular.ttf"
+        ],
         "tags": []
       }
     ]
@@ -4182,7 +4262,13 @@
         "documents": [
           "./docs/fonts-noto-sans-cjk-sc-doc/doc-fonts-noto-sans-cjk-sc.pdf"
         ],
-        "fonts": [],
+        "fonts": [
+          "NotoSansCJKsc-Black.otf", "NotoSansCJKsc-Bold.otf",
+          "NotoSansCJKsc-DemiLight.otf", "NotoSansCJKsc-Light.otf",
+          "NotoSansCJKsc-Medium.otf", "NotoSansCJKsc-Regular.otf",
+          "NotoSansCJKsc-Thin.otf", "NotoSansMonoCJKsc-Bold.otf",
+          "NotoSansMonoCJKsc-Regular.otf"
+        ],
         "tags": []
       }
     ]
