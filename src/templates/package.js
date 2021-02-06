@@ -34,14 +34,21 @@ function TextItem(props) {
 	)
 }
 
-function LinkItem(props) {
-	if (!props.value) return (null);
+function LinksItem({title, urls}) {
+	if (!urls) return (null);
 
 	return (
     <div>
-      <h5>{props.title}</h5>
+      <h5>{title}</h5>
       <p>
-        <Markdown content={props.value} />
+        {urls.map((url, index) =>
+          <span>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {url}
+            </a>
+            {index === urls.length-1 ? null : <span>, </span>}
+          </span>
+        )}
       </p>
     </div>
 	)
@@ -217,10 +224,10 @@ export default function PackageDetails({ data }) {
 			</Row>
 			<Row className="my-3">
 				<Col>
-					<LinkItem title="Homepage" value={thisVersionInfo.homepage.join(', ')} />
+					<LinksItem title="Homepage" urls={thisVersionInfo.homepage} />
 				</Col>
 				<Col>
-					<LinkItem title="Bug reports" value={thisVersionInfo.bug_reports.join(', ')} />
+					<LinksItem title="Bug reports" urls={thisVersionInfo.bug_reports} />
 				</Col>
 				<Col>
 					<TextItem title="Author" value={thisVersionInfo.authors.join(', ')} />
