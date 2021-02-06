@@ -8,7 +8,7 @@ import AutorenewIcon from '@material-ui/icons/Autorenew';
 
 function HomeItem(props) {
   return (
-    <Row className="my-3">
+    <Row>
       <Col>
         <h3>{props.title}</h3>
         {props.children}
