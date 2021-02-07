@@ -2526,8 +2526,48 @@
   {
     "name": "satysfi-assert-eq",
     "type": "Library",
-    "last_update": "2020-03-22",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "Provides function as the Rust's assert_eq! macro",
+        "description": "Provides function as the Rust's assert_eq! macro",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-assert-eq"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-assert-eq/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1.1",
         "synopsis": "Provides function as the Rust's assert_eq! macro",
@@ -2602,6 +2642,58 @@
           }
         ],
         "published_on": "2020-03-21",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-assert-eq-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "Document: Provides function as the Rust's assert_eq! macro",
+        "description": "Document: Provides function as the Rust's assert_eq! macro",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-assert-eq"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-assert-eq/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-assert-eq",
+            "constraint": "= \"0.1.2\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
@@ -9836,8 +9928,52 @@
   {
     "name": "satysfi-musikui",
     "type": "Library",
-    "last_update": "2020-03-22",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Easy expression of arithmetical restorations with SATySFi",
+        "description": "Easy expression of arithmetical restorations with SATySFi.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/musikui.satyh"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/musikui.satyh/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.4\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Easy expression of arithmetical restorations with SATySFi",
@@ -9868,6 +10004,62 @@
           }
         ],
         "published_on": "2020-03-22",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-musikui-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Document: Easy expression of arithmetical restorations with SATySFi",
+        "description": "Document: Easy expression of arithmetical restorations with SATySFi.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/musikui.satyh"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/musikui.satyh/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.4\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-musikui",
+            "constraint": "= \"0.1.1\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
@@ -10548,8 +10740,56 @@
   {
     "name": "satysfi-num-conversion",
     "type": "Library",
-    "last_update": "2020-03-22",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.4",
+        "synopsis": "Convert numbers to the following notation",
+        "description": "Convert numbers to the following notation.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-num-conversion"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-num-conversion/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1.1",
         "synopsis": "Convert numbers to the following notation",
@@ -10584,6 +10824,70 @@
           }
         ],
         "published_on": "2020-03-22",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-num-conversion-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.4",
+        "synopsis": "Document: Convert numbers to the following notation",
+        "description": "Document: Convert numbers to the following notation.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-num-conversion"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-num-conversion/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-num-conversion",
+            "constraint": "= \"0.1.4\""
+          },
+          {
+            "name": "satysfi-assert-eq",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-debug-show-value",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
@@ -11524,8 +11828,52 @@
   {
     "name": "satysfi-uline",
     "type": "Library",
-    "last_update": "2020-05-03",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.2.2",
+        "synopsis": "Underline for SAtySFi",
+        "description": "Underline for SAtySFi",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-uline"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-uline/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.2.0",
         "synopsis": "Underline for SAtySFi",
@@ -11556,6 +11904,66 @@
           }
         ],
         "published_on": "2020-05-03",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-uline-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.2.2",
+        "synopsis": "Document: Underline for SAtySFi",
+        "description": "Document: Underline for SAtySFi",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-uline"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-uline/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-uline",
+            "constraint": "= \"0.2.2\""
+          },
+          {
+            "name": "satysfi-lipsum",
+            "constraint": ">= \"0.2.0\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
