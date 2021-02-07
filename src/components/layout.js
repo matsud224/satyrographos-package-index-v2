@@ -30,16 +30,16 @@ export default function Layout({ title, children }) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Item as="li">
-              <Link to="/" className="nav-link" activeClassName="active">Home</Link>
+              <Link to="/" className="nav-link">Home</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link to="/packages" className="nav-link" activeClassName="active">Packages</Link>
+              <Link to="/packages" className="nav-link">Packages</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link to="/snapshots" className="nav-link" activeClassName="active">Snapshots</Link>
+              <Link to="/snapshots" className="nav-link">Snapshots</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" className="nav-link" activeClassName="active" target="_blank" rel="noopener noreferrer">Feedback</a>
+              <a href="https://github.com/matsud224/satyrographos-package-index-v2/issues" className="nav-link" target="_blank" rel="noopener noreferrer">Feedback</a>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
