@@ -211,6 +211,7 @@ export default function PackageDetails({ data }) {
           <Col>
             <Alert variant="warning">
               A GitHub repository of this package seems to be archived.
+              Development and maintenance may not be done anymore.
             </Alert>
           </Col>
         </Row>
