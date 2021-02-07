@@ -16,7 +16,7 @@ jobs:
       - name: Install packages
         run: |
           apt install -y xz-utils ruby
-          gem install origami slack-incoming-webhooks
+          gem install origami slack-incoming-webhooks octokit
       - name: Install git
         run: |
           apt install -y software-properties-common

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, navigate, graphql } from "gatsby"
-import { Row, Col, Form, FormControl, Button, InputGroup, Table } from 'react-bootstrap'
+import { Alert, Row, Col, Form, FormControl, Button, InputGroup, Table } from 'react-bootstrap'
 import Layout from "../components/layout"
 import marked from 'marked';
 import { getPackageAbbrevName, getPackagePath, getPackagePathWithVersion } from "../components/common"
@@ -154,6 +154,7 @@ export default function PackageDetails({ data }) {
   const node = data.allSitePage.edges[0].node.context
   const packageName = node.base.name
   const abbrevName = getPackageAbbrevName(packageName)
+  const isArchived = node.base.is_archived
   const allVersions = node.base.versions
   const thisVersionInfo = node.thisVersion
   const packageVersion = thisVersionInfo.version
@@ -205,6 +206,15 @@ export default function PackageDetails({ data }) {
 					</Link>
 				</Col>
 			</Row>
+      <Conditional condition={isArchived}>
+			<Row>
+				<Col>
+          <Alert variant="warning">
+            A GitHub repository of this package seems to be archived.
+          </Alert>
+				</Col>
+			</Row>
+      </Conditional>
 			<Row>
 				<Col>
 					<div>
@@ -305,6 +315,7 @@ export const query = graphql`
           context {
             base {
               name
+              is_archived
               versions {
                 version
               }
