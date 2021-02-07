@@ -207,23 +207,25 @@ export default function PackageDetails({ data }) {
 				</Col>
 			</Row>
       <Conditional condition={isArchived}>
-			<Row>
-				<Col>
-          <Alert variant="warning">
-            A GitHub repository of this package seems to be archived.
-          </Alert>
-				</Col>
-			</Row>
+        <Row>
+          <Col>
+            <Alert variant="warning">
+              A GitHub repository of this package seems to be archived.
+            </Alert>
+          </Col>
+        </Row>
       </Conditional>
-			<Row>
-				<Col>
-					<div>
-						<hr />
-						<Markdown content={thisVersionInfo.description} />
-						<hr />
-					</div>
-				</Col>
-			</Row>
+      <Conditional condition={thisVersionInfo.description !== ""}>
+        <Row>
+          <Col>
+            <div>
+              <hr />
+              <Markdown content={thisVersionInfo.description} />
+              <hr />
+            </div>
+          </Col>
+        </Row>
+      </Conditional>
 			<Row className="my-3">
 				<Col>
 					<CommandLineItem
