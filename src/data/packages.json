@@ -19,18 +19,18 @@
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.09.0\"" },
           { "name": "dune", "constraint": ">= \"2\"" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "opam-format", "constraint": ">= \"2.0\" & < \"2.1\"" },
           { "name": "re", "constraint": "with-test" },
           { "name": "stringext", "constraint": "with-test" },
           { "name": "uri", "constraint": ">= \"3.0.0\"" },
           { "name": "uri-sexp", "constraint": ">= \"3.0.0\"" },
-          { "name": "yojson", "constraint": "(any)" },
+          { "name": "yojson", "constraint": "" },
           { "name": "core", "constraint": ">= \"v0.13\" & < \"v0.15\"" },
-          { "name": "ppx_jane", "constraint": "(any)" },
-          { "name": "shexp", "constraint": "(any)" }
+          { "name": "ppx_jane", "constraint": "" },
+          { "name": "shexp", "constraint": "" }
         ],
         "published_on": "2020-09-04",
         "documents": [],
@@ -52,18 +52,18 @@
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.09.0\"" },
           { "name": "dune", "constraint": ">= \"2\"" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "opam-format", "constraint": ">= \"2.0\" & < \"2.1\"" },
           { "name": "re", "constraint": "with-test" },
           { "name": "stringext", "constraint": "with-test" },
           { "name": "uri", "constraint": ">= \"3.0.0\"" },
           { "name": "uri-sexp", "constraint": ">= \"3.0.0\"" },
-          { "name": "yojson", "constraint": "(any)" },
+          { "name": "yojson", "constraint": "" },
           { "name": "core", "constraint": ">= \"v0.13\" & < \"v0.15\"" },
-          { "name": "ppx_jane", "constraint": "(any)" },
-          { "name": "shexp", "constraint": "(any)" }
+          { "name": "ppx_jane", "constraint": "" },
+          { "name": "shexp", "constraint": "" }
         ],
         "published_on": "2020-07-11",
         "documents": [],
@@ -84,19 +84,19 @@
         ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "(", "constraint": "(any)" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "(", "constraint": "" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "opam-format", "constraint": ">= \"2.0\" & < \"2.1\"" },
           { "name": "re", "constraint": "with-test" },
           { "name": "stringext", "constraint": "with-test" },
           { "name": "uri", "constraint": ">= \"3.0.0\"" },
           { "name": "uri-sexp", "constraint": ">= \"3.0.0\"" },
-          { "name": "yojson", "constraint": "(any)" },
+          { "name": "yojson", "constraint": "" },
           { "name": "core", "constraint": "< \"v0.14\"" },
-          { "name": "ppx_jane", "constraint": "(any)" },
-          { "name": "shexp", "constraint": "(any)" }
+          { "name": "ppx_jane", "constraint": "" },
+          { "name": "shexp", "constraint": "" }
         ],
         "published_on": "2020-03-23",
         "documents": [],
@@ -117,19 +117,19 @@
         ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "(", "constraint": "(any)" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "(", "constraint": "" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "opam-format", "constraint": ">= \"2.0\" & < \"2.1\"" },
           { "name": "re", "constraint": "with-test" },
           { "name": "stringext", "constraint": "with-test" },
           { "name": "uri", "constraint": ">= \"3.0.0\"" },
           { "name": "uri-sexp", "constraint": ">= \"3.0.0\"" },
-          { "name": "yojson", "constraint": "(any)" },
+          { "name": "yojson", "constraint": "" },
           { "name": "core", "constraint": "< \"v0.14\"" },
-          { "name": "ppx_jane", "constraint": "(any)" },
-          { "name": "shexp", "constraint": "(any)" }
+          { "name": "ppx_jane", "constraint": "" },
+          { "name": "shexp", "constraint": "" }
         ],
         "published_on": "2020-02-16",
         "documents": [],
@@ -152,15 +152,15 @@
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
           { "name": "core", "constraint": "< \"v0.14\"" },
           { "name": "dune", "constraint": ">= \"1.4\"" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "ppx_jane", "constraint": "< \"v0.13\"" },
           { "name": "opam-format", "constraint": ">= \"2.0\" & < \"2.1\"" },
           { "name": "uri", "constraint": ">= \"3.0.0\"" },
           { "name": "uri-sexp", "constraint": ">= \"3.0.0\"" },
           { "name": "shexp", "constraint": "< \"v0.13\"" },
-          { "name": "yojson", "constraint": "(any)" }
+          { "name": "yojson", "constraint": "" }
         ],
         "published_on": "2019-12-29",
         "documents": [],
@@ -181,17 +181,17 @@
         ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "cmdliner", "constraint": "(any)" },
+          { "name": "cmdliner", "constraint": "" },
           { "name": "core", "constraint": "< \"v0.12\"" },
-          { "name": "dune", "constraint": "(any)" },
-          { "name": "fileutils", "constraint": "(any)" },
-          { "name": "json-derivers", "constraint": "(any)" },
+          { "name": "dune", "constraint": "" },
+          { "name": "fileutils", "constraint": "" },
+          { "name": "json-derivers", "constraint": "" },
           { "name": "ppx_deriving", "constraint": "build" },
           { "name": "ppx_inline_test", "constraint": "build & < \"v0.12\"" },
           { "name": "ppx_jane", "constraint": "build" },
           { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.4\"" },
           { "name": "uri", "constraint": ">= \"2.0.0\" & < \"3.0.0\"" },
-          { "name": "yojson", "constraint": "(any)" }
+          { "name": "yojson", "constraint": "" }
         ],
         "published_on": "2019-01-07",
         "documents": [],
@@ -212,16 +212,16 @@
         ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
-          { "name": "cmdliner", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
+          { "name": "cmdliner", "constraint": "" },
           { "name": "core", "constraint": "< \"v0.12\"" },
-          { "name": "dune", "constraint": "(any)" },
-          { "name": "fileutils", "constraint": "(any)" },
+          { "name": "dune", "constraint": "" },
+          { "name": "fileutils", "constraint": "" },
           { "name": "ppx_deriving", "constraint": "build" },
           { "name": "ppx_inline_test", "constraint": "build & < \"v0.12\"" },
           { "name": "ppx_jane", "constraint": "build" },
           { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.4\"" },
-          { "name": "yojson", "constraint": "(any)" }
+          { "name": "yojson", "constraint": "" }
         ],
         "published_on": "2018-10-31",
         "documents": [],
@@ -247,7 +247,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -255,19 +255,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2021-02-06",
         "documents": [],
@@ -286,7 +286,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -294,19 +294,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2021-01-23",
         "documents": [],
@@ -325,7 +325,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -333,19 +333,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-12-19",
         "documents": [],
@@ -364,7 +364,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -372,19 +372,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-09-05",
         "documents": [],
@@ -403,7 +403,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -411,19 +411,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-07-11",
         "documents": [],
@@ -442,7 +442,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -450,19 +450,19 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           {
             "name": "yojson-with-position",
             "constraint": "= \"1.4.2+satysfi\""
           },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-06-07",
         "documents": [],
@@ -481,7 +481,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -489,16 +489,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-04-29",
         "documents": [],
@@ -517,7 +517,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.08.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.3.1+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.13\"" },
@@ -525,16 +525,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-04-06",
         "documents": [],
@@ -553,7 +553,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.10.0\"" },
@@ -561,16 +561,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-02-22",
         "documents": [],
@@ -589,7 +589,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.10.0\"" },
@@ -597,16 +597,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-02-17",
         "documents": [],
@@ -625,7 +625,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           { "name": "core_kernel", "constraint": ">= \"v0.10.0\"" },
@@ -633,16 +633,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-02-16",
         "documents": [],
@@ -661,7 +661,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -672,16 +672,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2020-01-26",
         "documents": [],
@@ -700,7 +700,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -711,16 +711,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.7+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2019-11-16",
         "documents": [],
@@ -739,7 +739,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -750,16 +750,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.6+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2019-08-23",
         "documents": [],
@@ -778,7 +778,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -789,16 +789,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.5+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2019-03-17",
         "documents": [],
@@ -817,7 +817,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -828,16 +828,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.3+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2019-02-16",
         "documents": [],
@@ -856,7 +856,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.2+satysfi\"" },
           {
@@ -867,16 +867,16 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.3+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
+          { "name": "ppx_deriving", "constraint": "" },
           { "name": "re", "constraint": "build" },
-          { "name": "uutf", "constraint": "(any)" },
+          { "name": "uutf", "constraint": "" },
           { "name": "yojson", "constraint": "= \"1.4.1+satysfi\"" },
-          { "name": "omd", "constraint": "(any)" }
+          { "name": "omd", "constraint": "" }
         ],
         "published_on": "2019-02-16",
         "documents": [],
@@ -895,7 +895,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.1+satysfi\"" },
           {
@@ -906,14 +906,14 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.2+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
-          { "name": "uutf", "constraint": "(any)" },
-          { "name": "yojson", "constraint": "(any)" }
+          { "name": "ppx_deriving", "constraint": "" },
+          { "name": "uutf", "constraint": "" },
+          { "name": "yojson", "constraint": "" }
         ],
         "published_on": "2018-10-31",
         "documents": [],
@@ -932,7 +932,7 @@
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
           { "name": "ocaml", "constraint": ">= \"4.06.0\"" },
-          { "name": "batteries", "constraint": "(any)" },
+          { "name": "batteries", "constraint": "" },
           { "name": "camlimages", "constraint": ">= \"5.0.1\"" },
           { "name": "camlpdf", "constraint": "= \"2.2.1+satysfi\"" },
           {
@@ -943,14 +943,14 @@
             "name": "cppo",
             "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
           },
-          { "name": "depext", "constraint": "(any)" },
+          { "name": "depext", "constraint": "" },
           { "name": "dune", "constraint": "build" },
-          { "name": "menhir", "constraint": "(any)" },
+          { "name": "menhir", "constraint": "" },
           { "name": "ocamlfind", "constraint": "build" },
           { "name": "otfm", "constraint": "= \"0.3.2+satysfi\"" },
-          { "name": "ppx_deriving", "constraint": "(any)" },
-          { "name": "uutf", "constraint": "(any)" },
-          { "name": "yojson", "constraint": "(any)" }
+          { "name": "ppx_deriving", "constraint": "" },
+          { "name": "uutf", "constraint": "" },
+          { "name": "yojson", "constraint": "" }
         ],
         "published_on": "2018-10-31",
         "documents": [],
@@ -983,7 +983,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           { "name": "satysfi-base", "constraint": ">= \"1.3\"" }
         ],
         "published_on": "2020-09-08",
@@ -1017,8 +1017,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-arrows", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-arrows", "constraint": "= \"0.1.0\"" }
         ],
         "published_on": "2020-09-08",
         "documents": [],
@@ -1049,7 +1049,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-03-22",
         "documents": [],
@@ -1103,8 +1103,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-base", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-base", "constraint": "" }
         ],
         "published_on": "2020-11-07",
         "documents": [ "./docs/azmath-doc/azmath.pdf" ],
@@ -1128,8 +1128,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-base", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-base", "constraint": "" }
         ],
         "published_on": "2020-10-16",
         "documents": [ "./docs/azmath-doc/azmath.pdf" ],
@@ -1160,8 +1160,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-azmath", "constraint": "version}%\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-azmath", "constraint": "= \"0.0.3\"" },
           { "name": "satysfi-enumitem", "constraint": ">= \"2.0.0\"" }
         ],
         "published_on": "2020-11-07",
@@ -1186,8 +1186,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-azmath", "constraint": "version}%\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-azmath", "constraint": "= \"0.0.1\"" },
           { "name": "satysfi-enumitem", "constraint": ">= \"2.0.0\"" }
         ],
         "published_on": "2020-10-16",
@@ -1219,7 +1219,7 @@
         "bug_reports": [ "https://github.com/nyuichi/satysfi-base/issues" ],
         "dependencies": [
           { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
@@ -1435,8 +1435,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.3\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-bibyfi", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-bibyfi", "constraint": "= \"0.0.2\"" }
         ],
         "published_on": "2020-05-28",
         "documents": [],
@@ -1466,7 +1466,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.3\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-02-22",
         "documents": [],
@@ -1525,8 +1525,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-class-exdesign", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-class-exdesign", "constraint": "= \"0.2\"" }
         ],
         "published_on": "2019-11-21",
         "documents": [],
@@ -1561,20 +1561,17 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-base", "constraint": "(any)" },
-          { "name": "satysfi-easytable", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-base", "constraint": "" },
+          { "name": "satysfi-easytable", "constraint": "" },
           { "name": "satysfi-quotation", "constraint": ">= \"0.2.0\"" },
-          { "name": "satysfi-uline", "constraint": "(any)" },
-          { "name": "satysfi-ruby", "constraint": "(any)" },
-          { "name": "satysfi-fonts-noto-serif", "constraint": "(any)" },
-          {
-            "name": "satysfi-fonts-noto-serif-cjk-jp",
-            "constraint": "(any)"
-          },
-          { "name": "satysfi-fonts-noto-sans", "constraint": "(any)" },
-          { "name": "satysfi-fonts-noto-sans-cjk-jp", "constraint": "(any)" },
-          { "name": "satysfi-fonts-dejavu", "constraint": "(any)" }
+          { "name": "satysfi-uline", "constraint": "" },
+          { "name": "satysfi-ruby", "constraint": "" },
+          { "name": "satysfi-fonts-noto-serif", "constraint": "" },
+          { "name": "satysfi-fonts-noto-serif-cjk-jp", "constraint": "" },
+          { "name": "satysfi-fonts-noto-sans", "constraint": "" },
+          { "name": "satysfi-fonts-noto-sans-cjk-jp", "constraint": "" },
+          { "name": "satysfi-fonts-dejavu", "constraint": "" }
         ],
         "published_on": "2021-01-27",
         "documents": [
@@ -1613,9 +1610,9 @@
           },
           {
             "name": "satysfi-class-mdbook-satysfi",
-            "constraint": "version}%\""
+            "constraint": "= \"0.2.0\""
           },
-          { "name": "satysfi-lipsum", "constraint": "(any)" }
+          { "name": "satysfi-lipsum", "constraint": "" }
         ],
         "published_on": "2021-01-27",
         "documents": [],
@@ -1701,7 +1698,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-class-slydifi", "constraint": "version}%\"" },
+          { "name": "satysfi-class-slydifi", "constraint": "= \"0.2.0\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" }
         ],
         "published_on": "2020-09-12",
@@ -1797,7 +1794,7 @@
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
           { "name": "satysfi-class-stjarticle", "constraint": "= \"1.3.2\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2019-12-08",
         "documents": [],
@@ -2464,7 +2461,7 @@
         ],
         "dependencies": [
           { "name": "satysfi", "constraint": ">= \"0.0.5\" & < \"0.0.7\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           {
             "name": "satysfi-base",
             "constraint": ">= \"1.3.0\" & < \"2.0.0\""
@@ -2496,7 +2493,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.6\"" }
         ],
         "published_on": "2021-02-06",
         "documents": [],
@@ -2513,7 +2510,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.5-83-g360d941\"" }
         ],
         "published_on": "2021-01-23",
         "documents": [],
@@ -2530,7 +2527,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.5-59-g32f2525\"" }
         ],
         "published_on": "2020-12-19",
         "documents": [],
@@ -2547,7 +2544,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.5+dev2020.09.05\"" }
         ],
         "published_on": "2020-09-05",
         "documents": [],
@@ -2564,7 +2561,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.5\"" }
         ],
         "published_on": "2020-07-11",
         "documents": [],
@@ -2581,7 +2578,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.06.07\"" }
         ],
         "published_on": "2020-06-07",
         "documents": [],
@@ -2598,7 +2595,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.04.25\"" }
         ],
         "published_on": "2020-04-29",
         "documents": [],
@@ -2615,7 +2612,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.04.05\"" }
         ],
         "published_on": "2020-04-06",
         "documents": [],
@@ -2632,7 +2629,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.02.22\"" }
         ],
         "published_on": "2020-02-22",
         "documents": [],
@@ -2649,7 +2646,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.02.16\"" }
         ],
         "published_on": "2020-02-17",
         "documents": [],
@@ -2666,7 +2663,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4+dev2020.02.09\"" }
         ],
         "published_on": "2020-02-16",
         "documents": [],
@@ -2683,7 +2680,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.4\"" }
         ],
         "published_on": "2020-01-26",
         "documents": [],
@@ -2700,7 +2697,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.3+dev2019.11.16\"" }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -2717,7 +2714,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.3+dev2019.07.14\"" }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -2734,7 +2731,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.3+dev2019.03.10\"" }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -2751,7 +2748,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.3+dev2019.02.13\"" }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -2768,7 +2765,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi", "constraint": "version}%\"" }
+          { "name": "satysfi", "constraint": "= \"0.0.3+dev2019.02.10\"" }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -2820,8 +2817,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-base", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-base", "constraint": "" }
         ],
         "published_on": "2020-07-19",
         "documents": [ "./docs/easytable-doc/easytable.pdf" ],
@@ -2852,8 +2849,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-easytable", "constraint": "version}%\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-easytable", "constraint": "= \"1.0.0\"" },
           { "name": "satysfi-enumitem", "constraint": ">= \"2.0.0\"" }
         ],
         "published_on": "2020-07-19",
@@ -2888,7 +2885,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           { "name": "satysfi-base", "constraint": ">= \"1.0.0\"" }
         ],
         "published_on": "2020-06-13",
@@ -2913,7 +2910,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-02-24",
         "documents": [ "./docs/enumitem-doc/enumitem.pdf" ],
@@ -2937,7 +2934,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-02-02",
         "documents": [ "./docs/enumitem-doc/enumitem.pdf" ],
@@ -2971,8 +2968,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-enumitem", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-enumitem", "constraint": "= \"2.0.0\"" }
         ],
         "published_on": "2020-06-13",
         "documents": [],
@@ -3143,12 +3140,12 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           {
             "name": "satysfi-fonts-bodoni-star",
-            "constraint": "version}%\""
+            "constraint": "= \"2.3+satysfi0.0.5\""
           },
-          { "name": "satysfi-lipsum", "constraint": "(any)" }
+          { "name": "satysfi-lipsum", "constraint": "" }
         ],
         "published_on": "2020-09-25",
         "documents": [],
@@ -3214,8 +3211,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-fonts-charis-sil", "constraint": "version}%\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-fonts-charis-sil", "constraint": "= \"1.0.0\"" },
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2021-01-19",
         "documents": [],
@@ -3397,9 +3394,12 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-fonts-cormorant", "constraint": "version}%\"" },
-          { "name": "satysfi-lipsum", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" },
+          {
+            "name": "satysfi-fonts-cormorant",
+            "constraint": "= \"3.601+satysfi0.0.5\""
+          },
+          { "name": "satysfi-lipsum", "constraint": "" }
         ],
         "published_on": "2020-09-25",
         "documents": [],
@@ -3689,11 +3689,11 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-dist", "constraint": "" },
           {
             "name": "satysfi-fonts-inconsolata",
-            "constraint": "version}%\""
+            "constraint": "= \"3.001\""
           }
         ],
         "published_on": "2021-01-24",
@@ -3762,8 +3762,11 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-fonts-junicode", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          {
+            "name": "satysfi-fonts-junicode",
+            "constraint": "= \"1.0002+satysfi0.0.5\""
+          }
         ],
         "published_on": "2020-09-12",
         "documents": [],
@@ -4301,7 +4304,7 @@
           },
           {
             "name": "satysfi-fonts-noto-sans-cjk-sc",
-            "constraint": "version}%\""
+            "constraint": "= \"2.001+1\""
           }
         ],
         "published_on": "2020-10-04",
@@ -4875,8 +4878,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-fonts-theano", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-fonts-theano", "constraint": "" }
         ],
         "published_on": "2019-09-11",
         "documents": [],
@@ -4964,8 +4967,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-fss", "constraint": "version}%\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-fss", "constraint": "= \"0.2.0\"" },
           {
             "name": "satysfi-fss-fontset-bodoni-star",
             "constraint": "= \"2.3\""
@@ -4991,8 +4994,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-fss", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-fss", "constraint": "= \"0.0.1\"" }
         ],
         "published_on": "2020-09-12",
         "documents": [],
@@ -5106,7 +5109,7 @@
             "name": "satysfi-fonts-theano",
             "constraint": ">= \"2.0+satysfi0.0.3+satyrograhos0.0.2\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           { "name": "satysfi-grcnum", "constraint": "= \"0.2\"" }
         ],
         "published_on": "2019-09-14",
@@ -5174,7 +5177,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           { "name": "satysfi-karnaugh", "constraint": "= \"0.0.1\"" }
         ],
         "published_on": "2020-03-08",
@@ -5230,7 +5233,10 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-dist",
+            "constraint": "= \"0.0.3+dev2019.11.16\""
+          }
         ],
         "published_on": "2019-11-16",
         "documents": [],
@@ -5248,7 +5254,10 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-dist",
+            "constraint": "= \"0.0.3+dev2019.07.14\""
+          }
         ],
         "published_on": "2019-08-23",
         "documents": [],
@@ -5266,7 +5275,10 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-dist",
+            "constraint": "= \"0.0.3+dev2019.03.10\""
+          }
         ],
         "published_on": "2019-03-17",
         "documents": [],
@@ -5284,7 +5296,10 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-dist",
+            "constraint": "= \"0.0.3+dev2019.02.13\""
+          }
         ],
         "published_on": "2019-02-16",
         "documents": [],
@@ -5302,7 +5317,10 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-dist",
+            "constraint": "= \"0.0.3+dev2019.02.10\""
+          }
         ],
         "published_on": "2019-02-16",
         "documents": [],
@@ -5320,7 +5338,7 @@
         "homepage": [ "https://github.com/gfngfn/SATySFi" ],
         "bug_reports": [ "https://github.com/gfngfn/SATySFi/issues" ],
         "dependencies": [
-          { "name": "satysfi-dist", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "= \"0.0.3\"" }
         ],
         "published_on": "2019-02-16",
         "documents": [],
@@ -5347,12 +5365,15 @@
         "bug_reports": [ "https://github.com/nyuichi/satysfi-lib/issues" ],
         "dependencies": [
           { "name": "satysfi", "constraint": ">= \"0.0.3\" & < \"0.0.4\"" },
-          { "name": "satysfi-lib-dist", "constraint": "(any)" },
+          { "name": "satysfi-lib-dist", "constraint": "" },
           {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-lib", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-lib",
+            "constraint": "= \"0.0.0+dev2019.11.10\""
+          }
         ],
         "published_on": "2019-11-19",
         "documents": [],
@@ -5383,7 +5404,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-08-20",
         "documents": [],
@@ -5444,7 +5465,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.4\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-11-16",
         "documents": [ "./docs/make-latex-doc/manual-ja.pdf" ],
@@ -5475,8 +5496,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-make-latex", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-make-latex", "constraint": "= \"0.2.0\"" }
         ],
         "published_on": "2020-11-16",
         "documents": [],
@@ -5577,7 +5598,10 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-matrix", "constraint": "version}%\"" }
+          {
+            "name": "satysfi-matrix",
+            "constraint": "= \"0.0.1+dev2019.10.15\""
+          }
         ],
         "published_on": "2019-11-18",
         "documents": [],
@@ -5697,7 +5721,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
+          { "name": "satysfi-dist", "constraint": "" },
           { "name": "satysfi-base", "constraint": ">= \"1.2.1\"" },
           { "name": "satysfi-zrbase", "constraint": ">= \"0.4.0\"" },
           { "name": "satysfi-arrows", "constraint": ">= \"0.1.0\"" }
@@ -5890,8 +5914,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-ncsq", "constraint": "= \"2.1.0\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" },
           {
             "name": "satysfi-matrix",
@@ -5927,7 +5951,7 @@
             "name": "satysfi-dist",
             "constraint": ">= \"0.0.5\" & \"< 0.0.6\""
           },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" },
+          { "name": "satysfi-ncsq", "constraint": "= \"2.0.0\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" },
           {
             "name": "satysfi-matrix",
@@ -5963,7 +5987,7 @@
             "name": "satysfi-dist",
             "constraint": ">= \"0.0.5\" & \"< 0.0.6\""
           },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" },
+          { "name": "satysfi-ncsq", "constraint": "= \"1.0.0\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" },
           {
             "name": "satysfi-matrix",
@@ -5999,7 +6023,7 @@
             "name": "satysfi-dist",
             "constraint": ">= \"0.0.5\" & \"< 0.0.6\""
           },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" },
+          { "name": "satysfi-ncsq", "constraint": "= \"0.2.0\"" },
           { "name": "satysfi-easytable", "constraint": ">= \"1.0.0\"" },
           {
             "name": "satysfi-matrix",
@@ -6035,7 +6059,7 @@
             "name": "satysfi-dist",
             "constraint": ">= \"0.0.5\" & \"< 0.0.6\""
           },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" }
+          { "name": "satysfi-ncsq", "constraint": "= \"0.1.0\"" }
         ],
         "published_on": "2020-07-26",
         "documents": [],
@@ -6062,7 +6086,7 @@
             "name": "satysfi-dist",
             "constraint": ">= \"0.0.5\" & \"< 0.0.6\""
           },
-          { "name": "satysfi-ncsq", "constraint": "version}%\"" }
+          { "name": "satysfi-ncsq", "constraint": "= \"0.0.1\"" }
         ],
         "published_on": "2020-07-19",
         "documents": [],
@@ -6129,7 +6153,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2021-01-21",
         "documents": [ "./docs/quotation-doc/manual.pdf" ],
@@ -6153,7 +6177,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-12-31",
         "documents": [ "./docs/quotation-doc/manual.pdf" ],
@@ -6184,9 +6208,9 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-quotation", "constraint": "version}%\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-lipsum", "constraint": "(any)" }
+          { "name": "satysfi-quotation", "constraint": "= \"0.2.0\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-lipsum", "constraint": "" }
         ],
         "published_on": "2021-01-21",
         "documents": [],
@@ -6210,9 +6234,9 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-quotation", "constraint": "version}%\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-lipsum", "constraint": "(any)" }
+          { "name": "satysfi-quotation", "constraint": "= \"0.1.0\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-lipsum", "constraint": "" }
         ],
         "published_on": "2020-12-31",
         "documents": [],
@@ -6243,7 +6267,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-09-30",
         "documents": [ "./docs/ruby-doc/ruby-ja.pdf" ],
@@ -6267,7 +6291,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-09-28",
         "documents": [ "./docs/ruby-doc/ruby-ja.pdf" ],
@@ -6298,8 +6322,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-ruby", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-ruby", "constraint": "\"%{version}%\"" }
         ],
         "published_on": "2020-09-30",
         "documents": [],
@@ -6323,8 +6347,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-ruby", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-ruby", "constraint": "\"%{version}%\"" }
         ],
         "published_on": "2020-09-28",
         "documents": [],
@@ -6419,7 +6443,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-11-17",
         "documents": [ "./docs/texlogo-doc/sample.pdf" ],
@@ -6450,9 +6474,9 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-texlogo", "constraint": "version}%\"" },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-easytable", "constraint": "(any)" }
+          { "name": "satysfi-texlogo", "constraint": "= \"0.1.1\"" },
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-easytable", "constraint": "" }
         ],
         "published_on": "2020-11-17",
         "documents": [],
@@ -6483,7 +6507,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-11-10",
         "documents": [ "./docs/tombo-doc/manual-ja.pdf" ],
@@ -6507,7 +6531,7 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" }
+          { "name": "satysfi-dist", "constraint": "" }
         ],
         "published_on": "2020-11-07",
         "documents": [ "./docs/tombo-doc/manual-ja.pdf" ],
@@ -6538,8 +6562,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-tombo", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-tombo", "constraint": "= \"0.2.0\"" }
         ],
         "published_on": "2020-11-10",
         "documents": [],
@@ -6563,8 +6587,8 @@
             "name": "satyrographos",
             "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           },
-          { "name": "satysfi-dist", "constraint": "(any)" },
-          { "name": "satysfi-tombo", "constraint": "version}%\"" }
+          { "name": "satysfi-dist", "constraint": "" },
+          { "name": "satysfi-tombo", "constraint": "= \"0.1.0\"" }
         ],
         "published_on": "2020-11-07",
         "documents": [],
