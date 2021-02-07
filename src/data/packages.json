@@ -4752,6 +4752,10 @@
             "constraint": ">= \"0.0.3\" & < \"0.0.7\""
           },
           {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
             "name": "satyrographos",
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
           }
