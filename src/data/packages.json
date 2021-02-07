@@ -4721,8 +4721,48 @@
   {
     "name": "satysfi-debug-show-value",
     "type": "Library",
-    "last_update": "2020-03-22",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "Stringify SATySFi's value",
+        "description": "Stringify SATySFi's value",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-debug-show-value"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-debug-show-value/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1.1",
         "synopsis": "Stringify SATySFi's value",
@@ -4793,6 +4833,58 @@
           }
         ],
         "published_on": "2020-03-21",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-debug-show-value-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "Document: Stringify SATySFi's value",
+        "description": "Document: Stringify SATySFi's value",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-debug-show-value"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-debug-show-value/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-debug-show-value",
+            "constraint": "= \"0.1.2\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
