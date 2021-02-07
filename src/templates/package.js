@@ -42,7 +42,7 @@ function LinksItem({title, urls}) {
       <h5>{title}</h5>
       <p>
         {urls.map((url, index) =>
-          <span>
+          <span key={url}>
             <a href={url} target="_blank" rel="noopener noreferrer">
               {url}
             </a>
