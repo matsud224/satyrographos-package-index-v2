@@ -126,12 +126,15 @@ let extract_package_name depexp =
   let open Str in
   split (regexp "\"") depexp |> List.hd
 
-let extract_version_constraint depexp =
+let extract_version_constraint thisver depexp =
   let open Str in
-  if string_match (regexp ".*{\\(.*\\)}$") depexp 0 then
-    matched_group 1 depexp
+  if string_match (regexp ".* {\\(.*\\)}$") depexp 0 then
+    let matched_str = matched_group 1 depexp in
+    match matched_str with
+    | "= \"%{version}%\"" -> "= \"" ^ thisver ^ "\""
+    | x                   -> x
   else
-    "(any)"
+    ""
 
 let extract_version_designation depexp =
   let open Str in
@@ -140,14 +143,14 @@ let extract_version_designation depexp =
   else
     None
 
-let find_dep_list_variable_in_opamfile ofile name =
+let find_dep_list_variable_in_opamfile ofile thisver name =
   let open OpamParserTypes.FullPos in
   match find_variable_in_opamfile ofile name with
   | Some(List(vallst))   ->
       vallst.pelem
       |> List.map OpamPrinter.FullPos.value
       |> List.map (fun v ->
-          (extract_package_name v, extract_version_constraint v))
+          (extract_package_name v, extract_version_constraint thisver v))
   | _ -> []
 
 let strlist_to_json lst = `List (List.map (fun s -> `String s) lst)
@@ -272,7 +275,7 @@ let get_per_version_info name version =
   let ofile = OpamParser.FullPos.file opamfile_path in
   let get_str_variable = find_string_variable_in_opamfile ofile in
   let get_strlist_variable = find_string_list_variable_in_opamfile ofile in
-  let get_deplist_variable = find_dep_list_variable_in_opamfile ofile in
+  let get_deplist_variable = find_dep_list_variable_in_opamfile ofile version in
   {
     version         = version;
     synopsis        = get_str_variable "synopsis";
