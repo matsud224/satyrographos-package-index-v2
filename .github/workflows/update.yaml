@@ -29,6 +29,7 @@ jobs:
       - name: Check diffs and update
         env:
           WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
         run: |
           export HOME=/root
           eval $(opam env)
@@ -43,6 +44,7 @@ jobs:
           make
           dune exec ./repo2json.exe packages.json snapshots.json
           cd ..
+          scripts/add-github-repo-info.rb src/data/packages.json $GH_API_TOKEN
           rm -rf static/docs
           cp -rL repo2json/docs static/docs
           scripts/update-check.sh
