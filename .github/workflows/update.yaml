@@ -44,7 +44,7 @@ jobs:
           make
           dune exec ./repo2json.exe packages.json snapshots.json
           cd ..
-          scripts/add-github-repo-info.rb packages.json $GH_API_TOKEN
+          scripts/add-github-repo-info.rb repo2json/packages.json $GH_API_TOKEN
           rm -rf static/docs
           cp -rL repo2json/docs static/docs
           scripts/update-check.sh
