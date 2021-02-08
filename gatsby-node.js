@@ -59,6 +59,15 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 
+  const pkgrevdepstemplate = path.resolve("./src/templates/rev-deps.js")
+  pkgdata.forEach(node => {
+    const path = `packages/${getPackageAbbrevName(node.name)}/reverse-dependencies`
+    createPage({
+      path,
+      component: pkgrevdepstemplate,
+      context: node,
+    })
+  })
 }
 
 const createIndex = async (pkgNodes, type, cache) => {

@@ -291,6 +291,9 @@ export default function PackageDetails({ data }) {
                   <td>{dep.constraint}</td>
                 </tr>}
             />
+            <Link to={`${getPackagePath(packageName)}/reverse-dependencies`}>
+              Show dependent packages...
+            </Link>
           </Col>
         </Row>
       </Conditional>
