@@ -227,17 +227,6 @@ export default function PackageDetails({ data }) {
           </Col>
         </Row>
       </Conditional>
-      <Conditional condition={node.base.readme !== ""}>
-        <Row>
-          <Col>
-            <div>
-              <hr />
-              <Markdown content={node.base.readme} />
-              <hr />
-            </div>
-          </Col>
-        </Row>
-      </Conditional>
 			<Row className="my-3">
 				<Col>
 					<CommandLineItem
@@ -330,7 +319,6 @@ export const query = graphql`
             base {
               name
               is_archived
-              readme
               versions {
                 version
               }

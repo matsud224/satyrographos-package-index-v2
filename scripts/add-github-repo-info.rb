@@ -29,9 +29,9 @@ db.each do |p|
           repopath = "#{username}/#{reponame}"
           repo = client.repo(repopath)
           archived = archived || repo.archived
-          #if readme == '' then
-          #  readme = Base64.decode64(client.readme(repopath).content).force_encoding('UTF-8')
-          #end
+          if readme == '' then
+            readme = Base64.decode64(client.readme(repopath).content).force_encoding('UTF-8')
+          end
         rescue => e
           puts "failed to fetching data from GitHub: #{repopath}"
         end
@@ -39,7 +39,7 @@ db.each do |p|
   end
 
   p['is_archived'] = archived
-  #p['readme'] = readme
+  p['readme'] = readme
 end
 
 File.open(db_path, 'w') do |f|
