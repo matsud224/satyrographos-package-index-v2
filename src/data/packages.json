@@ -11614,6 +11614,58 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-test",
+    "type": "Library",
+    "last_update": "2021-02-08",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "synopsis": "Unit testing framework for SATySFi",
+        "description": "\nUnit testing framework for SATySFi\n",
+        "maintainer": [
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "authors": [
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/<github-username>/satysfi-test"
+        ],
+        "bug_reports": [
+          "https://github.com/<github-username>/satysfi-test/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.8\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-08",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-texlogo",
     "type": "Library",
     "last_update": "2020-11-17",
