@@ -36,7 +36,7 @@ export default function PackageRevDeps({ data }) {
               <tr key={index}>
                 <td>
                   <Link to={getPackagePath(item.name)}>
-                    {item.name}
+                    {getPackageAbbrevName(item.name)}
                   </Link>
                 </td>
               </tr>
