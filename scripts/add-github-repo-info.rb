@@ -20,21 +20,21 @@ db.each do |p|
     next
   end
   latest['homepage'].each do |hp|
-    uri = URI.parse(hp)
-    if uri.host == 'github.com' then
-        begin
-          elems = Pathname(uri.path).each_filename.to_a
-          username = elems[0]
-          reponame = elems[1]
-          repopath = "#{username}/#{reponame}"
-          repo = client.repo(repopath)
-          archived = archived || repo.archived
-          #if readme == '' then
-          #  readme = Base64.decode64(client.readme(repopath).content).force_encoding('UTF-8')
-          #end
-        rescue => e
-          puts "failed to fetching data from GitHub: #{repopath}"
-        end
+    begin
+      uri = URI.parse(hp)
+      if uri.host == 'github.com' then
+        elems = Pathname(uri.path).each_filename.to_a
+        username = elems[0]
+        reponame = elems[1]
+        repopath = "#{username}/#{reponame}"
+        repo = client.repo(repopath)
+        archived = archived || repo.archived
+        #if readme == '' then
+        #  readme = Base64.decode64(client.readme(repopath).content).force_encoding('UTF-8')
+        #end
+      end
+    rescue => e
+      puts "failed to fetching data from GitHub: #{repopath}"
     end
   end
 
