@@ -11632,10 +11632,10 @@
           "MIT"
         ],
         "homepage": [
-          "https://github.com/<github-username>/satysfi-test"
+          "https://github.com/zeptometer/satysfi-test"
         ],
         "bug_reports": [
-          "https://github.com/<github-username>/satysfi-test/issues"
+          "https://github.com/zeptometer/satysfi-test/issues"
         ],
         "dependencies": [
           {
