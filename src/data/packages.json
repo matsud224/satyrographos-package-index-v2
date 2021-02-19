@@ -11568,8 +11568,52 @@
   {
     "name": "satysfi-siunitx",
     "type": "Library",
-    "last_update": "2020-03-01",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "A comprehensive (SI) units package",
+        "description": "\nA comprehensive (SI) units package.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+        "maintainer": [
+          "puripuri2100 <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "puripuri2100 <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-siunitx"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-siunitx/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1",
         "synopsis": "A comprehensive (SI) units package",
@@ -11600,6 +11644,62 @@
           }
         ],
         "published_on": "2020-03-01",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-siunitx-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "A comprehensive (SI) units package",
+        "description": "\nA comprehensive (SI) units package.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+        "maintainer": [
+          "puripuri2100 <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "puripuri2100 <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-siunitx"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-siunitx/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-siunitx",
+            "constraint": "= \"0.1.1\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
