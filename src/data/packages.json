@@ -9738,8 +9738,52 @@
   {
     "name": "satysfi-make-html",
     "type": "Library",
-    "last_update": "2020-03-01",
+    "last_update": "2021-02-07",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Outputting HTML file using SATySFi's text-mode",
+        "description": "Outputting HTML file using SATySFi's text-mode.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-make-html"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-make-html/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Outputting HTML file using SATySFi's text-mode",
@@ -9774,6 +9818,62 @@
           }
         ],
         "published_on": "2020-03-01",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-make-html-doc",
+    "type": "Document",
+    "last_update": "2021-02-07",
+    "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Document: Outputting HTML file using SATySFi's text-mode",
+        "description": "Document: Outputting HTML file using SATySFi's text-mode.",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-make-html"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-make-html/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-make-html",
+            "constraint": "= \"0.1.1\""
+          }
+        ],
+        "published_on": "2021-02-07",
         "documents": [
 
         ],
