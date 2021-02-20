@@ -5754,6 +5754,10 @@
           {
             "name": "satysfi-dist",
             "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
           }
         ],
         "published_on": "2021-02-20",
