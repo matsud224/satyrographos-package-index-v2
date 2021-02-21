@@ -2455,7 +2455,9 @@
         ],
         "published_on": "2020-09-08",
         "documents": [
-
+          "./docs/arrows-doc/examples.pdf",
+          "./docs/arrows-doc/examples.saty",
+          "./docs/arrows-doc/manual.pdf"
         ],
         "fonts": [
 
@@ -2563,7 +2565,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/assert-eq-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -2607,7 +2609,7 @@
         ],
         "published_on": "2020-03-22",
         "documents": [
-
+          "./docs/assert-eq-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -2651,7 +2653,7 @@
         ],
         "published_on": "2020-03-21",
         "documents": [
-
+          "./docs/assert-eq-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -4850,7 +4852,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/debug-show-value-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -4894,7 +4896,7 @@
         ],
         "published_on": "2020-03-22",
         "documents": [
-
+          "./docs/debug-show-value-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -4938,7 +4940,7 @@
         ],
         "published_on": "2020-03-21",
         "documents": [
-
+          "./docs/debug-show-value-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -9723,7 +9725,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/lipsum-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -9767,7 +9769,7 @@
         ],
         "published_on": "2020-08-20",
         "documents": [
-
+          "./docs/lipsum-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -9875,7 +9877,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/make-html-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -9919,7 +9921,7 @@
         ],
         "published_on": "2020-03-01",
         "documents": [
-
+          "./docs/make-html-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -10397,7 +10399,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/musikui-doc/sample.pdf"
         ],
         "fonts": [
 
@@ -10441,7 +10443,7 @@
         ],
         "published_on": "2020-03-22",
         "documents": [
-
+          "./docs/musikui-doc/sample.pdf"
         ],
         "fonts": [
 
@@ -11217,7 +11219,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/num-conversion-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -11261,7 +11263,7 @@
         ],
         "published_on": "2020-03-22",
         "documents": [
-
+          "./docs/num-conversion-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -11789,7 +11791,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/simple-itemize-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -11837,7 +11839,7 @@
         ],
         "published_on": "2020-03-20",
         "documents": [
-
+          "./docs/simple-itemize-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -11945,7 +11947,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/siunitx-doc/siunitx-ja.pdf"
         ],
         "fonts": [
 
@@ -11989,7 +11991,7 @@
         ],
         "published_on": "2020-03-01",
         "documents": [
-
+          "./docs/siunitx-doc/siunitx-ja.pdf"
         ],
         "fonts": [
 
@@ -12461,7 +12463,7 @@
         ],
         "published_on": "2021-02-07",
         "documents": [
-
+          "./docs/uline-doc/doc-ja.pdf"
         ],
         "fonts": [
 
@@ -12501,7 +12503,7 @@
         ],
         "published_on": "2020-05-03",
         "documents": [
-
+          "./docs/uline-doc/doc-ja.pdf"
         ],
         "fonts": [
 

@@ -1,0 +1,257 @@
+@require: stdjareport
+@require: math
+
+@import: ../src/arrows
+@import: ../src/commands
+
+open ArrowCommands
+
+in
+
+document (|
+  title = {Arrow examples};
+  author = {Taichi Uemura};
+|) '<
+  +math(${
+    a \draw!(Arrow.line (|width = 0.05|)) b
+  });
+  +math(${
+    a \draw!(Arrow.solid (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)) b
+  });
+  +math(${
+    a \xrightarrow!(Arrow.solid (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)){f} b
+  });
+  +math(${
+    a \xrightarrow!(Arrow.solid (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)){ccccccccccccc} b
+  });
+  +math(${
+    a \xrightarrow!(Arrow.tail (|
+      line-width = 0.05;
+      head-size = 0.2;
+      tail-size = 0.2;
+    |)){ccccccccccccc} b
+  });
+  +math(${
+    P \xrightarrow!(Arrow.multi-solid 17 0.15 (|
+      line-width = 0.05;
+      head-size = 0.2;
+      head-ext = 0.2;
+    |)){\text!{By Yoneda}} Q
+  });
+  +math(${
+    a \draw?*?:!(0.75)!(Arrow.multi-line 2 0.2 (|
+      width = 0.08;
+    |)) b
+  });
+  +math(${
+    X \xrightarrow!(Arrow.multi-head 2 0.15 (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)){p} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.multi-solid 43 0.2 (|
+        width = 0.05;
+      |);
+      head = ArrowHead.multi-vee 57 0.15 (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 1.;
+      |);
+      tail = ArrowTail.multi-vee 79 0.15 (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.5;
+      |);
+    |)){hom} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.(multiple 5 0.2 (dashed (|
+        width = 0.05;
+        dash = (|
+          fill = 0.2;
+          space = 0.1;
+          shift = 0.;
+        |);
+      |)));
+      head = ArrowHead.vee (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.07;
+      |);
+      tail = ArrowTail.multi-vee 2 0.15 (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.07;
+      |)
+    |)){\exists\!f} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.multi-solid 2 0.2 (|
+        width = 0.05;
+      |);
+      tail = ArrowTail.none;
+      head = ArrowHead.triangle (|
+        line-width = 0.05;
+        size = 0.12;
+        ext = 0.07;
+      |);
+    |)){f} Y
+  });
+  +math(${
+    A \xrightarrow!(Arrow.harpoon-l (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)){R} B
+  });
+  +math(${
+    A \xrightarrow!(Arrow.harpoon-r (|
+      line-width = 0.05;
+      head-size = 0.2;
+    |)){R} B
+  });
+  +math(${
+    A \xrightarrow!(Arrow.hook-l (|
+      line-width = 0.05;
+      head-size = 0.2;
+      tail-size = 0.15;
+    |)){i} B
+  });
+  +math(${
+    A \draw!(Arrow.of-bth (|
+      body = ArrowBody.multi-solid 4 0.15 (|
+        width = 0.05;
+      |);
+      head = ArrowHead.vee (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.07;
+      |);
+      tail = ArrowTail.hook-r (|
+        line-width = 0.05;
+        size = 0.12;
+        ext = 0.1;
+      |);
+    |)) B
+  });
+  +math(${
+    A \ni x \xrightarrow!(Arrow.mapsto (|
+      line-width = 0.05;
+      head-size = 0.2;
+      tail-size = 0.2;
+    |)){g \circ f} y \in B
+  });
+  +math(${
+    X \xleftarrow!(Arrow.of-bth (|
+      body = ArrowBody.(multiple 3 0.15 (dashed (|
+        width = 0.05;
+        dash = (|
+          fill = 0.1;
+          space = 0.1;
+          shift = 0.;
+        |);
+      |)));
+      head = ArrowHead.harpoon-l (|
+        line-width = 0.05;
+        size = 0.12;
+        ext = 0.2;
+      |);
+      tail = ArrowTail.hook-r (|
+        line-width = 0.05;
+        size = 0.12;
+        ext = 0.2;
+      |);
+    |)){f}
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.(cross (|
+        line-width = 0.05;
+        size = 0.1;
+        ext = 0.05;
+      |) (solid (|
+        width = 0.05;
+      |)));
+      head = ArrowHead.vee (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.07;
+      |);
+      tail = ArrowTail.none;
+    |)){P} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.(
+        solid (|
+          width = 0.05;
+        |)
+        |> multiple 4 0.2
+        |> cross (|
+          line-width = 0.05;
+          size = 0.1;
+          ext = 0.1;
+        |));
+      head = ArrowHead.vee (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.07;
+      |);
+      tail = ArrowTail.none;
+    |)){P} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.(
+        solid (|width = 0.05;|)
+        |> multiple 3 0.2
+      );
+      head = ArrowHead.(
+        vee (|
+          line-width = 0.05;
+          size = 0.15;
+          ext = 0.1;
+        |)
+        |> duplicate false 3 0.2
+      );
+      tail = ArrowTail.(
+        hook-l (|
+          line-width = 0.05;
+          size = 0.15;
+          ext = 0.1;
+        |)
+        |> duplicate true 3 0.2
+      );
+    |)){p} Y
+  });
+  +math(${
+    X \xrightarrow!(Arrow.of-bth (|
+      body = ArrowBody.(
+        solid (|width = 0.05;|)
+        |> shift 0.2
+      );
+      head = ArrowHead.(vee (|
+        line-width = 0.05;
+        size = 0.15;
+        ext = 0.1;
+      |));
+      tail = ArrowTail.none;
+    |)){f} Y
+  });
+>
+
+% Local Variables:
+% satysfi-program-options: ("-b" "--debug-show-bbox" "--debug-show-block-bbox")
+% End:

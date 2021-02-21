@@ -1,7 +1,9 @@
 @require: stdjareport
 @require: itemize
+@require: annot
 @import: ../src/ncsq
 @import: ../src/easy-cd
+@import: ../src/aliases
 
 let cellss1 = open NCSq in open NCSqArrowStyle in [
   [object ${A}; stack vertical [
@@ -225,6 +227,23 @@ arrow ?:left-label ?:right-label direction
           [arrow down; empty; arrow down];
           [object ${C}; arrow right; object ${E};
            arrow right; object ${F}; arrow right; object ${G}];
+        ]);%
+      }
+    >
+    +section{The \code(`ncsq/aliases`); package}<
+      +p{
+        A helper package \code(`ncsq/aliases`); provides short aliases to functions like \code(`object`); and \code(`arrow`);.
+        \d-code(```
+        \NCSq.cd(open NCSqAliases in [
+          [o ${A}; a ?:${f} r; o ${B}; a ?:${g} r; o ${C}];
+          [a ?*?:${h} d; e; e; a ?*?:${i} (rd (1, 1)); a ?:${j} d];
+          [o ${D}; e; a ?*?:${k} r; e; o ${E}];
+        ]);
+```);%
+        \NCSq.cd(open NCSqAliases in [
+          [o ${A}; a ?:${f} r; o ${B}; a ?:${g} r; o ${C}];
+          [a ?*?:${h} d; e; e; a ?*?:${i} (rd (1, 1)); a ?:${j} d];
+          [o ${D}; e; a ?*?:${k} r; e; o ${E}];
         ]);%
       }
     >
@@ -506,6 +525,10 @@ NCSqArrowStyle.of-bth body tail head
            arrow ?*?*?:(mapsto) down];
           [object ${B}; object ${\ni}; object ${b}];
         ]);%
+      }
+      +p{
+        NCSq uses \href(`https://github.com/uemurax/satysfi-arrows`){\code(`satysfi-arrows`);} package.
+        See the documentation of that package to define more arrow styles.
       }
     >
   >
