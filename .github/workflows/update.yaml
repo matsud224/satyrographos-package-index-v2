@@ -34,18 +34,18 @@ jobs:
           export HOME=/root
           export OPAMYES=true
           eval $(opam env)
-          cd repo2json
           opam update
-          opam install .
-          make
-          opam remove .
           opam install satyrographos-snapshot-stable
           satyrographos install
+          cd repo2json
           cp -rL $HOME/.satysfi/dist/docs .
           cp -rL $HOME/.satysfi/dist/fonts .
           find ./docs -name "*.pdf" -type f -exec ../scripts/remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
-          dune exec ./repo2json.exe packages.json snapshots.json
+          opam switch create build-repo2json 4.10.0
+          eval $(opam env)
+          opam install .
+          make run
           cd ..
           scripts/add-github-repo-info.rb repo2json/packages.json $GH_API_TOKEN
           rm -rf static/docs
