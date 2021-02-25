@@ -5,6 +5,8 @@ synopsis: "Generate JSON-formatted data of satyrographos-repo"
 maintainer: "Daiki Matsunaga"
 authors: "Daiki Matsunaga"
 license: "0BSD"
+homepage: "https://github.com/matsud224/satyrographos-package-index-v2"
+bug-reports: "https://github.com/matsud224/satyrographos-package-index-v2/issues"
 depends: [
   "ocaml" {>= "4.10.0"}
   "dune"
