@@ -32,16 +32,19 @@ jobs:
           GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
         run: |
           export HOME=/root
+          export OPAMYES=true
           eval $(opam env)
-          opam update
-          opam install satyrographos-snapshot-stable || true # workaround
-          satyrographos install
           cd repo2json
+          opam update
+          opam install .
+          make
+          opam remove .
+          opam install satyrographos-snapshot-stable
+          satyrographos install
           cp -rL $HOME/.satysfi/dist/docs .
           cp -rL $HOME/.satysfi/dist/fonts .
           find ./docs -name "*.pdf" -type f -exec ../scripts/remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
-          make
           dune exec ./repo2json.exe packages.json snapshots.json
           cd ..
           scripts/add-github-repo-info.rb repo2json/packages.json $GH_API_TOKEN
