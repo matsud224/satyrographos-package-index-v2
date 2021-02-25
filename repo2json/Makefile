@@ -8,3 +8,7 @@ repo2json.exe: repo2json.ml
 .PHONY: run
 run: repo2json.exe
 	$(DUNE) exec ./$< packages.json snapshots.json
+
+.PHONY: clean
+clean:
+	$(DUNE) clean
