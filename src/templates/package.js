@@ -164,7 +164,7 @@ export default function PackageDetails({ data }) {
     dep.name === "satysfi" || dep.name === "satyrographos" || dep.name.startsWith('satysfi-'));
 
   return (
-    <Layout title={`${abbrevName} - Satyrographos Package Index`}>
+    <Layout title={`${abbrevName} - Satyrographos Package Index`} description={thisVersionInfo.synopsis}>
 			<Row>
 				<Col>
 					<h1>{abbrevName}</h1>

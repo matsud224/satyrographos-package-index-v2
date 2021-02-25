@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Helmet from "react-helmet"
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, description, children }) {
   const data = useStaticQuery (
     graphql`
       query {
@@ -16,11 +16,14 @@ export default function Layout({ title, children }) {
       }
     `
   )
+
+  const defaultDescription = "Satyrographos Package Index provides a list of available packages for Satyrographos, the package manager for SATySFi.";
+
   return (
 		<div>
       <Helmet>
         <meta charset="utf-8" />
-        <meta name="description" content="Satyrographos Package Index provides a list of available packages for Satyrographos, the package manager for SATySFi." />
+        <meta name="description" content={description ? description : defaultDescription}/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
       </Helmet>
