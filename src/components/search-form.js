@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react"
 import { navigate } from "gatsby"
-import { Form, Button, Col } from 'react-bootstrap'
+import { Form, Button, Col } from "react-bootstrap"
 
 const SearchForm = ({ initialQuery = "" }) => {
   const [query, setQuery] = useState(initialQuery)

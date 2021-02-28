@@ -1,24 +1,26 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Table } from 'react-bootstrap'
+import { Table } from "react-bootstrap"
 import { getPackageAbbrevName, getSnapshotPath } from "../components/common"
 
 export default function PackageSnapshots({ data }) {
-  const node = data.allSitePage.edges[0].node.context;
+  const node = data.allSitePage.edges[0].node.context
   const packageName = node.name
   const abbrevName = getPackageAbbrevName(packageName)
-  const containingSnapshots = data.allSnapshotsJson.edges.flatMap((ss) => {
-    const found = ss.node.packages.filter((pkg) => pkg.name === packageName)
+  const containingSnapshots = data.allSnapshotsJson.edges.flatMap(ss => {
+    const found = ss.node.packages.filter(pkg => pkg.name === packageName)
     if (found.length === 1) {
-      return [{snapshot: ss.node.name, version: found[0].version}];
+      return [{ snapshot: ss.node.name, version: found[0].version }]
     } else {
       return []
     }
-  });
+  })
 
   return (
-    <Layout title={`Snapshots containing "${abbrevName}" - Satyrographos Package Index`}>
+    <Layout
+      title={`Snapshots containing "${abbrevName}" - Satyrographos Package Index`}
+    >
       <h1>Snapshots containing &quot;{abbrevName}&quot;</h1>
       <div className="my-3">
         <Table>
@@ -51,9 +53,9 @@ export const query = graphql`
     allSitePage(filter: { path: { eq: $path } }) {
       edges {
         node {
-					context {
-						name
-					}
+          context {
+            name
+          }
         }
       }
     }
@@ -69,6 +71,5 @@ export const query = graphql`
         }
       }
     }
-
   }
 `

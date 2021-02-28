@@ -1,38 +1,45 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Row, Col, InputGroup, FormControl, Button, Table } from 'react-bootstrap'
+import {
+  Row,
+  Col,
+  InputGroup,
+  FormControl,
+  Button,
+  Table,
+} from "react-bootstrap"
 import { getPackageAbbrevName } from "../components/common"
-import { CopyToClipboard } from 'react-copy-to-clipboard'
+import { CopyToClipboard } from "react-copy-to-clipboard"
 
 function CommandLineItem(props) {
-	if (!props.value) return (null);
+  if (!props.value) return null
 
-	return (
+  return (
     <div>
       <h5>{props.title}</h5>
       <p>
-				<InputGroup className="mb-3">
-					<FormControl
-						aria-label="Install command"
-						aria-describedby="basic-addon2"
-						value={props.value}
-						readonly
-					/>
-					<InputGroup.Append>
+        <InputGroup className="mb-3">
+          <FormControl
+            aria-label="Install command"
+            aria-describedby="basic-addon2"
+            value={props.value}
+            readonly
+          />
+          <InputGroup.Append>
             <CopyToClipboard text={props.value}>
               <Button variant="outline-secondary">Copy</Button>
             </CopyToClipboard>
-					</InputGroup.Append>
-				</InputGroup>
+          </InputGroup.Append>
+        </InputGroup>
       </p>
     </div>
-	)
+  )
 }
 
 export default function SnapshotDetails({ data }) {
-  const node = data.allSitePage.edges[0].node.context;
-  const filteredPkgs = node.packages.filter((pkg) => !pkg.name.endsWith('-doc'))
+  const node = data.allSitePage.edges[0].node.context
+  const filteredPkgs = node.packages.filter(pkg => !pkg.name.endsWith("-doc"))
 
   return (
     <Layout title={`${node.name} - Satyrographos Package Index`}>
@@ -43,11 +50,11 @@ export default function SnapshotDetails({ data }) {
       </Row>
       <Row className="my-3">
         <Col>
-					<CommandLineItem
+          <CommandLineItem
             title="Installation"
             value={`opam install ${node.name} && satyrographos install`}
           />
-				</Col>
+        </Col>
       </Row>
       <Row>
         <Col>
@@ -59,12 +66,16 @@ export default function SnapshotDetails({ data }) {
               </tr>
             </thead>
             <tbody>
-              {filteredPkgs.map((pkg) => (
+              {filteredPkgs.map(pkg => (
                 <tr key={pkg.name}>
                   <td>
-                    <Link to={`/packages/${getPackageAbbrevName(pkg.name)}/${pkg.version}`}>
+                    <Link
+                      to={`/packages/${getPackageAbbrevName(pkg.name)}/${
+                        pkg.version
+                      }`}
+                    >
                       {getPackageAbbrevName(pkg.name)}
-                   </Link>
+                    </Link>
                   </td>
                   <td>{getPackageAbbrevName(pkg.version)}</td>
                 </tr>
@@ -83,8 +94,8 @@ export const query = graphql`
       edges {
         node {
           context {
-						name
-						published_on
+            name
+            published_on
             packages {
               name
               version

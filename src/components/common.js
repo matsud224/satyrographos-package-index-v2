@@ -1,6 +1,5 @@
 export function getPackageAbbrevName(name) {
-  if (name.startsWith('satysfi-'))
-    return name.substring(8)
+  if (name.startsWith("satysfi-")) return name.substring(8)
 
   return name
 }

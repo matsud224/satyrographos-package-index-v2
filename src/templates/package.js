@@ -1,82 +1,95 @@
 import React from "react"
 import { Link, navigate, graphql } from "gatsby"
-import { Alert, Row, Col, Form, FormControl, Button, InputGroup, Table } from 'react-bootstrap'
+import {
+  Alert,
+  Row,
+  Col,
+  Form,
+  FormControl,
+  Button,
+  InputGroup,
+  Table,
+} from "react-bootstrap"
 import Layout from "../components/layout"
-import marked from 'marked';
-import { getPackageAbbrevName, getPackagePath, getPackagePathWithVersion } from "../components/common"
-import { CopyToClipboard } from 'react-copy-to-clipboard'
-import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
+import marked from "marked"
+import {
+  getPackageAbbrevName,
+  getPackagePath,
+  getPackagePathWithVersion,
+} from "../components/common"
+import { CopyToClipboard } from "react-copy-to-clipboard"
+import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined"
 
-const rawMarkup = (markup) => {
-  const renderer = new marked.Renderer();
-  const linkRenderer = renderer.link;
+const rawMarkup = markup => {
+  const renderer = new marked.Renderer()
+  const linkRenderer = renderer.link
   renderer.link = (href, title, text) => {
-    const html = linkRenderer.call(renderer, href, title, text);
-    return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ');
-  };
-  const rawMarkup = marked(markup, { renderer });
+    const html = linkRenderer.call(renderer, href, title, text)
+    return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ')
+  }
+  const rawMarkup = marked(markup, { renderer })
 
-  return { __html: rawMarkup };
-};
+  return { __html: rawMarkup }
+}
 
 function Markdown(props) {
   return <span dangerouslySetInnerHTML={rawMarkup(props.content)} />
 }
 
 function TextItem(props) {
-	if (!props.value) return (null);
+  if (!props.value) return null
 
-	return (
+  return (
     <div>
       <h5>{props.title}</h5>
       <p>{props.value}</p>
     </div>
-	)
+  )
 }
 
-function LinksItem({title, urls}) {
-	if (!urls) return (null);
+function LinksItem({ title, urls }) {
+  if (!urls) return null
 
-	return (
+  return (
     <div>
       <h5>{title}</h5>
       <p>
-        {urls.map((url, index) =>
+        {urls.map((url, index) => (
           <span key={url}>
             <a href={url} target="_blank" rel="noopener noreferrer">
               {url}
             </a>
-            {index === urls.length-1 ? null : <span>, </span>}
+            {index === urls.length - 1 ? null : <span>, </span>}
           </span>
-        )}
+        ))}
       </p>
     </div>
-	)
+  )
 }
 
 function CommandLineItem(props) {
-	if (!props.value) return (null);
+  if (!props.value) return null
 
-	return (
+  return (
     <div>
       <h5>{props.title}</h5>
       <p>
-				<InputGroup className="mb-3">
-					<FormControl
-						aria-label="Install command"
-						aria-describedby="basic-addon2"
-						value={props.value}
-						readonly
-					/>
-					<InputGroup.Append>
+        <InputGroup className="mb-3">
+          <FormControl
+            aria-label="Install command"
+            aria-describedby="basic-addon2"
+            value={props.value}
+            readonly
+          />
+          <InputGroup.Append>
             <CopyToClipboard text={props.value}>
               <Button variant="outline-secondary">Copy</Button>
             </CopyToClipboard>
-					</InputGroup.Append>
-				</InputGroup>
+          </InputGroup.Append>
+        </InputGroup>
       </p>
     </div>
-	)
+  )
 }
 
 function MiniTableItem(props) {
@@ -84,9 +97,7 @@ function MiniTableItem(props) {
     <div>
       <h5>{props.title}</h5>
       <Table size="sm">
-        <tbody>
-          {props.items.map(props.rowFunc)}
-        </tbody>
+        <tbody>{props.items.map(props.rowFunc)}</tbody>
       </Table>
     </div>
   )
@@ -94,32 +105,36 @@ function MiniTableItem(props) {
 
 class ExpandTableItem extends React.Component {
   constructor(props) {
-    super(props);
-    this.handleExpandClick = this.handleExpandClick.bind(this);
+    super(props)
+    this.handleExpandClick = this.handleExpandClick.bind(this)
     if (props.items.length > props.initialNumRows)
-      this.state = {isExpanded: false};
-    else
-      this.state = {isExpanded: true};
+      this.state = { isExpanded: false }
+    else this.state = { isExpanded: true }
   }
 
   handleExpandClick() {
-    this.setState({isExpanded: true});
+    this.setState({ isExpanded: true })
   }
 
   render() {
-    const isExpanded = this.state.isExpanded;
-    const items = isExpanded ? this.props.items : this.props.items.slice(0, this.props.initialNumRows);
-    let expandButton;
+    const isExpanded = this.state.isExpanded
+    const items = isExpanded
+      ? this.props.items
+      : this.props.items.slice(0, this.props.initialNumRows)
+    let expandButton
 
     if (isExpanded) {
-      expandButton = (null);
+      expandButton = null
     } else {
-      expandButton =
+      expandButton = (
         <tr>
           <td>
-            <span className="btn-link" onClick={this.handleExpandClick}>show all...</span>
+            <span className="btn-link" onClick={this.handleExpandClick}>
+              show all...
+            </span>
           </td>
         </tr>
+      )
     }
 
     return (
@@ -132,7 +147,7 @@ class ExpandTableItem extends React.Component {
           </tbody>
         </Table>
       </div>
-    );
+    )
   }
 }
 
@@ -140,15 +155,14 @@ function Conditional(props) {
   if (props.condition) {
     return <div>{props.children}</div>
   } else {
-    return (null)
+    return null
   }
 }
 
-let basename = function(path) {
-  var lst = path.split('/');
-  return lst[lst.length-1];
-};
-
+let basename = function (path) {
+  var lst = path.split("/")
+  return lst[lst.length - 1]
+}
 
 export default function PackageDetails({ data }) {
   const node = data.allSitePage.edges[0].node.context
@@ -159,53 +173,61 @@ export default function PackageDetails({ data }) {
   const thisVersionInfo = node.thisVersion
   const packageVersion = thisVersionInfo.version
   const latestVersion = allVersions[0].version
-  const isLatest = (packageVersion === latestVersion)
-  const filteredDeps = thisVersionInfo.dependencies.filter((dep) =>
-    dep.name === "satysfi" || dep.name === "satyrographos" || dep.name.startsWith('satysfi-'));
+  const isLatest = packageVersion === latestVersion
+  const filteredDeps = thisVersionInfo.dependencies.filter(
+    dep =>
+      dep.name === "satysfi" ||
+      dep.name === "satyrographos" ||
+      dep.name.startsWith("satysfi-")
+  )
 
   return (
-    <Layout title={`${abbrevName} - Satyrographos Package Index`} description={thisVersionInfo.synopsis}>
-			<Row>
-				<Col>
-					<h1>{abbrevName}</h1>
-				</Col>
-			</Row>
-			<Row>
-				<Col>
-					<Form>
-						<Form.Group
+    <Layout
+      title={`${abbrevName} - Satyrographos Package Index`}
+      description={thisVersionInfo.synopsis}
+    >
+      <Row>
+        <Col>
+          <h1>{abbrevName}</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Form>
+            <Form.Group
               controlId="version-select"
-              onChange={(e) =>
-                navigate(getPackagePathWithVersion(packageName, e.target.value))}
+              onChange={e =>
+                navigate(getPackagePathWithVersion(packageName, e.target.value))
+              }
             >
-							<Form.Control as="select" custom>
-								{allVersions.map((p) => {
-                  const makeVersionString = (ver) =>
-                    `${ver}${(ver === latestVersion) ? ' (latest)' : ''}`;
-									if (p.version === packageVersion) {
-										return (
-											<option value={p.version} selected>
-												{makeVersionString(p.version)}
-											</option>
-										)
-									} else {
-										return (
-											<option value={p.version}>
-												{makeVersionString(p.version)}
-											</option>
-										)
-									}
-								})}
-							</Form.Control>
-						</Form.Group>
-					</Form>
-				</Col>
-				<Col>
-					<Link to={`${getPackagePath(packageName)}/snapshots`}>
-						See all snapshots containing &quot;{abbrevName}&quot;
-					</Link>
-				</Col>
-			</Row>
+              <Form.Control as="select" custom>
+                {allVersions.map(p => {
+                  const makeVersionString = ver =>
+                    `${ver}${ver === latestVersion ? " (latest)" : ""}`
+                  if (p.version === packageVersion) {
+                    return (
+                      <option value={p.version} selected>
+                        {makeVersionString(p.version)}
+                      </option>
+                    )
+                  } else {
+                    return (
+                      <option value={p.version}>
+                        {makeVersionString(p.version)}
+                      </option>
+                    )
+                  }
+                })}
+              </Form.Control>
+            </Form.Group>
+          </Form>
+        </Col>
+        <Col>
+          <Link to={`${getPackagePath(packageName)}/snapshots`}>
+            See all snapshots containing &quot;{abbrevName}&quot;
+          </Link>
+        </Col>
+      </Row>
       <Conditional condition={isArchived}>
         <Row>
           <Col>
@@ -227,50 +249,62 @@ export default function PackageDetails({ data }) {
           </Col>
         </Row>
       </Conditional>
-			<Row className="my-3">
-				<Col>
-					<CommandLineItem
+      <Row className="my-3">
+        <Col>
+          <CommandLineItem
             title="Installation"
-            value={`opam install ${packageName}${isLatest ? '' : `.${node.thisVersion.version}`} && satyrographos install`}
+            value={`opam install ${packageName}${
+              isLatest ? "" : `.${node.thisVersion.version}`
+            } && satyrographos install`}
           />
-				</Col>
-			</Row>
-			<Row className="my-3">
-				<Col>
-					<LinksItem title="Homepage" urls={thisVersionInfo.homepage} />
-				</Col>
-				<Col>
-					<LinksItem title="Bug reports" urls={thisVersionInfo.bug_reports} />
-				</Col>
-				<Col>
-					<TextItem title="Author" value={thisVersionInfo.authors.join(', ')} />
-				</Col>
-				<Col>
-					<TextItem title="Maintainer" value={thisVersionInfo.maintainer.join(', ')} />
-				</Col>
-				<Col>
-					<TextItem title="License" value={thisVersionInfo.license.join(', ')} />
-				</Col>
-				<Col>
-					<TextItem title="Published on" value={thisVersionInfo.published_on} />
-				</Col>
-			</Row>
+        </Col>
+      </Row>
+      <Row className="my-3">
+        <Col>
+          <LinksItem title="Homepage" urls={thisVersionInfo.homepage} />
+        </Col>
+        <Col>
+          <LinksItem title="Bug reports" urls={thisVersionInfo.bug_reports} />
+        </Col>
+        <Col>
+          <TextItem title="Author" value={thisVersionInfo.authors.join(", ")} />
+        </Col>
+        <Col>
+          <TextItem
+            title="Maintainer"
+            value={thisVersionInfo.maintainer.join(", ")}
+          />
+        </Col>
+        <Col>
+          <TextItem
+            title="License"
+            value={thisVersionInfo.license.join(", ")}
+          />
+        </Col>
+        <Col>
+          <TextItem title="Published on" value={thisVersionInfo.published_on} />
+        </Col>
+      </Row>
       <Conditional condition={thisVersionInfo.documents.length > 0}>
         <Row className="my-3">
           <Col>
             <MiniTableItem
               title="Document files"
               items={thisVersionInfo.documents}
-              rowFunc={(f) =>
+              rowFunc={f => (
                 <tr key={f}>
                   <td>
-                    <a href={`../../${f}`} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={`../../${f}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <DescriptionOutlinedIcon />
                       {basename(f)}
                     </a>
                   </td>
                 </tr>
-              }
+              )}
             />
           </Col>
         </Row>
@@ -281,7 +315,7 @@ export default function PackageDetails({ data }) {
             <MiniTableItem
               title="Dependencies"
               items={filteredDeps}
-              rowFunc={(dep) =>
+              rowFunc={dep => (
                 <tr key={dep.name}>
                   <td>
                     <Link to={getPackagePath(dep.name)}>
@@ -289,7 +323,8 @@ export default function PackageDetails({ data }) {
                     </Link>
                   </td>
                   <td>{dep.constraint}</td>
-                </tr>}
+                </tr>
+              )}
             />
             <Link to={`${getPackagePath(packageName)}/reverse-dependencies`}>
               Show dependent packages...
@@ -304,7 +339,11 @@ export default function PackageDetails({ data }) {
               title="Font files"
               items={thisVersionInfo.fonts}
               initialNumRows={5}
-              rowFunc={(f) => <tr key={f}><td>{f}</td></tr>}
+              rowFunc={f => (
+                <tr key={f}>
+                  <td>{f}</td>
+                </tr>
+              )}
             />
           </Col>
         </Row>
@@ -343,7 +382,7 @@ export const query = graphql`
               synopsis
               version
             }
-					}
+          }
         }
       }
     }
