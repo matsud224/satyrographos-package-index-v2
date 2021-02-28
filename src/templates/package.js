@@ -180,8 +180,8 @@ export default function PackageDetails({ data }) {
       dep.name === "satyrographos" ||
       dep.name.startsWith("satysfi-")
   )
-  const hasDocumentPkg = data.allPackagesJson.edges.some(pkg =>
-    pkg.node.name == packageName + "-doc"
+  const hasDocumentPkg = data.allPackagesJson.edges.some(
+    pkg => pkg.node.name == packageName + "-doc"
   )
 
   return (
@@ -312,13 +312,20 @@ export default function PackageDetails({ data }) {
           </Col>
         </Row>
       </Conditional>
-      <Conditional condition={thisVersionInfo.documents.length == 0 && hasDocumentPkg}>
+      <Conditional
+        condition={thisVersionInfo.documents.length == 0 && hasDocumentPkg}
+      >
         <Row className="my-3">
           <Col>
             <h5>Document files</h5>
             <Alert variant="info">
-							Pre-built document files for this package will not be available until this package has been added to the latest stable snapshot.
-							See the document package <Link to={getPackagePath(packageName+'-doc')}>&quot;{packageName}-doc&quot;</Link>.
+              Pre-built document files for this package will not be available
+              until this package has been added to the latest stable snapshot.
+              See the document package{" "}
+              <Link to={getPackagePath(packageName + "-doc")}>
+                &quot;{packageName}-doc&quot;
+              </Link>
+              .
             </Alert>
           </Col>
         </Row>
@@ -405,7 +412,7 @@ export const query = graphql`
         node {
           name
           versions {
-						version
+            version
           }
         }
       }
