@@ -181,7 +181,7 @@ export default function PackageDetails({ data }) {
       dep.name.startsWith("satysfi-")
   )
   const hasDocumentPkg = data.allPackagesJson.edges.some(
-    pkg => pkg.node.name == packageName + "-doc"
+    pkg => pkg.node.name === packageName + "-doc"
   )
 
   return (
@@ -313,7 +313,7 @@ export default function PackageDetails({ data }) {
         </Row>
       </Conditional>
       <Conditional
-        condition={thisVersionInfo.documents.length == 0 && hasDocumentPkg}
+        condition={thisVersionInfo.documents.length === 0 && hasDocumentPkg}
       >
         <Row className="my-3">
           <Col>
