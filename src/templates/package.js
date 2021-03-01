@@ -95,7 +95,6 @@ function CommandLineItem(props) {
 function MiniTableItem(props) {
   return (
     <div>
-      <h5>{props.title}</h5>
       <Table size="sm">
         <tbody>{props.items.map(props.rowFunc)}</tbody>
       </Table>
@@ -183,6 +182,16 @@ export default function PackageDetails({ data }) {
   const hasDocumentPkg = data.allPackagesJson.edges.some(
     pkg => pkg.node.name === packageName + "-doc"
   )
+  const latestStableSnapshot = data.allSnapshotsJson.edges.filter(ss =>
+    ss.node.name.startsWith("satyrographos-snapshot-stable")
+  )[0]
+  let builtDocumentVersion = undefined
+  const thisPkgInSnapshot = latestStableSnapshot.node.packages.filter(
+    pkg => pkg.name === packageName
+  )
+  if (thisPkgInSnapshot.length > 0) {
+    builtDocumentVersion = thisPkgInSnapshot[0].version
+  }
 
   return (
     <Layout
@@ -291,8 +300,29 @@ export default function PackageDetails({ data }) {
       <Conditional condition={thisVersionInfo.documents.length > 0}>
         <Row className="my-3">
           <Col>
+            <h5>Document files</h5>
+            <Conditional condition={packageVersion !== builtDocumentVersion}>
+              <Row className="my-3">
+                <Col>
+                  <Alert variant="warning">
+                    Pre-built document files below are written for the version{" "}
+                    {builtDocumentVersion}. If you need documents for this
+                    version, build the document package{" "}
+                    <Link
+                      to={
+                        getPackagePath(packageName + "-doc") +
+                        "/" +
+                        packageVersion
+                      }
+                    >
+                      &quot;{abbrevName}-doc.{packageVersion}&quot;
+                    </Link>{" "}
+                    yourself.
+                  </Alert>
+                </Col>
+              </Row>
+            </Conditional>
             <MiniTableItem
-              title="Document files"
               items={thisVersionInfo.documents}
               rowFunc={f => (
                 <tr key={f}>
@@ -323,7 +353,7 @@ export default function PackageDetails({ data }) {
               until this package has been added to the latest stable snapshot.
               See the document package{" "}
               <Link to={getPackagePath(packageName + "-doc")}>
-                &quot;{packageName}-doc&quot;
+                &quot;{abbrevName}-doc&quot;
               </Link>
               .
             </Alert>
@@ -333,8 +363,8 @@ export default function PackageDetails({ data }) {
       <Conditional condition={filteredDeps.length > 0}>
         <Row className="my-3">
           <Col>
+            <h5>Dependencies</h5>
             <MiniTableItem
-              title="Dependencies"
               items={filteredDeps}
               rowFunc={dep => (
                 <tr key={dep.name}>
@@ -412,6 +442,18 @@ export const query = graphql`
         node {
           name
           versions {
+            version
+          }
+        }
+      }
+    }
+    allSnapshotsJson(sort: { fields: [published_on], order: DESC }) {
+      edges {
+        node {
+          name
+          published_on(fromNow: true)
+          packages {
+            name
             version
           }
         }
