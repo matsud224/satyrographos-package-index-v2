@@ -319,7 +319,7 @@ export default function PackageDetails({ data }) {
           <Col>
             <h5>Document files</h5>
             <Alert variant="info">
-              Pre-built document files for this package will not be available
+              Pre-built document files for this package is not available
               until this package has been added to the latest stable snapshot.
               See the document package{" "}
               <Link to={getPackagePath(packageName + "-doc")}>
