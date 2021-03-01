@@ -116,6 +116,11 @@ let basename = function (path) {
   return lst[lst.length - 1]
 }
 
+let truncatePath = function (depth, path) {
+  var lst = path.split("/")
+  return lst.slice(depth).join('/')
+}
+
 export default function PackageDetails({ data }) {
   const node = data.allSitePage.edges[0].node.context
   const packageName = node.base.name
@@ -312,7 +317,7 @@ export default function PackageDetails({ data }) {
                       rel="noopener noreferrer"
                     >
                       <DescriptionOutlinedIcon />
-                      {basename(f)}
+                      {truncatePath(3, f)}
                     </a>
                   </td>
                 </tr>
