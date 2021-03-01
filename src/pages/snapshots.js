@@ -1,15 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import { getSnapshotPath } from "../components/common"
-import {
-  Table,
-  Row,
-  Col,
-  InputGroup,
-  FormControl,
-  Button,
-} from "react-bootstrap"
+import { getSnapshotPath, ExpandTableItem } from "../components/common"
+import { Row, Col, InputGroup, FormControl, Button } from "react-bootstrap"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 
 function CommandLineItem(props) {
@@ -44,22 +37,17 @@ function SnapshotTable(props) {
         <CommandLineItem
           value={`opam install satyrographos-snapshot-${props.title} && satyrographos install`}
         />
-        <Table>
-          <thead>
-            <tr>
-              <th>Snapshot</th>
+        <ExpandTableItem
+          items={props.items}
+          initialNumRows={5}
+          rowFunc={({ node }) => (
+            <tr key={node.name}>
+              <td>
+                <Link to={getSnapshotPath(node.name)}>{node.name}</Link>
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            {props.items.map(({ node }) => (
-              <tr key={node.name}>
-                <td>
-                  <Link to={getSnapshotPath(node.name)}>{node.name}</Link>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
+          )}
+        />
       </Col>
     </Row>
   )

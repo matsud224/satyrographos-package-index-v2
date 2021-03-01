@@ -16,6 +16,7 @@ import {
   getPackageAbbrevName,
   getPackagePath,
   getPackagePathWithVersion,
+  ExpandTableItem,
 } from "../components/common"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined"
@@ -102,54 +103,6 @@ function MiniTableItem(props) {
   )
 }
 
-class ExpandTableItem extends React.Component {
-  constructor(props) {
-    super(props)
-    this.handleExpandClick = this.handleExpandClick.bind(this)
-    if (props.items.length > props.initialNumRows)
-      this.state = { isExpanded: false }
-    else this.state = { isExpanded: true }
-  }
-
-  handleExpandClick() {
-    this.setState({ isExpanded: true })
-  }
-
-  render() {
-    const isExpanded = this.state.isExpanded
-    const items = isExpanded
-      ? this.props.items
-      : this.props.items.slice(0, this.props.initialNumRows)
-    let expandButton
-
-    if (isExpanded) {
-      expandButton = null
-    } else {
-      expandButton = (
-        <tr>
-          <td>
-            <span className="btn-link" onClick={this.handleExpandClick}>
-              show all...
-            </span>
-          </td>
-        </tr>
-      )
-    }
-
-    return (
-      <div>
-        <h5>{this.props.title}</h5>
-        <Table size="sm">
-          <tbody>
-            {items.map(this.props.rowFunc)}
-            {expandButton}
-          </tbody>
-        </Table>
-      </div>
-    )
-  }
-}
-
 function Conditional(props) {
   if (props.condition) {
     return <div>{props.children}</div>
@@ -181,6 +134,11 @@ export default function PackageDetails({ data }) {
   )
   const hasDocumentPkg = data.allPackagesJson.edges.some(
     pkg => pkg.node.name === packageName + "-doc"
+  )
+  const hasDocumentPkgForThisVersion = data.allPackagesJson.edges.some(
+    pkg =>
+      pkg.node.name === packageName + "-doc" &&
+      pkg.node.versions.some(vinfo => vinfo.version === packageVersion)
   )
   const latestStableSnapshot = data.allSnapshotsJson.edges.filter(ss =>
     ss.node.name.startsWith("satyrographos-snapshot-stable")
@@ -301,7 +259,12 @@ export default function PackageDetails({ data }) {
         <Row className="my-3">
           <Col>
             <h5>Document files</h5>
-            <Conditional condition={packageVersion !== builtDocumentVersion}>
+            <Conditional
+              condition={
+                packageVersion !== builtDocumentVersion &&
+                hasDocumentPkgForThisVersion
+              }
+            >
               <Row className="my-3">
                 <Col>
                   <Alert variant="warning">
@@ -318,6 +281,22 @@ export default function PackageDetails({ data }) {
                       &quot;{abbrevName}-doc.{packageVersion}&quot;
                     </Link>{" "}
                     yourself.
+                  </Alert>
+                </Col>
+              </Row>
+            </Conditional>
+            <Conditional
+              condition={
+                packageVersion !== builtDocumentVersion &&
+                !hasDocumentPkgForThisVersion
+              }
+            >
+              <Row className="my-3">
+                <Col>
+                  <Alert variant="warning">
+                    Pre-built document files below are written for the version{" "}
+                    {builtDocumentVersion} and the document package for this
+                    version does not exist.
                   </Alert>
                 </Col>
               </Row>
@@ -343,19 +322,21 @@ export default function PackageDetails({ data }) {
         </Row>
       </Conditional>
       <Conditional
-        condition={thisVersionInfo.documents.length === 0 && hasDocumentPkg}
+        condition={
+          thisVersionInfo.documents.length === 0 && hasDocumentPkgForThisVersion
+        }
       >
         <Row className="my-3">
           <Col>
             <h5>Document files</h5>
             <Alert variant="info">
-              Pre-built document files for this package is not available
-              until this package has been added to the latest stable snapshot.
-              See the document package{" "}
+              Pre-built document files for this package is not available until
+              this package has been added to the latest stable snapshot. Please
+              build the document package{" "}
               <Link to={getPackagePath(packageName + "-doc")}>
-                &quot;{abbrevName}-doc&quot;
-              </Link>
-              .
+                &quot;{abbrevName}-doc.{packageVersion}&quot;
+              </Link>{" "}
+              yourself.
             </Alert>
           </Col>
         </Row>
@@ -386,8 +367,8 @@ export default function PackageDetails({ data }) {
       <Conditional condition={thisVersionInfo.fonts.length > 0}>
         <Row className="my-3">
           <Col>
+            <h5>Font files</h5>
             <ExpandTableItem
-              title="Font files"
               items={thisVersionInfo.fonts}
               initialNumRows={5}
               rowFunc={f => (
@@ -395,6 +376,7 @@ export default function PackageDetails({ data }) {
                   <td>{f}</td>
                 </tr>
               )}
+              isSmall={true}
             />
           </Col>
         </Row>
