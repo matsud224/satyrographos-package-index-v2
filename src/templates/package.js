@@ -118,7 +118,7 @@ let basename = function (path) {
 
 let truncatePath = function (depth, path) {
   var lst = path.split("/")
-  return lst.slice(depth).join('/')
+  return lst.slice(depth).join("/")
 }
 
 export default function PackageDetails({ data }) {

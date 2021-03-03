@@ -45,7 +45,11 @@ export class ExpandTableItem extends React.Component {
       expandButton = (
         <tr>
           <td>
-            <span className="btn-link" onClick={this.handleExpandClick}>
+            <span
+              className="btn-link"
+              onClick={this.handleExpandClick}
+              style={{ cursor: "pointer" }}
+            >
               show all...
             </span>
           </td>
