@@ -682,7 +682,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2021-02-21",
@@ -778,7 +778,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2021-02-06",
@@ -874,7 +874,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2021-01-23",
@@ -970,7 +970,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-12-19",
@@ -1066,7 +1066,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-09-05",
@@ -1162,7 +1162,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-07-11",
@@ -1258,7 +1258,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-06-07",
@@ -1354,7 +1354,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-04-29",
@@ -1450,7 +1450,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-04-06",
@@ -1546,7 +1546,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-02-22",
@@ -1642,7 +1642,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-02-17",
@@ -1738,7 +1738,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-02-16",
@@ -1834,7 +1834,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2020-01-26",
@@ -1930,7 +1930,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2019-11-16",
@@ -2026,7 +2026,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2019-08-23",
@@ -2122,7 +2122,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2019-03-17",
@@ -2218,7 +2218,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2019-02-16",
@@ -2314,7 +2314,7 @@
           },
           {
             "name": "omd",
-            "constraint": ""
+            "constraint": "< \"2.0.0~\""
           }
         ],
         "published_on": "2019-02-16",
@@ -6312,7 +6312,7 @@
         ],
         "published_on": "2021-02-28",
         "documents": [
-
+          "./docs/figbox-doc/manual.pdf"
         ],
         "fonts": [
 
