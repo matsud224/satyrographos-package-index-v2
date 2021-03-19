@@ -10748,6 +10748,118 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-md2latex",
+    "type": "Library",
+    "last_update": "2021-03-17",
+    "versions": [
+      {
+        "version": "0.0.3",
+        "synopsis": "Convert Markdown to LaTeX with SATySFi",
+        "description": "\nConvert Markdown to LaTeX with SATySFi.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-md2latex"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-md2latex/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.10\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-make-latex",
+            "constraint": ">= \"0.2.0\" & < \"0.3.0\""
+          }
+        ],
+        "published_on": "2021-03-17",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-md2latex-doc",
+    "type": "Document",
+    "last_update": "2021-03-17",
+    "versions": [
+      {
+        "version": "0.0.3",
+        "synopsis": "Document of md2latex Package",
+        "description": "\nDocument of md2latex Package.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-md2latex"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-md2latex/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.10\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-md2latex",
+            "constraint": "= \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-03-17",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-musikui",
     "type": "Library",
     "last_update": "2021-02-07",
