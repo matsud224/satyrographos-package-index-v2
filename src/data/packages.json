@@ -7553,6 +7553,222 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-fonts-han-sans-jp",
+    "type": "Font",
+    "last_update": "2021-04-16",
+    "versions": [
+      {
+        "version": "2.003R",
+        "synopsis": "SATySFi Font Package for han sans JP fonts（源ノ角ゴシック）",
+        "description": "\nSATySFi font package for han sans JP fonts（源ノ角ゴシック）.\n\nThis package installs fonts from https://github.com/adobe-fonts/source-han-sans.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "OFL-1.1"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-sans-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-sans-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.4\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-04-16",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-fonts-han-sans-jp-doc",
+    "type": "Document",
+    "last_update": "2021-04-16",
+    "versions": [
+      {
+        "version": "2.003R",
+        "synopsis": "Document of SATySFi Font Package for han sans JP fonts",
+        "description": "\nDocument package for satysfi-fonts-han-sans-jp\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "CC0-1.0"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-sans-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-sans-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-fonts-han-sans-jp",
+            "constraint": "= \"2.003R\""
+          },
+          {
+            "name": "satysfi-lipsum",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-04-16",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-fonts-han-serif-jp",
+    "type": "Font",
+    "last_update": "2021-04-16",
+    "versions": [
+      {
+        "version": "1.001R",
+        "synopsis": "SATySFi Font Package for han serif JP fonts（源ノ明朝）",
+        "description": "\nSATySFi font package for han serif JP fonts（源ノ明朝）.\n\nThis package installs fonts from https://github.com/adobe-fonts/source-han-serif.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "OFL-1.1"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-serif-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-serif-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.4\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-04-16",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-fonts-han-serif-jp-doc",
+    "type": "Document",
+    "last_update": "2021-04-16",
+    "versions": [
+      {
+        "version": "1.001R",
+        "synopsis": "Document of SATySFi Font Package for han serif JP fonts",
+        "description": "\nDocument package for satysfi-fonts-han-serif-jp\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "CC0-1.0"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-serif-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/SATySFi-fonts-han-serif-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.4\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-fonts-han-serif-jp",
+            "constraint": "= \"1.001R\""
+          },
+          {
+            "name": "satysfi-lipsum",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-04-16",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-fonts-inconsolata",
     "type": "Font",
     "last_update": "2021-01-24",
