@@ -1,5 +1,172 @@
 [
   {
+    "name": "satyrographos-snapshot-develop.0.0.6-32-g9dbd61d+2021.04.18",
+    "published_on": "2021-04-19",
+    "packages": [
+      { "name": "satysfi", "version": "0.0.6-32-g9dbd61d" },
+      { "name": "satyrographos", "version": "0.0.2.10" },
+      { "name": "satysfi-arrows-doc", "version": "0.1.0" },
+      { "name": "satysfi-arrows", "version": "0.1.0" },
+      { "name": "satysfi-assert-eq-doc", "version": "0.1.2" },
+      { "name": "satysfi-assert-eq", "version": "0.1.2" },
+      { "name": "satysfi-azmath-doc", "version": "0.0.3" },
+      { "name": "satysfi-azmath", "version": "0.0.3" },
+      { "name": "satysfi-base", "version": "1.4.0" },
+      { "name": "satysfi-bibyfi-doc", "version": "0.0.2" },
+      { "name": "satysfi-bibyfi", "version": "0.0.2" },
+      { "name": "satysfi-cancel", "version": "0.0.0" },
+      { "name": "satysfi-class-exdesign-doc", "version": "0.2" },
+      { "name": "satysfi-class-exdesign", "version": "0.2" },
+      { "name": "satysfi-class-mdbook-satysfi-doc", "version": "0.3.0" },
+      { "name": "satysfi-class-mdbook-satysfi", "version": "0.3.0" },
+      { "name": "satysfi-class-slydifi-doc", "version": "0.2.0" },
+      { "name": "satysfi-class-slydifi", "version": "0.2.0" },
+      { "name": "satysfi-class-stjarticle-doc", "version": "1.3.2" },
+      { "name": "satysfi-class-stjarticle", "version": "1.3.2" },
+      { "name": "satysfi-class-yabaitech-doc", "version": "0.0.7" },
+      { "name": "satysfi-class-yabaitech", "version": "0.0.7" },
+      { "name": "satysfi-debug-show-value-doc", "version": "0.1.2" },
+      { "name": "satysfi-debug-show-value", "version": "0.1.2" },
+      { "name": "satysfi-derive", "version": "1.0.0" },
+      { "name": "satysfi-easytable-doc", "version": "1.1.1" },
+      { "name": "satysfi-easytable", "version": "1.1.1" },
+      { "name": "satysfi-enumitem-doc", "version": "2.0.0" },
+      { "name": "satysfi-enumitem", "version": "2.0.0" },
+      { "name": "satysfi-figbox-doc", "version": "0.1.1" },
+      { "name": "satysfi-figbox", "version": "0.1.1" },
+      {
+        "name": "satysfi-fonts-asana-math-doc",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-asana-math",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-bodoni-star-doc",
+        "version": "2.3+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-bodoni-star", "version": "2.3+satysfi0.0.5" },
+      { "name": "satysfi-fonts-charis-sil-doc", "version": "1.0.0" },
+      { "name": "satysfi-fonts-charis-sil", "version": "1.0.0" },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode-doc",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-cormorant-doc",
+        "version": "3.601+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-cormorant", "version": "3.601+satysfi0.0.5" },
+      { "name": "satysfi-fonts-dejavu-doc", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-dejavu", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-han-sans-jp-doc", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-sans-jp", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-serif-jp-doc", "version": "1.001R" },
+      { "name": "satysfi-fonts-han-serif-jp", "version": "1.001R" },
+      { "name": "satysfi-fonts-inconsolata-doc", "version": "3.001" },
+      { "name": "satysfi-fonts-inconsolata", "version": "3.001" },
+      {
+        "name": "satysfi-fonts-junicode-doc",
+        "version": "1.0002+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-junicode", "version": "1.0002+satysfi0.0.5" },
+      { "name": "satysfi-fonts-noto-emoji-doc", "version": "1.05+uh+2" },
+      { "name": "satysfi-fonts-noto-emoji", "version": "1.05+uh+2" },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc-doc", "version": "2.001+1" },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc", "version": "2.001+1" },
+      {
+        "name": "satysfi-fonts-noto-sans-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-theano-doc",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      {
+        "name": "satysfi-fonts-theano",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      { "name": "satysfi-fss-doc", "version": "0.2.0" },
+      { "name": "satysfi-fss-fontset-bodoni-star", "version": "2.3" },
+      { "name": "satysfi-fss", "version": "0.2.0" },
+      { "name": "satysfi-grcnum-doc", "version": "0.2" },
+      { "name": "satysfi-grcnum", "version": "0.2" },
+      { "name": "satysfi-image-doc", "version": "0.1.0" },
+      { "name": "satysfi-image", "version": "0.1.0" },
+      { "name": "satysfi-json-doc", "version": "1.0.1" },
+      { "name": "satysfi-json", "version": "1.0.1" },
+      { "name": "satysfi-karnaugh-doc", "version": "0.0.1" },
+      { "name": "satysfi-karnaugh", "version": "0.0.1" },
+      { "name": "satysfi-lipsum-doc", "version": "0.2.1" },
+      { "name": "satysfi-lipsum", "version": "0.2.1" },
+      { "name": "satysfi-make-html-doc", "version": "0.1.1" },
+      { "name": "satysfi-make-html", "version": "0.1.1" },
+      { "name": "satysfi-make-latex-doc", "version": "0.2.0" },
+      { "name": "satysfi-make-latex", "version": "0.2.0" },
+      { "name": "satysfi-make-markdown", "version": "0.1.0" },
+      { "name": "satysfi-matrixcd", "version": "0.0.2" },
+      { "name": "satysfi-matrix-doc", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-matrix", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-md2latex-doc", "version": "0.0.3" },
+      { "name": "satysfi-md2latex", "version": "0.0.3" },
+      { "name": "satysfi-musikui-doc", "version": "0.1.1" },
+      { "name": "satysfi-musikui", "version": "0.1.1" },
+      { "name": "satysfi-ncsq-doc", "version": "2.1.0" },
+      { "name": "satysfi-ncsq", "version": "2.1.0" },
+      { "name": "satysfi-num-conversion-doc", "version": "0.1.4" },
+      { "name": "satysfi-num-conversion", "version": "0.1.4" },
+      { "name": "satysfi-quotation-doc", "version": "0.2.0" },
+      { "name": "satysfi-quotation", "version": "0.2.0" },
+      { "name": "satysfi-ruby-doc", "version": "0.1.2" },
+      { "name": "satysfi-ruby", "version": "0.1.2" },
+      { "name": "satysfi-simple-itemize-doc", "version": "1.0.2" },
+      { "name": "satysfi-simple-itemize", "version": "1.0.2" },
+      { "name": "satysfi-siunitx-doc", "version": "0.1.1" },
+      { "name": "satysfi-siunitx", "version": "0.1.1" },
+      { "name": "satysfi-test", "version": "0.0.1" },
+      { "name": "satysfi-texlogo-doc", "version": "0.1.1" },
+      { "name": "satysfi-texlogo", "version": "0.1.1" },
+      { "name": "satysfi-tombo-doc", "version": "0.2.0" },
+      { "name": "satysfi-tombo", "version": "0.2.0" },
+      { "name": "satysfi-uline-doc", "version": "0.2.2" },
+      { "name": "satysfi-uline", "version": "0.2.2" },
+      { "name": "satysfi-zrbase", "version": "0.4.0" }
+    ]
+  },
+  {
     "name": "satyrographos-snapshot-develop.0.0.6-32-g9dbd61d+2021.03.19",
     "published_on": "2021-03-20",
     "packages": [
@@ -2873,6 +3040,173 @@
     ]
   },
   {
+    "name": "satyrographos-snapshot-stable.0.0.6+2021.04.18",
+    "published_on": "2021-04-19",
+    "packages": [
+      { "name": "satysfi", "version": "0.0.6" },
+      { "name": "satyrographos", "version": "0.0.2.10" },
+      { "name": "satysfi-arrows-doc", "version": "0.1.0" },
+      { "name": "satysfi-arrows", "version": "0.1.0" },
+      { "name": "satysfi-assert-eq-doc", "version": "0.1.2" },
+      { "name": "satysfi-assert-eq", "version": "0.1.2" },
+      { "name": "satysfi-azmath-doc", "version": "0.0.3" },
+      { "name": "satysfi-azmath", "version": "0.0.3" },
+      { "name": "satysfi-base", "version": "1.4.0" },
+      { "name": "satysfi-bibyfi-doc", "version": "0.0.2" },
+      { "name": "satysfi-bibyfi", "version": "0.0.2" },
+      { "name": "satysfi-cancel", "version": "0.0.0" },
+      { "name": "satysfi-class-exdesign-doc", "version": "0.2" },
+      { "name": "satysfi-class-exdesign", "version": "0.2" },
+      { "name": "satysfi-class-mdbook-satysfi-doc", "version": "0.3.0" },
+      { "name": "satysfi-class-mdbook-satysfi", "version": "0.3.0" },
+      { "name": "satysfi-class-slydifi-doc", "version": "0.2.0" },
+      { "name": "satysfi-class-slydifi", "version": "0.2.0" },
+      { "name": "satysfi-class-stjarticle-doc", "version": "1.3.2" },
+      { "name": "satysfi-class-stjarticle", "version": "1.3.2" },
+      { "name": "satysfi-class-yabaitech-doc", "version": "0.0.7" },
+      { "name": "satysfi-class-yabaitech", "version": "0.0.7" },
+      { "name": "satysfi-debug-show-value-doc", "version": "0.1.2" },
+      { "name": "satysfi-debug-show-value", "version": "0.1.2" },
+      { "name": "satysfi-derive", "version": "1.0.0" },
+      { "name": "satysfi-easytable-doc", "version": "1.1.1" },
+      { "name": "satysfi-easytable", "version": "1.1.1" },
+      { "name": "satysfi-enumitem-doc", "version": "2.0.0" },
+      { "name": "satysfi-enumitem", "version": "2.0.0" },
+      { "name": "satysfi-figbox-doc", "version": "0.1.1" },
+      { "name": "satysfi-figbox", "version": "0.1.1" },
+      {
+        "name": "satysfi-fonts-asana-math-doc",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-asana-math",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-bodoni-star-doc",
+        "version": "2.3+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-bodoni-star", "version": "2.3+satysfi0.0.5" },
+      { "name": "satysfi-fonts-charis-sil-doc", "version": "1.0.0" },
+      { "name": "satysfi-fonts-charis-sil", "version": "1.0.0" },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode-doc",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-cormorant-doc",
+        "version": "3.601+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-cormorant", "version": "3.601+satysfi0.0.5" },
+      { "name": "satysfi-fonts-dejavu-doc", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-dejavu", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-han-sans-jp-doc", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-sans-jp", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-serif-jp-doc", "version": "1.001R" },
+      { "name": "satysfi-fonts-han-serif-jp", "version": "1.001R" },
+      { "name": "satysfi-fonts-inconsolata-doc", "version": "3.001" },
+      { "name": "satysfi-fonts-inconsolata", "version": "3.001" },
+      {
+        "name": "satysfi-fonts-junicode-doc",
+        "version": "1.0002+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-junicode", "version": "1.0002+satysfi0.0.5" },
+      { "name": "satysfi-fonts-noto-emoji-doc", "version": "1.05+uh+2" },
+      { "name": "satysfi-fonts-noto-emoji", "version": "1.05+uh+2" },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc-doc", "version": "2.001+1" },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc", "version": "2.001+1" },
+      {
+        "name": "satysfi-fonts-noto-sans-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-theano-doc",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      {
+        "name": "satysfi-fonts-theano",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      { "name": "satysfi-fss-doc", "version": "0.2.0" },
+      { "name": "satysfi-fss-fontset-bodoni-star", "version": "2.3" },
+      { "name": "satysfi-fss", "version": "0.2.0" },
+      { "name": "satysfi-grcnum-doc", "version": "0.2" },
+      { "name": "satysfi-grcnum", "version": "0.2" },
+      { "name": "satysfi-image-doc", "version": "0.1.0" },
+      { "name": "satysfi-image", "version": "0.1.0" },
+      { "name": "satysfi-json-doc", "version": "1.0.1" },
+      { "name": "satysfi-json", "version": "1.0.1" },
+      { "name": "satysfi-karnaugh-doc", "version": "0.0.1" },
+      { "name": "satysfi-karnaugh", "version": "0.0.1" },
+      { "name": "satysfi-lipsum-doc", "version": "0.2.1" },
+      { "name": "satysfi-lipsum", "version": "0.2.1" },
+      { "name": "satysfi-make-html-doc", "version": "0.1.1" },
+      { "name": "satysfi-make-html", "version": "0.1.1" },
+      { "name": "satysfi-make-latex-doc", "version": "0.2.0" },
+      { "name": "satysfi-make-latex", "version": "0.2.0" },
+      { "name": "satysfi-make-markdown", "version": "0.1.0" },
+      { "name": "satysfi-matrixcd", "version": "0.0.2" },
+      { "name": "satysfi-matrix-doc", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-matrix", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-md2latex-doc", "version": "0.0.3" },
+      { "name": "satysfi-md2latex", "version": "0.0.3" },
+      { "name": "satysfi-musikui-doc", "version": "0.1.1" },
+      { "name": "satysfi-musikui", "version": "0.1.1" },
+      { "name": "satysfi-ncsq-doc", "version": "2.1.0" },
+      { "name": "satysfi-ncsq", "version": "2.1.0" },
+      { "name": "satysfi-num-conversion-doc", "version": "0.1.4" },
+      { "name": "satysfi-num-conversion", "version": "0.1.4" },
+      { "name": "satysfi-quotation-doc", "version": "0.2.0" },
+      { "name": "satysfi-quotation", "version": "0.2.0" },
+      { "name": "satysfi-ruby-doc", "version": "0.1.2" },
+      { "name": "satysfi-ruby", "version": "0.1.2" },
+      { "name": "satysfi-simple-itemize-doc", "version": "1.0.2" },
+      { "name": "satysfi-simple-itemize", "version": "1.0.2" },
+      { "name": "satysfi-siunitx-doc", "version": "0.1.1" },
+      { "name": "satysfi-siunitx", "version": "0.1.1" },
+      { "name": "satysfi-test", "version": "0.0.1" },
+      { "name": "satysfi-texlogo-doc", "version": "0.1.1" },
+      { "name": "satysfi-texlogo", "version": "0.1.1" },
+      { "name": "satysfi-tombo-doc", "version": "0.2.0" },
+      { "name": "satysfi-tombo", "version": "0.2.0" },
+      { "name": "satysfi-uline-doc", "version": "0.2.2" },
+      { "name": "satysfi-uline", "version": "0.2.2" },
+      { "name": "satysfi-zrbase", "version": "0.4.0" }
+    ]
+  },
+  {
     "name": "satyrographos-snapshot-stable.0.0.6+2021.03.19",
     "published_on": "2021-03-20",
     "packages": [
@@ -3334,6 +3668,166 @@
       { "name": "satysfi-siunitx-doc", "version": "0.1.1" },
       { "name": "satysfi-siunitx", "version": "0.1.1" },
       { "name": "satysfi-test", "version": "0.0.1" },
+      { "name": "satysfi-texlogo-doc", "version": "0.1.1" },
+      { "name": "satysfi-texlogo", "version": "0.1.1" },
+      { "name": "satysfi-tombo-doc", "version": "0.2.0" },
+      { "name": "satysfi-tombo", "version": "0.2.0" },
+      { "name": "satysfi-uline-doc", "version": "0.2.2" },
+      { "name": "satysfi-uline", "version": "0.2.2" },
+      { "name": "satysfi-zrbase", "version": "0.4.0" }
+    ]
+  },
+  {
+    "name": "satyrographos-snapshot-stable.0.0.5+2021.04.18",
+    "published_on": "2021-04-19",
+    "packages": [
+      { "name": "satysfi", "version": "0.0.5" },
+      { "name": "satyrographos", "version": "0.0.2.10" },
+      { "name": "satysfi-assert-eq-doc", "version": "0.1.2" },
+      { "name": "satysfi-assert-eq", "version": "0.1.2" },
+      { "name": "satysfi-azmath-doc", "version": "0.0.3" },
+      { "name": "satysfi-azmath", "version": "0.0.3" },
+      { "name": "satysfi-base", "version": "1.4.0" },
+      { "name": "satysfi-bibyfi-doc", "version": "0.0.2" },
+      { "name": "satysfi-bibyfi", "version": "0.0.2" },
+      { "name": "satysfi-cancel", "version": "0.0.0" },
+      { "name": "satysfi-class-exdesign-doc", "version": "0.2" },
+      { "name": "satysfi-class-exdesign", "version": "0.2" },
+      { "name": "satysfi-class-mdbook-satysfi-doc", "version": "0.3.0" },
+      { "name": "satysfi-class-mdbook-satysfi", "version": "0.3.0" },
+      { "name": "satysfi-class-slydifi-doc", "version": "0.2.0" },
+      { "name": "satysfi-class-slydifi", "version": "0.2.0" },
+      { "name": "satysfi-class-stjarticle-doc", "version": "1.3.2" },
+      { "name": "satysfi-class-stjarticle", "version": "1.3.2" },
+      { "name": "satysfi-class-yabaitech-doc", "version": "0.0.7" },
+      { "name": "satysfi-class-yabaitech", "version": "0.0.7" },
+      { "name": "satysfi-debug-show-value-doc", "version": "0.1.2" },
+      { "name": "satysfi-debug-show-value", "version": "0.1.2" },
+      { "name": "satysfi-derive", "version": "1.0.0" },
+      { "name": "satysfi-easytable-doc", "version": "1.1.1" },
+      { "name": "satysfi-easytable", "version": "1.1.1" },
+      { "name": "satysfi-enumitem-doc", "version": "2.0.0" },
+      { "name": "satysfi-enumitem", "version": "2.0.0" },
+      {
+        "name": "satysfi-fonts-asana-math-doc",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-asana-math",
+        "version": "000.958+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-bodoni-star-doc",
+        "version": "2.3+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-bodoni-star", "version": "2.3+satysfi0.0.5" },
+      { "name": "satysfi-fonts-charis-sil-doc", "version": "1.0.0" },
+      { "name": "satysfi-fonts-charis-sil", "version": "1.0.0" },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode-doc",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-computer-modern-unicode",
+        "version": "0.7.0+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-cormorant-doc",
+        "version": "3.601+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-cormorant", "version": "3.601+satysfi0.0.5" },
+      { "name": "satysfi-fonts-dejavu-doc", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-dejavu", "version": "2.37+satysfi0.0.4" },
+      { "name": "satysfi-fonts-han-sans-jp-doc", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-sans-jp", "version": "2.003R" },
+      { "name": "satysfi-fonts-han-serif-jp-doc", "version": "1.001R" },
+      { "name": "satysfi-fonts-han-serif-jp", "version": "1.001R" },
+      { "name": "satysfi-fonts-inconsolata-doc", "version": "3.001" },
+      { "name": "satysfi-fonts-inconsolata", "version": "3.001" },
+      {
+        "name": "satysfi-fonts-junicode-doc",
+        "version": "1.0002+satysfi0.0.5"
+      },
+      { "name": "satysfi-fonts-junicode", "version": "1.0002+satysfi0.0.5" },
+      { "name": "satysfi-fonts-noto-emoji-doc", "version": "1.05+uh+2" },
+      { "name": "satysfi-fonts-noto-emoji", "version": "1.05+uh+2" },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc-doc", "version": "2.001+1" },
+      { "name": "satysfi-fonts-noto-sans-cjk-sc", "version": "2.001+1" },
+      {
+        "name": "satysfi-fonts-noto-sans-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-sans",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-cjk-jp",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif-doc",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-noto-serif",
+        "version": "2.001+1+satysfi0.0.4"
+      },
+      {
+        "name": "satysfi-fonts-theano-doc",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      {
+        "name": "satysfi-fonts-theano",
+        "version": "2.0+satysfi0.0.3+satyrograhos0.0.2"
+      },
+      { "name": "satysfi-fss-doc", "version": "0.2.0" },
+      { "name": "satysfi-fss-fontset-bodoni-star", "version": "2.3" },
+      { "name": "satysfi-fss", "version": "0.2.0" },
+      { "name": "satysfi-grcnum-doc", "version": "0.2" },
+      { "name": "satysfi-grcnum", "version": "0.2" },
+      { "name": "satysfi-json-doc", "version": "1.0.1" },
+      { "name": "satysfi-json", "version": "1.0.1" },
+      { "name": "satysfi-karnaugh-doc", "version": "0.0.1" },
+      { "name": "satysfi-karnaugh", "version": "0.0.1" },
+      { "name": "satysfi-lipsum-doc", "version": "0.2.1" },
+      { "name": "satysfi-lipsum", "version": "0.2.1" },
+      { "name": "satysfi-make-html-doc", "version": "0.1.1" },
+      { "name": "satysfi-make-html", "version": "0.1.1" },
+      { "name": "satysfi-make-latex-doc", "version": "0.2.0" },
+      { "name": "satysfi-make-latex", "version": "0.2.0" },
+      { "name": "satysfi-make-markdown", "version": "0.1.0" },
+      { "name": "satysfi-matrixcd", "version": "0.0.2" },
+      { "name": "satysfi-matrix-doc", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-matrix", "version": "0.0.1+dev2019.10.15" },
+      { "name": "satysfi-md2latex-doc", "version": "0.0.3" },
+      { "name": "satysfi-md2latex", "version": "0.0.3" },
+      { "name": "satysfi-musikui-doc", "version": "0.1.1" },
+      { "name": "satysfi-musikui", "version": "0.1.1" },
+      { "name": "satysfi-ncsq-doc", "version": "2.0.0" },
+      { "name": "satysfi-ncsq", "version": "2.0.0" },
+      { "name": "satysfi-num-conversion-doc", "version": "0.1.4" },
+      { "name": "satysfi-num-conversion", "version": "0.1.4" },
+      { "name": "satysfi-quotation-doc", "version": "0.2.0" },
+      { "name": "satysfi-quotation", "version": "0.2.0" },
+      { "name": "satysfi-ruby-doc", "version": "0.1.2" },
+      { "name": "satysfi-ruby", "version": "0.1.2" },
+      { "name": "satysfi-simple-itemize-doc", "version": "1.0.2" },
+      { "name": "satysfi-simple-itemize", "version": "1.0.2" },
+      { "name": "satysfi-siunitx-doc", "version": "0.1.1" },
+      { "name": "satysfi-siunitx", "version": "0.1.1" },
       { "name": "satysfi-texlogo-doc", "version": "0.1.1" },
       { "name": "satysfi-texlogo", "version": "0.1.1" },
       { "name": "satysfi-tombo-doc", "version": "0.2.0" },

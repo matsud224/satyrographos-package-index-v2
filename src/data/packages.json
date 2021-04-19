@@ -7588,10 +7588,16 @@
         ],
         "published_on": "2021-04-16",
         "documents": [
-
+          "./docs/fonts-han-sans-jp-doc/doc-fonts-han-sans-jp.pdf"
         ],
         "fonts": [
-
+          "SourceHanSansJP-Bold.otf",
+          "SourceHanSansJP-ExtraLight.otf",
+          "SourceHanSansJP-Heavy.otf",
+          "SourceHanSansJP-Light.otf",
+          "SourceHanSansJP-Medium.otf",
+          "SourceHanSansJP-Normal.otf",
+          "SourceHanSansJP-Regular.otf"
         ],
         "tags": [
 
@@ -7696,10 +7702,16 @@
         ],
         "published_on": "2021-04-16",
         "documents": [
-
+          "./docs/fonts-han-serif-jp-doc/doc-fonts-han-serif-jp.pdf"
         ],
         "fonts": [
-
+          "SourceHanSerifJP-Bold.otf",
+          "SourceHanSerifJP-ExtraLight.otf",
+          "SourceHanSerifJP-Heavy.otf",
+          "SourceHanSerifJP-Light.otf",
+          "SourceHanSerifJP-Medium.otf",
+          "SourceHanSerifJP-Regular.otf",
+          "SourceHanSerifJP-SemiBold.otf"
         ],
         "tags": [
 
@@ -10027,7 +10039,7 @@
         ],
         "published_on": "2021-03-26",
         "documents": [
-
+          "./docs/image-doc/manual-ja.pdf"
         ],
         "fonts": [
 
@@ -10139,7 +10151,7 @@
         ],
         "published_on": "2021-03-30",
         "documents": [
-
+          "./docs/json-doc/manual-ja.pdf"
         ],
         "fonts": [
 
