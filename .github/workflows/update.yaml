@@ -40,6 +40,7 @@ jobs:
           cd repo2json
           cp -rL $HOME/.satysfi/dist/docs .
           cp -rL $HOME/.satysfi/dist/fonts .
+          cp -rL $HOME/.satysfi/dist/packages .
           find ./docs -name "*.pdf" -type f -exec ../scripts/remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           opam switch create build-repo2json 4.10.0
@@ -48,6 +49,7 @@ jobs:
           make run
           cd ..
           scripts/add-github-repo-info.rb repo2json/packages.json $GH_API_TOKEN
+          scripts/add-command-info.rb repo2json/packages.json repo2json/packages
           rm -rf static/docs
           cp -rL repo2json/docs static/docs
           scripts/update-check.sh
