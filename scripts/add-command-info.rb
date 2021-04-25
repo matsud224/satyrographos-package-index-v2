@@ -12,7 +12,7 @@ db.each do |p|
   block-commands = []
   math-commands = []
 
-  package_path = Pathname(package_root_path)) / p['name']
+  package_path = Pathname(package_root_path) / p['name']
   if Dir.exists?(package_path) then
     `grep -rn `
   end
