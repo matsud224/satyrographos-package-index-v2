@@ -8,18 +8,20 @@ db = JSON.parse(File.read(db_path))
 package_root_path = ARGV[1]
 
 db.each do |p|
-  inline-commands = []
-  block-commands = []
-  math-commands = []
+  inline_commands = []
+  block_commands = []
+  math_commands = []
 
   package_path = Pathname(package_root_path) / p['name']
   if Dir.exists?(package_path) then
-    `grep -rn `
+    inline_commands = `grep -Rh let-inline #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/)
+    block_commands = `grep -Rh let-block #{package_path} | grep -ho '\\+[0-9a-zA-Z-]*'`.split(/\R/)
+    inline_math = `grep -Rh let-math #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/)
   end
 
-  latest['inline-commands'] = inline-commands
-  latest['block-commands'] = block-commands
-  latest['math-commands'] = math-commands
+  latest['inline-commands'] = inline_commands
+  latest['block-commands'] = block_commands
+  latest['math-commands'] = math_commands
 end
 
 File.open(db_path, 'w') do |f|
