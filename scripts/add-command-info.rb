@@ -19,6 +19,7 @@ db.each do |p|
     inline_math = `grep -Rh let-math #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/)
   end
 
+  latest = p['versions'][0]
   latest['inline-commands'] = inline_commands
   latest['block-commands'] = block_commands
   latest['math-commands'] = math_commands
