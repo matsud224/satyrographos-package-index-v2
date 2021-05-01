@@ -86,10 +86,13 @@ const createIndex = async (pkgNodes, type, cache) => {
     const description = node.versions[0].description
     const tags = node.versions[0].tags.join(' ')
     const fonts = node.versions[0].fonts.join(' ')
+    const inline_commands = node.versions[0].inline_commands.join(' ')
+    const block_commands = node.versions[0].block_commands.join(' ')
+    const math_commands = node.versions[0].math_commands.join(' ')
 
     if (!name.endsWith('-doc')) {
       packages.push({
-        name, synopsis, description, tags, fonts
+        name, synopsis, description, tags, fonts, inline_commands, block_commands, math_commands
       })
       store[name] = {
         synopsis
@@ -103,6 +106,9 @@ const createIndex = async (pkgNodes, type, cache) => {
     this.field(`description`)
     this.field(`tags`)
     this.field(`fonts`)
+    this.field(`inline_commands`)
+    this.field(`block_commands`)
+    this.field(`math_commands`)
     for (const pkg of packages) {
       this.add(pkg)
     }

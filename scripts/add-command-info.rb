@@ -20,9 +20,9 @@ db.each do |p|
   end
 
   p['versions'].each do |v|  # FIXME: per-version
-    v['inline-commands'] = inline_commands
-    v['block-commands'] = block_commands
-    v['math-commands'] = math_commands
+    v['inline_commands'] = inline_commands
+    v['block_commands'] = block_commands
+    v['math_commands'] = math_commands
   end
 end
 
