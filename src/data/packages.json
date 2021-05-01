@@ -4356,6 +4356,71 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-class-jlreq",
+    "type": "Class",
+    "last_update": "2021-04-26",
+    "versions": [
+      {
+        "version": "0.0.2",
+        "synopsis": "A document class for SATySFi",
+        "description": "",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "BSD-2-Clause-FreeBSD"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-class-jlreq/"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-class-jlreq/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"0.0.2\""
+          },
+          {
+            "name": "satysfi-fss",
+            "constraint": ">= \"0.0.2\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\""
+          }
+        ],
+        "published_on": "2021-04-26",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline-commands": [
+
+        ],
+        "block-commands": [
+
+        ],
+        "math-commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-class-mdbook-satysfi",
     "type": "Class",
     "last_update": "2021-03-27",
