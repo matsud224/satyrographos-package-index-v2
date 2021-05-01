@@ -27,7 +27,7 @@ const SearchForm = ({ initialQuery = "" }) => {
               id="search-input"
               type="search"
               value={query}
-              placeholder="package name, keyword, tag, font file..."
+              placeholder="package name, keyword, tag, command name, font file..."
               onChange={handleChange}
             />
           </Col>
