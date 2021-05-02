@@ -369,6 +369,57 @@ export default function PackageDetails({ data }) {
           </Col>
         </Row>
       </Conditional>
+      <Conditional condition={thisVersionInfo.inline_commands.length > 0}>
+        <Row className="my-3">
+          <Col>
+            <h5>Inline commands (beta)</h5>
+            <ExpandTableItem
+              items={thisVersionInfo.inline_commands}
+              initialNumRows={5}
+              rowFunc={f => (
+                <tr key={f}>
+                  <td>{f}</td>
+                </tr>
+              )}
+              isSmall={true}
+            />
+          </Col>
+        </Row>
+      </Conditional>
+      <Conditional condition={thisVersionInfo.block_commands.length > 0}>
+        <Row className="my-3">
+          <Col>
+            <h5>Block commands (beta)</h5>
+            <ExpandTableItem
+              items={thisVersionInfo.block_commands}
+              initialNumRows={5}
+              rowFunc={f => (
+                <tr key={f}>
+                  <td>{f}</td>
+                </tr>
+              )}
+              isSmall={true}
+            />
+          </Col>
+        </Row>
+      </Conditional>
+      <Conditional condition={thisVersionInfo.math_commands.length > 0}>
+        <Row className="my-3">
+          <Col>
+            <h5>Math commands (beta)</h5>
+            <ExpandTableItem
+              items={thisVersionInfo.math_commands}
+              initialNumRows={5}
+              rowFunc={f => (
+                <tr key={f}>
+                  <td>{f}</td>
+                </tr>
+              )}
+              isSmall={true}
+            />
+          </Col>
+        </Row>
+      </Conditional>
       <Conditional condition={thisVersionInfo.fonts.length > 0}>
         <Row className="my-3">
           <Col>
@@ -419,6 +470,9 @@ export const query = graphql`
               license
               synopsis
               version
+              inline_commands
+              block_commands
+              math_commands
             }
           }
         }
