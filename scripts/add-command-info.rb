@@ -14,9 +14,9 @@ db.each do |p|
 
   package_path = Pathname(package_root_path) / (p['name'].delete_prefix('satysfi-'))
   if Dir.exists?(package_path) then
-    inline_commands = `grep -Rh let-inline #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/).uniq
-    block_commands = `grep -Rh let-block #{package_path} | grep -ho '\\+[0-9a-zA-Z-]*'`.split(/\R/).uniq
-    math_commands = `grep -Rh let-math #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/).uniq
+    inline_commands = `grep -Rh let-inline #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/).uniq.sort
+    block_commands = `grep -Rh let-block #{package_path} | grep -ho '\\+[0-9a-zA-Z-]*'`.split(/\R/).uniq.sort
+    math_commands = `grep -Rh let-math #{package_path} | grep -ho '\\\\[0-9a-zA-Z-]*'`.split(/\R/).uniq.sort
   end
 
   p['versions'].each do |v|  # FIXME: per-version
