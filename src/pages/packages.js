@@ -14,7 +14,7 @@ export default function PackageList({ data, location }) {
   const index = Index.load(data.LunrIndex.index)
   let results = []
   try {
-    results = index.search(q).map(({ ref }) => {
+    results = index.search(q.split(/\s+/).map(s => `*${s}*`).join(' ')).map(({ ref }) => {
       return {
         name: ref,
         ...store[ref],
