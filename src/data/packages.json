@@ -6453,8 +6453,66 @@
   {
     "name": "satysfi-cancel",
     "type": "Library",
-    "last_update": "2020-02-22",
+    "last_update": "2021-05-15",
     "versions": [
+      {
+        "version": "0.0.1",
+        "synopsis": "The cancel package",
+        "description": "\nThe SATySFi equivalent of the LateX's cancel package.\n",
+        "maintainer": [
+          "Yu Shimura <mail@yuhr.org>"
+        ],
+        "authors": [
+          "Yu Shimura <mail@yuhr.org>"
+        ],
+        "license": [
+          "CC0-1.0"
+        ],
+        "homepage": [
+          "https://github.com/yuhr/satysfi-cancel"
+        ],
+        "bug_reports": [
+          "https://github.com/yuhr/satysfi-cancel/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-05-15",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\tcancel",
+          "\\txcancel"
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+          "\\cancel",
+          "\\tcancel",
+          "\\text",
+          "\\txcancel",
+          "\\xcancel"
+        ]
+      },
       {
         "version": "0.0.0",
         "synopsis": "The cancel package",
