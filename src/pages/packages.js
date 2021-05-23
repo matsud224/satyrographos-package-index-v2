@@ -1,28 +1,88 @@
-import React from "react"
+import React, { Component } from "react"
 import Layout from "../components/layout"
 import SearchForm from "../components/search-form"
-import { Index } from "lunr"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { getPackageAbbrevName } from "../components/common"
 import { Table } from "react-bootstrap"
+import Axios from "axios"
+import * as JsSearch from "js-search"
+
+class SearchResults extends Component {
+  state = {
+    packageList: [],
+    searchResults: [],
+    isLoading: true,
+    isError: false,
+  }
+
+  async componentDidMount() {
+    Axios.get("search.json")
+      .then(result => {
+        const packageList = result.data
+        this.setState({ packageList })
+        this.rebuildIndex()
+      })
+      .catch(err => {
+        this.setState({ isError: true })
+        console.log("====================================")
+        console.log(`Something bad happened while fetching the data\n${err}`)
+        console.log("====================================")
+      })
+  }
+
+  rebuildIndex = () => {
+    const { packageList } = this.state
+		const searchQuery = this.props.searchQuery
+    const dataToSearch = new JsSearch.Search("name")
+
+    dataToSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy()
+    dataToSearch.sanitizer = new JsSearch.LowerCaseSanitizer()
+
+    dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("name")
+    dataToSearch.addIndex("name")
+    dataToSearch.addIndex(["versions", "0", "synopsis"])
+    dataToSearch.addIndex(["versions", "0", "description"])
+    dataToSearch.addIndex(["versions", "0", "fonts"])
+    dataToSearch.addIndex(["versions", "0", "tags"])
+    dataToSearch.addIndex(["versions", "0", "inline_commands"])
+    dataToSearch.addIndex(["versions", "0", "block_commands"])
+    dataToSearch.addIndex(["versions", "0", "math_commands"])
+    dataToSearch.addDocuments(packageList) // adds the data to be searched
+
+    const searchResults = searchQuery === "" ? packageList : dataToSearch.search(searchQuery)
+
+    this.setState({
+			searchResults,
+			isLoading: false
+		})
+  }
+
+  render() {
+    const { searchResults } = this.state
+    return (
+			<>
+				<tbody>
+					{searchResults.map(item => {
+						return (
+							<tr key={item.name}>
+								<td>
+									<Link to={`/packages/${getPackageAbbrevName(item.name)}`}>
+										{getPackageAbbrevName(item.name)}
+									</Link>
+								</td>
+								<td>{item.versions[0].synopsis}</td>
+							</tr>
+						)
+					})}
+				</tbody>
+			</>
+		)
+  }
+}
 
 export default function PackageList({ data, location }) {
   const params = new URLSearchParams(location.search.slice(1))
   const q = params.get("q") || ""
-
-  const { store } = data.LunrIndex
-  const index = Index.load(data.LunrIndex.index)
-  let results = []
-  try {
-    results = index.search(q.split(/\s+/).map(s => `*${s}*`).join(' ')).map(({ ref }) => {
-      return {
-        name: ref,
-        ...store[ref],
-      }
-    })
-  } catch (error) {
-    console.log(error)
-  }
 
   return (
     <Layout
@@ -35,7 +95,7 @@ export default function PackageList({ data, location }) {
       <div className="my-3">
         {q ? (
           <h4>
-            Search results for &quot;{q}&quot;: {results.length} packages
+            Search results for &quot;{q}&quot;
           </h4>
         ) : null}
         <SearchForm initialQuery={q} />
@@ -46,28 +106,9 @@ export default function PackageList({ data, location }) {
               <th>Synopsis</th>
             </tr>
           </thead>
-          <tbody>
-            {results.map(result => {
-              return (
-                <tr key={result.name}>
-                  <td>
-                    <Link to={`/packages/${getPackageAbbrevName(result.name)}`}>
-                      {getPackageAbbrevName(result.name)}
-                    </Link>
-                  </td>
-                  <td>{result.synopsis}</td>
-                </tr>
-              )
-            })}
-          </tbody>
+					<SearchResults searchQuery={q}/>
         </Table>
       </div>
     </Layout>
   )
 }
-
-export const pageQuery = graphql`
-  query {
-    LunrIndex
-  }
-`

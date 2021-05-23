@@ -1,9 +1,13 @@
 const { GraphQLJSONObject } = require(`graphql-type-json`)
-const lunr = require(`lunr`)
 
+const fs = require("fs")
 const path = require("path")
 const pkgdata = require("./src/data/packages.json")
 const ssdata = require("./src/data/snapshots.json")
+
+fs.copyFile("./src/data/packages.json", "./static/search.json", (err) => {
+  if (err) throw err;
+})
 
 function getPackageAbbrevName(name) {
   if (name.startsWith('satysfi-'))
@@ -68,55 +72,6 @@ exports.createPages = ({ graphql, actions }) => {
       context: node,
     })
   })
-}
-
-const createIndex = async (pkgNodes, type, cache) => {
-	const cacheKey = `IndexLunr`
-  const cached = await cache.get(cacheKey)
-  if (cached) {
-    return cached
-  }
-
-  const packages = []
-	const store = {}
-
-  for (const node of pkgNodes) {
-    const name = node.name
-    const synopsis = node.versions[0].synopsis
-    const description = node.versions[0].description
-    const tags = node.versions[0].tags.join(' ')
-    const fonts = node.versions[0].fonts.join(' ')
-    const inline_commands = node.versions[0].inline_commands.join(' ')
-    const block_commands = node.versions[0].block_commands.join(' ')
-    const math_commands = node.versions[0].math_commands.join(' ')
-
-    if (!name.endsWith('-doc')) {
-      packages.push({
-        name, synopsis, description, tags, fonts, inline_commands, block_commands, math_commands
-      })
-      store[name] = {
-        synopsis
-      }
-    }
-  }
-  const index = lunr(function() {
-    this.ref(`name`)
-    this.field(`name`)
-    this.field(`synopsis`)
-    this.field(`description`)
-    this.field(`tags`)
-    this.field(`fonts`)
-    this.field(`inline_commands`)
-    this.field(`block_commands`)
-    this.field(`math_commands`)
-    for (const pkg of packages) {
-      this.add(pkg)
-    }
-  })
-
-	const json = { index: index.toJSON(), store }
-  await cache.set(cacheKey, json)
-  return json
 }
 
 exports.createResolvers = ({ cache, createResolvers }) => {
