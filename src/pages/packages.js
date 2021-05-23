@@ -18,7 +18,7 @@ class SearchResults extends Component {
   async componentDidMount() {
     Axios.get("/search.json")
       .then(result => {
-        const packageList = result.data
+        const packageList = result.data.filter(pkg => pkg.name.endsWith('-doc'))
         this.setState({ packageList })
         this.rebuildIndex()
       })
