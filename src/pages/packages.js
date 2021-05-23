@@ -57,7 +57,7 @@ class SearchResults extends Component {
   render() {
     const { packageList, search } = this.state
 		const searchQuery = this.props.searchQuery
-    const searchResults = searchQuery === "" ? packageList : search.search(searchQuery)
+    const searchResults = search === undefined || searchQuery === "" ? packageList : search.search(searchQuery)
     return (
 			<>
 				<tbody>
