@@ -15,7 +15,7 @@ const SearchForm = ({ initialQuery = "" }) => {
     e.preventDefault()
     // `inputEl.current` points to the mounted search input element
     const q = inputEl.current.value
-    navigate(`/packages?q=${q}`)
+    navigate(`/packages?q=${encodeURIComponent(q)}`)
   }
   return (
     <div className="my-3">

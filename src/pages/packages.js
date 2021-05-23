@@ -81,7 +81,7 @@ class SearchResults extends Component {
 
 export default function PackageList({ data, location }) {
   const params = new URLSearchParams(location.search.slice(1))
-  const q = params.get("q") || ""
+  const q = decodeURIComponent(params.get("q")) || ""
 
   return (
     <Layout
