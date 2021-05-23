@@ -16,7 +16,7 @@ class SearchResults extends Component {
   }
 
   async componentDidMount() {
-    Axios.get("search.json")
+    Axios.get("/search.json")
       .then(result => {
         const packageList = result.data
         this.setState({ packageList })
