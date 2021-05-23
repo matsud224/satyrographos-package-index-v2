@@ -10,7 +10,7 @@ import * as JsSearch from "js-search"
 class SearchResults extends Component {
   state = {
     packageList: [],
-    searchResults: [],
+    search: undefined,
     isLoading: true,
     isError: false,
   }
@@ -32,7 +32,6 @@ class SearchResults extends Component {
 
   rebuildIndex = () => {
     const { packageList } = this.state
-		const searchQuery = this.props.searchQuery
     const dataToSearch = new JsSearch.Search("name")
 
     dataToSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy()
@@ -49,16 +48,16 @@ class SearchResults extends Component {
     dataToSearch.addIndex(["versions", "0", "math_commands"])
     dataToSearch.addDocuments(packageList) // adds the data to be searched
 
-    const searchResults = searchQuery === "" ? packageList : dataToSearch.search(searchQuery)
-
     this.setState({
-			searchResults,
+      search: dataToSearch,
 			isLoading: false
 		})
   }
 
   render() {
-    const { searchResults } = this.state
+    const { packageList, search } = this.state
+		const searchQuery = this.props.searchQuery
+    const searchResults = searchQuery === "" ? packageList : search.search(searchQuery)
     return (
 			<>
 				<tbody>
