@@ -18572,6 +18572,140 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-railway",
+    "type": "Library",
+    "last_update": "2021-06-06",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "Drawing library for SATySFi",
+        "description": "\nDrawing library for SATySFi.\n",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-railway"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-railway/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-06-06",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-railway-doc",
+    "type": "Document",
+    "last_update": "2021-06-06",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "Drawing library for SATySFi",
+        "description": "\nDocument for satysfi-railway, drawing library for SATySFi.\n",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-railway"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-railway/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-railway",
+            "constraint": "= \"0.1.0\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-06-06",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-ruby",
     "type": "Library",
     "last_update": "2020-09-30",
