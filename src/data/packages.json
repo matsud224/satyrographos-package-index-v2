@@ -6724,8 +6724,12 @@
 
         ],
         "inline_commands": [
+          "\\figure",
           "\\footnote",
           "\\pagenum",
+          "\\ref",
+          "\\ref-page",
+          "\\table",
           "\\textbf",
           "\\textgt",
           "\\textit",
@@ -6735,6 +6739,7 @@
         ],
         "block_commands": [
           "+chapter",
+          "+figure",
           "+p",
           "+p-en",
           "+p-ja",
@@ -6742,7 +6747,8 @@
           "+pn",
           "+section",
           "+subsection",
-          "+subsubsection"
+          "+subsubsection",
+          "+table"
         ],
         "math_commands": [
 
@@ -6792,8 +6798,12 @@
 
         ],
         "inline_commands": [
+          "\\figure",
           "\\footnote",
           "\\pagenum",
+          "\\ref",
+          "\\ref-page",
+          "\\table",
           "\\textbf",
           "\\textgt",
           "\\textit",
@@ -6803,6 +6813,7 @@
         ],
         "block_commands": [
           "+chapter",
+          "+figure",
           "+p",
           "+p-en",
           "+p-ja",
@@ -6810,7 +6821,8 @@
           "+pn",
           "+section",
           "+subsection",
-          "+subsubsection"
+          "+subsubsection",
+          "+table"
         ],
         "math_commands": [
 
@@ -7485,9 +7497,6 @@
           "\\cond-item",
           "\\ctx",
           "\\emph",
-          "\\fig-abs-pos",
-          "\\fig-inline",
-          "\\fig-on-right",
           "\\footnote",
           "\\footnotemark",
           "\\footnotetext",
@@ -7507,11 +7516,6 @@
         "block_commands": [
           "+ctx",
           "+enumerate-overlay",
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right",
           "+frame",
           "+frame-nt",
           "+ghost",
@@ -7589,9 +7593,6 @@
           "\\cond-item",
           "\\ctx",
           "\\emph",
-          "\\fig-abs-pos",
-          "\\fig-inline",
-          "\\fig-on-right",
           "\\footnote",
           "\\footnotemark",
           "\\footnotetext",
@@ -7611,11 +7612,6 @@
         "block_commands": [
           "+ctx",
           "+enumerate-overlay",
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right",
           "+frame",
           "+frame-nt",
           "+ghost",
@@ -7685,9 +7681,6 @@
           "\\cond-item",
           "\\ctx",
           "\\emph",
-          "\\fig-abs-pos",
-          "\\fig-inline",
-          "\\fig-on-right",
           "\\footnote",
           "\\footnotemark",
           "\\footnotetext",
@@ -7707,11 +7700,6 @@
         "block_commands": [
           "+ctx",
           "+enumerate-overlay",
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right",
           "+frame",
           "+frame-nt",
           "+ghost",
@@ -11146,7 +11134,10 @@
         ],
         "inline_commands": [
           "\\fig-abs-pos",
+          "\\fig-block",
+          "\\fig-center",
           "\\fig-inline",
+          "\\fig-on-left",
           "\\fig-on-right"
         ],
         "block_commands": [
@@ -11209,7 +11200,10 @@
         ],
         "inline_commands": [
           "\\fig-abs-pos",
+          "\\fig-block",
+          "\\fig-center",
           "\\fig-inline",
+          "\\fig-on-left",
           "\\fig-on-right"
         ],
         "block_commands": [
@@ -11272,7 +11266,10 @@
         ],
         "inline_commands": [
           "\\fig-abs-pos",
+          "\\fig-block",
+          "\\fig-center",
           "\\fig-inline",
+          "\\fig-on-left",
           "\\fig-on-right"
         ],
         "block_commands": [
