@@ -18612,7 +18612,7 @@
         ],
         "published_on": "2021-06-06",
         "documents": [
-
+          "./docs/railway-doc/manual.pdf"
         ],
         "fonts": [
 
@@ -18621,7 +18621,7 @@
 
         ],
         "inline_commands": [
-
+          "\\uwave"
         ],
         "block_commands": [
 
