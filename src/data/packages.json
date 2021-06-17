@@ -8167,6 +8167,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8183,8 +8184,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8280,6 +8280,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8296,8 +8297,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8393,6 +8393,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8409,8 +8410,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8506,6 +8506,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8522,8 +8523,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8619,6 +8619,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8635,8 +8636,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8732,6 +8732,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8748,8 +8749,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8845,6 +8845,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8861,8 +8862,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
@@ -8958,6 +8958,7 @@
           "\\br",
           "\\cite",
           "\\dfn",
+          "\\embed-url",
           "\\emph",
           "\\figure",
           "\\footnote",
@@ -8974,8 +8975,7 @@
           "\\ref-table",
           "\\ref-theorem",
           "\\review-comment",
-          "\\table",
-          "\\url"
+          "\\table"
         ],
         "block_commands": [
           "+assumption",
