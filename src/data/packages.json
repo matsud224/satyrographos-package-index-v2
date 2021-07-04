@@ -16043,6 +16043,132 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-latexcmds",
+    "type": "Library",
+    "last_update": "2021-07-01",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "LaTeX-like commands in SATySFi",
+        "description": "LaTeX-like commands in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-07-01",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-latexcmds-doc",
+    "type": "Document",
+    "last_update": "2021-07-03",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "Document of satysfi-latexcmds",
+        "description": "Document of satysfi-latexcmds",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-latexcmds",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-07-03",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-lib",
     "type": "Library",
     "last_update": "2019-11-19",
