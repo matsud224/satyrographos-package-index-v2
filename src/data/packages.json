@@ -7542,8 +7542,108 @@
   {
     "name": "satysfi-class-slydifi",
     "type": "Class",
-    "last_update": "2021-05-23",
+    "last_update": "2021-07-16",
     "versions": [
+      {
+        "version": "0.4.0",
+        "synopsis": "A SATySFi document class for creating presentations slides",
+        "description": "A SATySFi document class for creating presentations slides.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/slydifi"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/slydifi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": ">= \"2.0.0\" & < \"3.0.0\""
+          },
+          {
+            "name": "satysfi-figbox",
+            "constraint": ">= \"0.1.3\" & < \"0.2.0\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.0.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-railway",
+            "constraint": ">= \"0.1.0\" < \"0.2.0\""
+          }
+        ],
+        "published_on": "2021-07-16",
+        "documents": [
+          "./docs/class-slydifi-doc/slydifi.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\SLyDIFi",
+          "\\br",
+          "\\code",
+          "\\cond-item",
+          "\\ctx",
+          "\\emph",
+          "\\footnote",
+          "\\footnotemark",
+          "\\footnotetext",
+          "\\ghost",
+          "\\link",
+          "\\listing",
+          "\\phantom",
+          "\\select",
+          "\\set-item",
+          "\\set-param",
+          "\\show-layer",
+          "\\strike",
+          "\\text-color",
+          "\\textbf",
+          "\\uline"
+        ],
+        "block_commands": [
+          "+ctx",
+          "+enumerate-overlay",
+          "+frame",
+          "+frame-nt",
+          "+ghost",
+          "+listing",
+          "+listing-overlay",
+          "+make-title",
+          "+multiframe",
+          "+p",
+          "+phantom",
+          "+quote",
+          "+section",
+          "+select",
+          "+set-param",
+          "+show-in-order"
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.3.1",
         "synopsis": "A SATySFi document class for creating presentations slides",
@@ -7830,8 +7930,65 @@
   {
     "name": "satysfi-class-slydifi-doc",
     "type": "Document",
-    "last_update": "2021-05-23",
+    "last_update": "2021-07-16",
     "versions": [
+      {
+        "version": "0.4.0",
+        "synopsis": "A SATySFi document class for creating presentations slides",
+        "description": "A SATySFi document class for creating presentations slides.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/slydifi"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/slydifi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-class-slydifi",
+            "constraint": "= \"0.4.0\""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.0.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-07-16",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.3.1",
         "synopsis": "A SATySFi document class for creating presentations slides",
