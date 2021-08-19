@@ -19012,6 +19012,136 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-pagenumber",
+    "type": "Library",
+    "last_update": "2021-08-19",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "A SATySFi package for number of pages",
+        "description": "A SATySFi package for number of pages",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "BSD-2-Clause-FreeBSD"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-pagenumber"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-pagenumber/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2021-08-19",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-pagenumber-doc",
+    "type": "Document",
+    "last_update": "2021-08-19",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Document of A package PageNumber",
+        "description": "Document of A package PageNumber",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "BSD-2-Clause-FreeBSD"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-pagenumber"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-pagenumber/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-pagenumber",
+            "constraint": "= \"1.0.0\""
+          }
+        ],
+        "published_on": "2021-08-19",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-quotation",
     "type": "Library",
     "last_update": "2021-01-21",
