@@ -19142,6 +19142,144 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-pagestyle",
+    "type": "Library",
+    "last_update": "2021-08-19",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "A SATySFi package for page style",
+        "description": "A SATySFi package for page style",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "BSD-2-Clause-FreeBSD"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-pagestyle"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-pagestyle/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-fss",
+            "constraint": ">= \"0.2.0\" & < \"0.3.0\""
+          },
+          {
+            "name": "satysfi-pagenumber",
+            "constraint": ">= \"1.0.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-08-19",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-pagestyle-doc",
+    "type": "Document",
+    "last_update": "2021-08-19",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Document of satysfi-pagestyle",
+        "description": "Document for PageStyle package",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "BSD-2-Clause-FreeBSD"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-pagestyle"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-pagestyle/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-pagestyle",
+            "constraint": "= \"1.0.0\""
+          }
+        ],
+        "published_on": "2021-08-19",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-quotation",
     "type": "Library",
     "last_update": "2021-01-21",
