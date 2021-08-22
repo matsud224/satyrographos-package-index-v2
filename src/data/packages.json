@@ -7601,6 +7601,7 @@
         ],
         "inline_commands": [
           "\\SLyDIFi",
+          "\\SlydifiParam",
           "\\br",
           "\\code",
           "\\cond-item",
@@ -7612,33 +7613,47 @@
           "\\ghost",
           "\\link",
           "\\listing",
+          "\\math",
           "\\phantom",
           "\\select",
+          "\\set-config",
           "\\set-item",
           "\\set-param",
           "\\show-layer",
           "\\strike",
           "\\text-color",
           "\\textbf",
-          "\\uline"
+          "\\uline",
+          "\\weak",
+          "\\with-config",
+          "\\with-param"
         ],
         "block_commands": [
+          "+SlydifiParam",
+          "+againframe",
           "+ctx",
           "+enumerate-overlay",
           "+frame",
-          "+frame-nt",
+          "+frame-nofooter",
+          "+genframe",
           "+ghost",
           "+listing",
           "+listing-overlay",
           "+make-title",
-          "+multiframe",
+          "+namedframe",
           "+p",
           "+phantom",
           "+quote",
           "+section",
+          "+section-noframe",
           "+select",
+          "+set-config",
           "+set-param",
-          "+show-in-order"
+          "+show-in-order",
+          "+specific-frame",
+          "+with-config",
+          "+with-layer",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -7697,6 +7712,7 @@
         ],
         "inline_commands": [
           "\\SLyDIFi",
+          "\\SlydifiParam",
           "\\br",
           "\\code",
           "\\cond-item",
@@ -7708,33 +7724,47 @@
           "\\ghost",
           "\\link",
           "\\listing",
+          "\\math",
           "\\phantom",
           "\\select",
+          "\\set-config",
           "\\set-item",
           "\\set-param",
           "\\show-layer",
           "\\strike",
           "\\text-color",
           "\\textbf",
-          "\\uline"
+          "\\uline",
+          "\\weak",
+          "\\with-config",
+          "\\with-param"
         ],
         "block_commands": [
+          "+SlydifiParam",
+          "+againframe",
           "+ctx",
           "+enumerate-overlay",
           "+frame",
-          "+frame-nt",
+          "+frame-nofooter",
+          "+genframe",
           "+ghost",
           "+listing",
           "+listing-overlay",
           "+make-title",
-          "+multiframe",
+          "+namedframe",
           "+p",
           "+phantom",
           "+quote",
           "+section",
+          "+section-noframe",
           "+select",
+          "+set-config",
           "+set-param",
-          "+show-in-order"
+          "+show-in-order",
+          "+specific-frame",
+          "+with-config",
+          "+with-layer",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -7793,6 +7823,7 @@
         ],
         "inline_commands": [
           "\\SLyDIFi",
+          "\\SlydifiParam",
           "\\br",
           "\\code",
           "\\cond-item",
@@ -7804,33 +7835,47 @@
           "\\ghost",
           "\\link",
           "\\listing",
+          "\\math",
           "\\phantom",
           "\\select",
+          "\\set-config",
           "\\set-item",
           "\\set-param",
           "\\show-layer",
           "\\strike",
           "\\text-color",
           "\\textbf",
-          "\\uline"
+          "\\uline",
+          "\\weak",
+          "\\with-config",
+          "\\with-param"
         ],
         "block_commands": [
+          "+SlydifiParam",
+          "+againframe",
           "+ctx",
           "+enumerate-overlay",
           "+frame",
-          "+frame-nt",
+          "+frame-nofooter",
+          "+genframe",
           "+ghost",
           "+listing",
           "+listing-overlay",
           "+make-title",
-          "+multiframe",
+          "+namedframe",
           "+p",
           "+phantom",
           "+quote",
           "+section",
+          "+section-noframe",
           "+select",
+          "+set-config",
           "+set-param",
-          "+show-in-order"
+          "+show-in-order",
+          "+specific-frame",
+          "+with-config",
+          "+with-layer",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -7881,6 +7926,7 @@
         ],
         "inline_commands": [
           "\\SLyDIFi",
+          "\\SlydifiParam",
           "\\br",
           "\\code",
           "\\cond-item",
@@ -7892,33 +7938,47 @@
           "\\ghost",
           "\\link",
           "\\listing",
+          "\\math",
           "\\phantom",
           "\\select",
+          "\\set-config",
           "\\set-item",
           "\\set-param",
           "\\show-layer",
           "\\strike",
           "\\text-color",
           "\\textbf",
-          "\\uline"
+          "\\uline",
+          "\\weak",
+          "\\with-config",
+          "\\with-param"
         ],
         "block_commands": [
+          "+SlydifiParam",
+          "+againframe",
           "+ctx",
           "+enumerate-overlay",
           "+frame",
-          "+frame-nt",
+          "+frame-nofooter",
+          "+genframe",
           "+ghost",
           "+listing",
           "+listing-overlay",
           "+make-title",
-          "+multiframe",
+          "+namedframe",
           "+p",
           "+phantom",
           "+quote",
           "+section",
+          "+section-noframe",
           "+select",
+          "+set-config",
           "+set-param",
-          "+show-in-order"
+          "+show-in-order",
+          "+specific-frame",
+          "+with-config",
+          "+with-layer",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -19055,7 +19115,7 @@
         ],
         "published_on": "2021-08-19",
         "documents": [
-
+          "./docs/pagenumber-doc/manual-ja.pdf"
         ],
         "fonts": [
 
@@ -19064,7 +19124,8 @@
 
         ],
         "inline_commands": [
-
+          "\\set-page-format",
+          "\\set-page-number"
         ],
         "block_commands": [
 
@@ -19193,7 +19254,7 @@
         ],
         "published_on": "2021-08-19",
         "documents": [
-
+          "./docs/pagestyle-doc/manual-ja.pdf"
         ],
         "fonts": [
 
@@ -19202,7 +19263,8 @@
 
         ],
         "inline_commands": [
-
+          "\\set-page-style",
+          "\\set-this-page-style"
         ],
         "block_commands": [
 
