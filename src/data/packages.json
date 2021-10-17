@@ -9907,6 +9907,144 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-csv",
+    "type": "Library",
+    "last_update": "2021-10-17",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "A CSV reader and writer for SATySFi",
+        "description": "\nA CSV reader and writer for SATySFi.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/satysfi-csv"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/satysfi-csv/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-10-17",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-csv-doc",
+    "type": "Document",
+    "last_update": "2021-10-17",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Document of satysfi-csv",
+        "description": "\nDocument of satysfi-csv.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/satysfi-csv"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/satysfi-csv/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-csv",
+            "constraint": "= \"1.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-debug-show-value",
+            "constraint": ">= \"0.1.2\" & < \"0.2.0\""
+          }
+        ],
+        "published_on": "2021-10-17",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-debug-show-value",
     "type": "Library",
     "last_update": "2021-02-07",
