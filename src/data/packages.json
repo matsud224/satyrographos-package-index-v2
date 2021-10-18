@@ -7040,6 +7040,7 @@
           "+paragraph",
           "+part",
           "+pn",
+          "+proof",
           "+section",
           "+subsection",
           "+toc"
@@ -7109,6 +7110,7 @@
           "+paragraph",
           "+part",
           "+pn",
+          "+proof",
           "+section",
           "+subsection",
           "+toc"
@@ -9950,7 +9952,7 @@
         ],
         "published_on": "2021-10-17",
         "documents": [
-
+          "./docs/csv-doc/csv-manual-ja.pdf"
         ],
         "fonts": [
 
