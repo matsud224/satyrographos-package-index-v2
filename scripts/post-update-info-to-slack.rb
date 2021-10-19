@@ -51,6 +51,10 @@ def post_message_to_slack(text, attachments)
   slack.post(text, attachments: [attachments])
 end
 
+def get_package_url(name)
+  "https://satyrographos-packages.netlify.app/packages/#{name}"
+end
+
 puts '[added]'
 added.each do |p|
   puts "\"#{p['name']}\""
@@ -69,7 +73,7 @@ added.each do |p|
     color: "#36a64f",
     pretext: pretext,
     title: name,
-    title_link: homepage,
+    title_link: get_package_url(name),
     text: synopsis,
     fields: [
       {
@@ -101,7 +105,7 @@ updated.each do |pair|
     fallback: pretext,
     pretext: pretext,
     title: name,
-    title_link: homepage,
+    title_link: get_package_url(name),
     text: synopsis,
     fields: [
       {
