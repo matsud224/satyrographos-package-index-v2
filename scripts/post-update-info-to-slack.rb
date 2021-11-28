@@ -52,7 +52,7 @@ def post_message_to_slack(text, attachments)
 end
 
 def get_package_url(name)
-  "https://satyrographos-packages.netlify.app/packages/#{name}"
+  "https://satyrographos-packages.netlify.app/packages/#{name.delete_prefix('satysfi-')}"
 end
 
 puts '[added]'
