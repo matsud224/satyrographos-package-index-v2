@@ -11602,8 +11602,80 @@
   {
     "name": "satysfi-enumitem",
     "type": "Library",
-    "last_update": "2020-06-13",
+    "last_update": "2021-11-23",
     "versions": [
+      {
+        "version": "3.0.1",
+        "synopsis": "A SATySFi package for creating itemized lists",
+        "description": "A SATySFi package for creating itemized lists.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-enumitem"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-enumitem/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.0.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2021-11-23",
+        "documents": [
+          "./docs/enumitem-doc/enumitem.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\description",
+          "\\enumerate",
+          "\\gendescription",
+          "\\listing",
+          "\\listing-from-block",
+          "\\reset-param",
+          "\\set-item",
+          "\\set-param",
+          "\\with-param"
+        ],
+        "block_commands": [
+          "+description",
+          "+enumerate",
+          "+gendescription",
+          "+genlisting",
+          "+listing",
+          "+set-param",
+          "+with-param",
+          "+xgenlisting"
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "2.0.0",
         "synopsis": "A SATySFi package for creating itemized lists",
@@ -11818,8 +11890,65 @@
   {
     "name": "satysfi-enumitem-doc",
     "type": "Document",
-    "last_update": "2020-06-13",
+    "last_update": "2021-11-23",
     "versions": [
+      {
+        "version": "3.0.1",
+        "synopsis": "A SATySFi package for creating itemized lists",
+        "description": "A SATySFi package for creating itemized lists.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-enumitem"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-enumitem/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": "= \"3.0.1\""
+          }
+        ],
+        "published_on": "2021-11-23",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "2.0.0",
         "synopsis": "A SATySFi package for creating itemized lists",
@@ -19704,7 +19833,7 @@
         ],
         "published_on": "2021-11-28",
         "documents": [
-
+          "./docs/parallel-doc/parallel-doc.pdf"
         ],
         "fonts": [
 
@@ -19716,7 +19845,7 @@
 
         ],
         "block_commands": [
-
+          "+parallel"
         ],
         "math_commands": [
 
