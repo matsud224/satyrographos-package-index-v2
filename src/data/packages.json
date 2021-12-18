@@ -19796,8 +19796,61 @@
   {
     "name": "satysfi-parallel",
     "type": "Library",
-    "last_update": "2021-11-28",
+    "last_update": "2021-12-10",
     "versions": [
+      {
+        "version": "0.2.0",
+        "synopsis": "Typesetting two texts in parallel",
+        "description": "Typesetting two texts in parallel",
+        "maintainer": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "authors": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/MasWag/satysfi-parallel"
+        ],
+        "bug_reports": [
+          "https://github.com/MasWag/satysfi-parallel/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-12-10",
+        "documents": [
+          "./docs/parallel-doc/parallel-doc.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+          "+parallel"
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Typesetting two texts in parallel",
@@ -19857,8 +19910,61 @@
   {
     "name": "satysfi-parallel-doc",
     "type": "Document",
-    "last_update": "2021-11-28",
+    "last_update": "2021-12-10",
     "versions": [
+      {
+        "version": "0.2.0",
+        "synopsis": "Typesetting two texts in parallel",
+        "description": "Typesetting two texts in parallel",
+        "maintainer": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "authors": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/MasWag/satysfi-parallel"
+        ],
+        "bug_reports": [
+          "https://github.com/MasWag/satysfi-parallel/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.7\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2021-12-10",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Typesetting two texts in parallel",
