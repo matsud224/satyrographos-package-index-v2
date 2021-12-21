@@ -66,7 +66,7 @@ added.each do |p|
   synopsis = latest['synopsis']
   authors = latest['authors'].join(', ')
 
-  pretext = ":tada: New package \"#{name}\" was published."
+  pretext = ":tada: New package \"#{name}\" has been published."
 
   attachments = {
     fallback: pretext,
@@ -99,7 +99,7 @@ updated.each do |pair|
   synopsis = p['versions'][0]['synopsis']
   authors = p['versions'][0]['authors'].join(', ')
 
-  pretext = ":exclamation: \"#{name}\" was updated from #{old_version} to #{new_version}."
+  pretext = ":exclamation: \"#{name}\" has been updated from #{old_version} to #{new_version}."
 
   attachments = {
     fallback: pretext,
@@ -125,7 +125,7 @@ removed.each do |p|
 
   name = p['name']
 
-  text = ":wastebasket: \"#{name}\" was removed."
+  text = ":wastebasket: \"#{name}\" has been removed."
 
   post_message_to_slack(text, nil)
 end
