@@ -14057,7 +14057,7 @@
           },
           {
             "name": "satyrographos",
-            "constraint": ">= \"0.0.2\" & < \"0.0.3\""
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
           }
         ],
         "published_on": "2021-01-24",
