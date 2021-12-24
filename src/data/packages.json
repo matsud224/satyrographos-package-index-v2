@@ -20155,7 +20155,10 @@
 
         ],
         "block_commands": [
-          "+parallel"
+          "+parallel",
+          "+parallel-bottom",
+          "+parallel-bottom-top",
+          "+parallel-top-bottom"
         ],
         "math_commands": [
 
@@ -20208,7 +20211,10 @@
 
         ],
         "block_commands": [
-          "+parallel"
+          "+parallel",
+          "+parallel-bottom",
+          "+parallel-bottom-top",
+          "+parallel-top-bottom"
         ],
         "math_commands": [
 
