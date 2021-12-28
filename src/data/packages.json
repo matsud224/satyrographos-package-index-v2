@@ -8577,8 +8577,121 @@
   {
     "name": "satysfi-class-yabaitech",
     "type": "Class",
-    "last_update": "2021-06-14",
+    "last_update": "2021-12-28",
     "versions": [
+      {
+        "version": "0.0.9",
+        "synopsis": "The yabaitech.tokyo SATySFi class file",
+        "description": "\nThe yabaitech.tokyo SATySFi class file.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+        "maintainer": [
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "authors": [
+          "gfngfn",
+          "Masaki Waga",
+          "Yuichi Nishiwaki <yuichi.nishiwaki@icloud.com>",
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/yabaitechtokyo/satysfi-class-yabaitech"
+        ],
+        "bug_reports": [
+          "https://github.com/yabaitechtokyo/satysfi-class-yabaitech/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.2.1\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-fonts-noto-sans",
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
+          },
+          {
+            "name": "satysfi-fonts-noto-serif",
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
+          },
+          {
+            "name": "satysfi-fonts-noto-sans-cjk-jp",
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
+          },
+          {
+            "name": "satysfi-fonts-noto-serif-cjk-jp",
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
+          },
+          {
+            "name": "satysfi-fonts-asana-math",
+            "constraint": ">= \"000.958+1+satysfi0.0.4\""
+          }
+        ],
+        "published_on": "2021-12-28",
+        "documents": [
+          "./docs/class-yabaitech-doc/yabaitech-demo.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\NEEDSREF",
+          "\\REMAINS",
+          "\\book-title",
+          "\\br",
+          "\\cite",
+          "\\dfn",
+          "\\embed-url",
+          "\\emph",
+          "\\figure",
+          "\\footnote",
+          "\\ref-assumption",
+          "\\ref-chapter",
+          "\\ref-corollary",
+          "\\ref-definition",
+          "\\ref-example",
+          "\\ref-figure",
+          "\\ref-lemma",
+          "\\ref-notation",
+          "\\ref-section",
+          "\\ref-subsection",
+          "\\ref-table",
+          "\\ref-theorem",
+          "\\review-comment",
+          "\\table"
+        ],
+        "block_commands": [
+          "+assumption",
+          "+chapter",
+          "+corollary",
+          "+definition",
+          "+example",
+          "+lemma",
+          "+notation",
+          "+p",
+          "+proof",
+          "+review-comment",
+          "+section",
+          "+subsection",
+          "+subsubsection",
+          "+theorem",
+          "+topic"
+        ],
+        "math_commands": [
+          "\\QED"
+        ]
+      },
       {
         "version": "0.0.8",
         "synopsis": "The yabaitech.tokyo SATySFi class file",
@@ -9489,8 +9602,61 @@
   {
     "name": "satysfi-class-yabaitech-doc",
     "type": "Document",
-    "last_update": "2021-06-14",
+    "last_update": "2021-12-28",
     "versions": [
+      {
+        "version": "0.0.9",
+        "synopsis": "Document: The yabaitech.tokyo SATySFi class file",
+        "description": "\nDocument: The yabaitech.tokyo SATySFi class file.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+        "maintainer": [
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "authors": [
+          "Yuito Murase <yuito@acupof.coffee>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/yabaitechtokyo/satysfi-class-yabaitech"
+        ],
+        "bug_reports": [
+          "https://github.com/yabaitechtokyo/satysfi-class-yabaitech/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-class-yabaitech",
+            "constraint": "= \"0.0.9\""
+          }
+        ],
+        "published_on": "2021-12-28",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.0.8",
         "synopsis": "Document: The yabaitech.tokyo SATySFi class file",
