@@ -6740,7 +6740,7 @@
         ],
         "published_on": "2022-01-22",
         "documents": [
-
+          "./docs/class-cv-doc/manual.pdf"
         ],
         "fonts": [
 
@@ -6749,10 +6749,32 @@
 
         ],
         "inline_commands": [
-
+          "\\bold",
+          "\\book-title",
+          "\\cite",
+          "\\dfn",
+          "\\dummy",
+          "\\emph",
+          "\\enumerate-with-gap",
+          "\\footnote",
+          "\\index",
+          "\\listing-with-gap",
+          "\\promote-linebreak",
+          "\\roman",
+          "\\rule",
+          "\\url"
         ],
         "block_commands": [
-
+          "+description",
+          "+enumerate-with-gap",
+          "+listing-with-gap",
+          "+p",
+          "+p-noindent",
+          "+publications",
+          "+section",
+          "+skill-groups",
+          "+subsection",
+          "+tabbedblock"
         ],
         "math_commands": [
 
