@@ -10405,8 +10405,69 @@
   {
     "name": "satysfi-colorbox",
     "type": "Library",
-    "last_update": "2021-12-19",
+    "last_update": "2022-03-07",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "A SATySFi package for Colored boxes",
+        "description": "A SATySFi package for Colored boxes",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-colorbox"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-colorbox/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0\""
+          },
+          {
+            "name": "satysfi-fss",
+            "constraint": ">= \"0.2.0\" & < \"0.3\""
+          }
+        ],
+        "published_on": "2022-03-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "A SATySFi package for Colored boxes",
@@ -10474,8 +10535,69 @@
   {
     "name": "satysfi-colorbox-doc",
     "type": "Document",
-    "last_update": "2021-12-19",
+    "last_update": "2022-03-07",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Document of Colorbox",
+        "description": "Document of Colorbox package",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-colorbox"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-colorbox/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": ">= \"3.0.0\" & < \"3.1\""
+          },
+          {
+            "name": "satysfi-colorbox",
+            "constraint": "= \"0.1.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2022-03-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Document of Colorbox",
