@@ -33,6 +33,7 @@ jobs:
         run: |
           export HOME=/root
           export OPAMYES=true
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           eval $(opam env)
           opam update
           opam install satyrographos-snapshot-stable
