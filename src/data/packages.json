@@ -20454,8 +20454,8 @@
             "constraint": ">= \"0.0.2\" & < \"0.0.4\""
           },
           {
-            "name": "base",
-            "constraint": ">= \"1.0.0\""
+            "name": "satysfi-base",
+            "constraint": ">= \"1.0.0\" & < \"2\""
           }
         ],
         "published_on": "2020-03-22",
