@@ -12908,8 +12908,74 @@
   {
     "name": "satysfi-figbox",
     "type": "Library",
-    "last_update": "2021-05-19",
+    "last_update": "2022-04-17",
     "versions": [
+      {
+        "version": "0.1.4",
+        "synopsis": "A SATySFi package for creating charts and placing them in inappropriate positions",
+        "description": "\nA SATySFi package that creates charts and places them in inappropriate positions in your document\n",
+        "maintainer": [
+          "Mogami Shinichi <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Mogami Shinichi <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-figbox"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-figbox/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2022-04-17",
+        "documents": [
+          "./docs/figbox-doc/manual.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\fig-abs-pos",
+          "\\fig-block",
+          "\\fig-center",
+          "\\fig-inline",
+          "\\fig-on-left",
+          "\\fig-on-right"
+        ],
+        "block_commands": [
+          "+fig-abs-pos",
+          "+fig-block",
+          "+fig-center",
+          "+fig-on-left",
+          "+fig-on-right"
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.3",
         "synopsis": "A SATySFi package for creating charts and placing them in inappropriate positions",
@@ -13114,8 +13180,77 @@
   {
     "name": "satysfi-figbox-doc",
     "type": "Document",
-    "last_update": "2021-05-19",
+    "last_update": "2022-04-17",
     "versions": [
+      {
+        "version": "0.1.4",
+        "synopsis": "Document for satysfi-figbox package",
+        "description": "\nA SATySFi package that creates charts and places them in inappropriate positions in your document\n",
+        "maintainer": [
+          "Mogami Shinichi <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Mogami Shinichi <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-figbox"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-figbox/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-figbox",
+            "constraint": "= \"0.1.4\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.0.0\" & < \"2.0\""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": ">= \"3.0.0\" & < \"4.0\""
+          }
+        ],
+        "published_on": "2022-04-17",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.3",
         "synopsis": "Document for satysfi-figbox package",
