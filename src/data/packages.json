@@ -17726,7 +17726,7 @@
         ],
         "published_on": "2021-07-01",
         "documents": [
-
+          "./docs/latexcmds-doc/latexcmds-doc.pdf"
         ],
         "fonts": [
 
@@ -17874,7 +17874,7 @@
           },
           {
             "name": "satysfi-latexcmds",
-            "constraint": ""
+            "constraint": "= \"0.1.0\""
           }
         ],
         "published_on": "2021-07-03",
