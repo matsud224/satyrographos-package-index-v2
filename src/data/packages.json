@@ -3479,7 +3479,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           }
         ],
         "published_on": "2020-11-07",
