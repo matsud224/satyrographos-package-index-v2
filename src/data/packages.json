@@ -3575,7 +3575,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           }
         ],
         "published_on": "2020-10-16",
@@ -7324,15 +7324,15 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\""
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
           },
           {
             "name": "satysfi-base",
-            "constraint": ">= \"0.0.2\""
+            "constraint": ">= \"0.0.2\" & < \"1.5\""
           },
           {
             "name": "satysfi-fss",
-            "constraint": ">= \"0.0.2\""
+            "constraint": ">= \"0.0.2\" & < \"0.3\""
           },
           {
             "name": "satyrographos",
@@ -7414,11 +7414,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ""
+            "constraint": ">= \"1.0.0\""
           },
           {
             "name": "satysfi-quotation",
@@ -7426,31 +7426,31 @@
           },
           {
             "name": "satysfi-uline",
-            "constraint": ""
+            "constraint": ">= \"0.2.0\""
           },
           {
             "name": "satysfi-ruby",
-            "constraint": ""
+            "constraint": ">= \"0.1.2\""
           },
           {
             "name": "satysfi-fonts-noto-serif",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-serif-cjk-jp",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-sans",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-sans-cjk-jp",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-inconsolata",
-            "constraint": ""
+            "constraint": ">= \"3.001\""
           }
         ],
         "published_on": "2021-03-27",
@@ -7549,11 +7549,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ""
+            "constraint": ">= \"1.0.0\""
           },
           {
             "name": "satysfi-quotation",
@@ -7561,31 +7561,31 @@
           },
           {
             "name": "satysfi-uline",
-            "constraint": ""
+            "constraint": ">= \"0.2.0\""
           },
           {
             "name": "satysfi-ruby",
-            "constraint": ""
+            "constraint": ">= \"0.1.2\""
           },
           {
             "name": "satysfi-fonts-noto-serif",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-serif-cjk-jp",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-sans",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-noto-sans-cjk-jp",
-            "constraint": ""
+            "constraint": ">= \"2.001+1+satysfi0.0.4\""
           },
           {
             "name": "satysfi-fonts-dejavu",
-            "constraint": ""
+            "constraint": ">= \"2.37+satysfi0.0.4\""
           }
         ],
         "published_on": "2021-01-27",
@@ -7692,7 +7692,7 @@
           },
           {
             "name": "satysfi-lipsum",
-            "constraint": ""
+            "constraint": ">= \"0.2.0\""
           }
         ],
         "published_on": "2021-03-27",
@@ -7753,7 +7753,7 @@
           },
           {
             "name": "satysfi-lipsum",
-            "constraint": ""
+            "constraint": ">= \"0.2.0\""
           }
         ],
         "published_on": "2021-01-27",
@@ -12280,7 +12280,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           }
         ],
         "published_on": "2021-02-20",
@@ -12338,7 +12338,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           }
         ],
         "published_on": "2020-07-19",
@@ -12944,7 +12944,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           }
         ],
         "published_on": "2022-04-17",
@@ -13010,7 +13010,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           }
         ],
         "published_on": "2021-05-19",
@@ -13076,7 +13076,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           }
         ],
         "published_on": "2021-04-29",
@@ -13142,7 +13142,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           }
         ],
         "published_on": "2021-02-28",
@@ -13220,11 +13220,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ">= \"1.0.0\" & < \"2.0\""
+            "constraint": ">= \"1.0.0\" & < \"2\""
           },
           {
             "name": "satysfi-enumitem",
@@ -13289,11 +13289,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ">= \"1.0.0\""
+            "constraint": ">= \"1.0.0\" & < \"2\""
           },
           {
             "name": "satysfi-enumitem",
@@ -13358,11 +13358,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ">= \"1.0.0\""
+            "constraint": ">= \"1.0.0\" & < \"2\""
           },
           {
             "name": "satysfi-enumitem",
@@ -13427,11 +13427,11 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\" & < \"2\""
           },
           {
             "name": "satysfi-easytable",
-            "constraint": ">= \"1.0.0\""
+            "constraint": ">= \"1.0.0\" & < \"2\""
           },
           {
             "name": "satysfi-enumitem",
@@ -17467,7 +17467,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           }
         ],
         "published_on": "2021-03-30",
@@ -17536,7 +17536,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ""
+            "constraint": ">= \"1.4.0\""
           }
         ],
         "published_on": "2021-03-30",
