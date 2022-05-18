@@ -12244,8 +12244,66 @@
   {
     "name": "satysfi-easytable",
     "type": "Library",
-    "last_update": "2021-02-20",
+    "last_update": "2022-05-18",
     "versions": [
+      {
+        "version": "1.1.2",
+        "synopsis": "A SATySFi package to build simple tables",
+        "description": "A SATySFi package to build simple tables.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-easytable"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-easytable/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2022-05-18",
+        "documents": [
+          "./docs/easytable-doc/easytable.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\easytable",
+          "\\list-table"
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "1.1.1",
         "synopsis": "A SATySFi package to build simple tables",
@@ -12368,8 +12426,69 @@
   {
     "name": "satysfi-easytable-doc",
     "type": "Document",
-    "last_update": "2021-02-20",
+    "last_update": "2022-05-18",
     "versions": [
+      {
+        "version": "1.1.2",
+        "synopsis": "A SATySFi package to build simple tables",
+        "description": "A SATySFi package to build simple tables.",
+        "maintainer": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "authors": [
+          "Shinichi Mogami <mogassy@yahoo.co.jp>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-easytable"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-easytable/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": "= \"1.1.2\""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": ">= \"3.0.0\" & < \"4.0\""
+          }
+        ],
+        "published_on": "2022-05-18",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "1.1.1",
         "synopsis": "A SATySFi package to build simple tables",
