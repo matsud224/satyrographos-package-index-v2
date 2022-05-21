@@ -6696,11 +6696,11 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ""
+            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
           },
           {
             "name": "satyrographos",
-            "constraint": ""
+            "constraint": ">= \"0.0.2.3\" & < \"0.0.3\""
           },
           {
             "name": "satysfi-dist",
@@ -8701,7 +8701,7 @@
           },
           {
             "name": "satyrographos",
-            "constraint": ">= \"0.0.1\" & < \"0.0.3\""
+            "constraint": ">= \"0.0.2\" & < \"0.0.3\""
           }
         ],
         "published_on": "2019-12-08",
