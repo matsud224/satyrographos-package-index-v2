@@ -3075,6 +3075,148 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-algorithm",
+    "type": "Library",
+    "last_update": "2022-05-22",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Typesetting algorithms in pseudo-code",
+        "description": "\nTypesetting algorithms in pseudo-code. It is the equivalent of the algorithmicx package in LaTeX.\n",
+        "maintainer": [
+          "KOBAYASHI Ryota <koba.pic@gmail.com>"
+        ],
+        "authors": [
+          "KOBAYASHI Ryota <koba.pic@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/pickoba/satysfi-algorithm"
+        ],
+        "bug_reports": [
+          "https://github.com/pickoba/satysfi-algorithm/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-fss",
+            "constraint": ">= \"0.2.0\" & < \"0.3.0\""
+          }
+        ],
+        "published_on": "2022-05-22",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-algorithm-doc",
+    "type": "Document",
+    "last_update": "2022-05-22",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Document of satysfi-algorithm",
+        "description": "\nDocument of satysfi-algorithm.\n",
+        "maintainer": [
+          "KOBAYASHI Ryota <koba.pic@gmail.com>"
+        ],
+        "authors": [
+          "KOBAYASHI Ryota <koba.pic@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/pickoba/satysfi-algorithm"
+        ],
+        "bug_reports": [
+          "https://github.com/pickoba/satysfi-algorithm/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-algorithm",
+            "constraint": "= \"1.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-fss",
+            "constraint": ">= \"0.2.0\" & < \"0.3.0\""
+          }
+        ],
+        "published_on": "2022-05-22",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-arrows",
     "type": "Library",
     "last_update": "2020-09-08",
@@ -3484,7 +3626,7 @@
         ],
         "published_on": "2020-11-07",
         "documents": [
-          "./docs/azmath-doc/azmath.pdf"
+
         ],
         "fonts": [
 
@@ -3493,52 +3635,13 @@
 
         ],
         "inline_commands": [
-          "\\align",
-          "\\alignat",
-          "\\eqn",
-          "\\gather",
-          "\\getcounter",
-          "\\set-param",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+align",
-          "+alignat",
-          "+eqn",
-          "+gather",
-          "+set-param",
-          "+setcounter",
-          "+with-param"
+
         ],
         "math_commands": [
-          "\\adot",
-          "\\aligned",
-          "\\bar",
-          "\\bmatrix",
-          "\\breve",
-          "\\cases",
-          "\\ddot",
-          "\\dmatrix",
-          "\\genparen",
-          "\\hat",
-          "\\keeppage",
-          "\\label",
-          "\\matrix",
-          "\\neg",
-          "\\notag",
-          "\\overbrace",
-          "\\p",
-          "\\pB",
-          "\\pabs",
-          "\\pangle",
-          "\\pb",
-          "\\pmatrix",
-          "\\pnorm",
-          "\\set-builder",
-          "\\tbc",
-          "\\tilde",
-          "\\underbrace",
-          "\\vmatrix"
+
         ]
       },
       {
@@ -3580,7 +3683,7 @@
         ],
         "published_on": "2020-10-16",
         "documents": [
-          "./docs/azmath-doc/azmath.pdf"
+
         ],
         "fonts": [
 
@@ -3589,52 +3692,13 @@
 
         ],
         "inline_commands": [
-          "\\align",
-          "\\alignat",
-          "\\eqn",
-          "\\gather",
-          "\\getcounter",
-          "\\set-param",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+align",
-          "+alignat",
-          "+eqn",
-          "+gather",
-          "+set-param",
-          "+setcounter",
-          "+with-param"
+
         ],
         "math_commands": [
-          "\\adot",
-          "\\aligned",
-          "\\bar",
-          "\\bmatrix",
-          "\\breve",
-          "\\cases",
-          "\\ddot",
-          "\\dmatrix",
-          "\\genparen",
-          "\\hat",
-          "\\keeppage",
-          "\\label",
-          "\\matrix",
-          "\\neg",
-          "\\notag",
-          "\\overbrace",
-          "\\p",
-          "\\pB",
-          "\\pabs",
-          "\\pangle",
-          "\\pb",
-          "\\pmatrix",
-          "\\pnorm",
-          "\\set-builder",
-          "\\tbc",
-          "\\tilde",
-          "\\underbrace",
-          "\\vmatrix"
+
         ]
       }
     ],
@@ -7831,7 +7895,7 @@
         ],
         "published_on": "2021-12-10",
         "documents": [
-          "./docs/class-slydifi-doc/slydifi.pdf"
+
         ],
         "fonts": [
 
@@ -7840,60 +7904,10 @@
 
         ],
         "inline_commands": [
-          "\\SLyDIFi",
-          "\\SlydifiParam",
-          "\\br",
-          "\\code",
-          "\\cond-item",
-          "\\ctx",
-          "\\emph",
-          "\\footnote",
-          "\\footnotemark",
-          "\\footnotetext",
-          "\\ghost",
-          "\\link",
-          "\\listing",
-          "\\math",
-          "\\phantom",
-          "\\select",
-          "\\set-config",
-          "\\set-item",
-          "\\set-param",
-          "\\show-layer",
-          "\\strike",
-          "\\text-color",
-          "\\textbf",
-          "\\uline",
-          "\\weak",
-          "\\with-config",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+SlydifiParam",
-          "+againframe",
-          "+ctx",
-          "+enumerate-overlay",
-          "+frame",
-          "+frame-nofooter",
-          "+genframe",
-          "+ghost",
-          "+listing",
-          "+listing-overlay",
-          "+make-title",
-          "+namedframe",
-          "+p",
-          "+phantom",
-          "+quote",
-          "+section",
-          "+section-noframe",
-          "+select",
-          "+set-config",
-          "+set-param",
-          "+show-in-order",
-          "+specific-frame",
-          "+with-config",
-          "+with-layer",
-          "+with-param"
+
         ],
         "math_commands": [
 
@@ -7946,7 +7960,7 @@
         ],
         "published_on": "2021-07-16",
         "documents": [
-          "./docs/class-slydifi-doc/slydifi.pdf"
+
         ],
         "fonts": [
 
@@ -7955,60 +7969,10 @@
 
         ],
         "inline_commands": [
-          "\\SLyDIFi",
-          "\\SlydifiParam",
-          "\\br",
-          "\\code",
-          "\\cond-item",
-          "\\ctx",
-          "\\emph",
-          "\\footnote",
-          "\\footnotemark",
-          "\\footnotetext",
-          "\\ghost",
-          "\\link",
-          "\\listing",
-          "\\math",
-          "\\phantom",
-          "\\select",
-          "\\set-config",
-          "\\set-item",
-          "\\set-param",
-          "\\show-layer",
-          "\\strike",
-          "\\text-color",
-          "\\textbf",
-          "\\uline",
-          "\\weak",
-          "\\with-config",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+SlydifiParam",
-          "+againframe",
-          "+ctx",
-          "+enumerate-overlay",
-          "+frame",
-          "+frame-nofooter",
-          "+genframe",
-          "+ghost",
-          "+listing",
-          "+listing-overlay",
-          "+make-title",
-          "+namedframe",
-          "+p",
-          "+phantom",
-          "+quote",
-          "+section",
-          "+section-noframe",
-          "+select",
-          "+set-config",
-          "+set-param",
-          "+show-in-order",
-          "+specific-frame",
-          "+with-config",
-          "+with-layer",
-          "+with-param"
+
         ],
         "math_commands": [
 
@@ -8061,7 +8025,7 @@
         ],
         "published_on": "2021-05-23",
         "documents": [
-          "./docs/class-slydifi-doc/slydifi.pdf"
+
         ],
         "fonts": [
 
@@ -8070,60 +8034,10 @@
 
         ],
         "inline_commands": [
-          "\\SLyDIFi",
-          "\\SlydifiParam",
-          "\\br",
-          "\\code",
-          "\\cond-item",
-          "\\ctx",
-          "\\emph",
-          "\\footnote",
-          "\\footnotemark",
-          "\\footnotetext",
-          "\\ghost",
-          "\\link",
-          "\\listing",
-          "\\math",
-          "\\phantom",
-          "\\select",
-          "\\set-config",
-          "\\set-item",
-          "\\set-param",
-          "\\show-layer",
-          "\\strike",
-          "\\text-color",
-          "\\textbf",
-          "\\uline",
-          "\\weak",
-          "\\with-config",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+SlydifiParam",
-          "+againframe",
-          "+ctx",
-          "+enumerate-overlay",
-          "+frame",
-          "+frame-nofooter",
-          "+genframe",
-          "+ghost",
-          "+listing",
-          "+listing-overlay",
-          "+make-title",
-          "+namedframe",
-          "+p",
-          "+phantom",
-          "+quote",
-          "+section",
-          "+section-noframe",
-          "+select",
-          "+set-config",
-          "+set-param",
-          "+show-in-order",
-          "+specific-frame",
-          "+with-config",
-          "+with-layer",
-          "+with-param"
+
         ],
         "math_commands": [
 
@@ -8172,7 +8086,7 @@
         ],
         "published_on": "2020-09-12",
         "documents": [
-          "./docs/class-slydifi-doc/slydifi.pdf"
+
         ],
         "fonts": [
 
@@ -8181,60 +8095,10 @@
 
         ],
         "inline_commands": [
-          "\\SLyDIFi",
-          "\\SlydifiParam",
-          "\\br",
-          "\\code",
-          "\\cond-item",
-          "\\ctx",
-          "\\emph",
-          "\\footnote",
-          "\\footnotemark",
-          "\\footnotetext",
-          "\\ghost",
-          "\\link",
-          "\\listing",
-          "\\math",
-          "\\phantom",
-          "\\select",
-          "\\set-config",
-          "\\set-item",
-          "\\set-param",
-          "\\show-layer",
-          "\\strike",
-          "\\text-color",
-          "\\textbf",
-          "\\uline",
-          "\\weak",
-          "\\with-config",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+SlydifiParam",
-          "+againframe",
-          "+ctx",
-          "+enumerate-overlay",
-          "+frame",
-          "+frame-nofooter",
-          "+genframe",
-          "+ghost",
-          "+listing",
-          "+listing-overlay",
-          "+make-title",
-          "+namedframe",
-          "+p",
-          "+phantom",
-          "+quote",
-          "+section",
-          "+section-noframe",
-          "+select",
-          "+set-config",
-          "+set-param",
-          "+show-in-order",
-          "+specific-frame",
-          "+with-config",
-          "+with-layer",
-          "+with-param"
+
         ],
         "math_commands": [
 
@@ -8275,7 +8139,7 @@
         ],
         "published_on": "2020-01-27",
         "documents": [
-          "./docs/class-slydifi-doc/slydifi.pdf"
+
         ],
         "fonts": [
 
@@ -8284,60 +8148,10 @@
 
         ],
         "inline_commands": [
-          "\\SLyDIFi",
-          "\\SlydifiParam",
-          "\\br",
-          "\\code",
-          "\\cond-item",
-          "\\ctx",
-          "\\emph",
-          "\\footnote",
-          "\\footnotemark",
-          "\\footnotetext",
-          "\\ghost",
-          "\\link",
-          "\\listing",
-          "\\math",
-          "\\phantom",
-          "\\select",
-          "\\set-config",
-          "\\set-item",
-          "\\set-param",
-          "\\show-layer",
-          "\\strike",
-          "\\text-color",
-          "\\textbf",
-          "\\uline",
-          "\\weak",
-          "\\with-config",
-          "\\with-param"
+
         ],
         "block_commands": [
-          "+SlydifiParam",
-          "+againframe",
-          "+ctx",
-          "+enumerate-overlay",
-          "+frame",
-          "+frame-nofooter",
-          "+genframe",
-          "+ghost",
-          "+listing",
-          "+listing-overlay",
-          "+make-title",
-          "+namedframe",
-          "+p",
-          "+phantom",
-          "+quote",
-          "+section",
-          "+section-noframe",
-          "+select",
-          "+set-config",
-          "+set-param",
-          "+show-in-order",
-          "+specific-frame",
-          "+with-config",
-          "+with-layer",
-          "+with-param"
+
         ],
         "math_commands": [
 
@@ -10413,7 +10227,7 @@
         ],
         "published_on": "2021-09-12",
         "documents": [
-
+          "./docs/code-printer-doc/code-printer-ja.pdf"
         ],
         "fonts": [
 
@@ -10422,10 +10236,13 @@
 
         ],
         "inline_commands": [
-
+          "\\code-printer",
+          "\\file-printer",
+          "\\inline-code"
         ],
         "block_commands": [
-
+          "+code-printer",
+          "+file-printer"
         ],
         "math_commands": [
 
@@ -10551,7 +10368,7 @@
         ],
         "published_on": "2022-03-07",
         "documents": [
-
+          "./docs/colorbox-doc/manual-ja.pdf"
         ],
         "fonts": [
 
@@ -10563,7 +10380,7 @@
 
         ],
         "block_commands": [
-
+          "+colorbox"
         ],
         "math_commands": [
 
@@ -10612,7 +10429,7 @@
         ],
         "published_on": "2021-12-19",
         "documents": [
-
+          "./docs/colorbox-doc/manual-ja.pdf"
         ],
         "fonts": [
 
@@ -10624,7 +10441,7 @@
 
         ],
         "block_commands": [
-
+          "+colorbox"
         ],
         "math_commands": [
 
@@ -12298,7 +12115,8 @@
           "\\list-table"
         ],
         "block_commands": [
-
+          "+easytable",
+          "+list-table"
         ],
         "math_commands": [
 
@@ -12356,7 +12174,8 @@
           "\\list-table"
         ],
         "block_commands": [
-
+          "+easytable",
+          "+list-table"
         ],
         "math_commands": [
 
@@ -12414,7 +12233,8 @@
           "\\list-table"
         ],
         "block_commands": [
-
+          "+easytable",
+          "+list-table"
         ],
         "math_commands": [
 
@@ -12667,25 +12487,27 @@
 
         ],
         "inline_commands": [
-          "\\description",
+          "\\embed-block",
           "\\enumerate",
-          "\\gendescription",
+          "\\hskip",
+          "\\itemize",
           "\\listing",
-          "\\listing-from-block",
-          "\\reset-param",
-          "\\set-item",
+          "\\set-counter",
           "\\set-param",
+          "\\subitem",
+          "\\sublist",
           "\\with-param"
         ],
         "block_commands": [
           "+description",
+          "+ditem",
           "+enumerate",
-          "+gendescription",
-          "+genlisting",
+          "+item",
+          "+itemize",
           "+listing",
           "+set-param",
-          "+with-param",
-          "+xgenlisting"
+          "+sublist",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -12739,25 +12561,27 @@
 
         ],
         "inline_commands": [
-          "\\description",
+          "\\embed-block",
           "\\enumerate",
-          "\\gendescription",
+          "\\hskip",
+          "\\itemize",
           "\\listing",
-          "\\listing-from-block",
-          "\\reset-param",
-          "\\set-item",
+          "\\set-counter",
           "\\set-param",
+          "\\subitem",
+          "\\sublist",
           "\\with-param"
         ],
         "block_commands": [
           "+description",
+          "+ditem",
           "+enumerate",
-          "+gendescription",
-          "+genlisting",
+          "+item",
+          "+itemize",
           "+listing",
           "+set-param",
-          "+with-param",
-          "+xgenlisting"
+          "+sublist",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -12807,25 +12631,27 @@
 
         ],
         "inline_commands": [
-          "\\description",
+          "\\embed-block",
           "\\enumerate",
-          "\\gendescription",
+          "\\hskip",
+          "\\itemize",
           "\\listing",
-          "\\listing-from-block",
-          "\\reset-param",
-          "\\set-item",
+          "\\set-counter",
           "\\set-param",
+          "\\subitem",
+          "\\sublist",
           "\\with-param"
         ],
         "block_commands": [
           "+description",
+          "+ditem",
           "+enumerate",
-          "+gendescription",
-          "+genlisting",
+          "+item",
+          "+itemize",
           "+listing",
           "+set-param",
-          "+with-param",
-          "+xgenlisting"
+          "+sublist",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -12875,25 +12701,27 @@
 
         ],
         "inline_commands": [
-          "\\description",
+          "\\embed-block",
           "\\enumerate",
-          "\\gendescription",
+          "\\hskip",
+          "\\itemize",
           "\\listing",
-          "\\listing-from-block",
-          "\\reset-param",
-          "\\set-item",
+          "\\set-counter",
           "\\set-param",
+          "\\subitem",
+          "\\sublist",
           "\\with-param"
         ],
         "block_commands": [
           "+description",
+          "+ditem",
           "+enumerate",
-          "+gendescription",
-          "+genlisting",
+          "+item",
+          "+itemize",
           "+listing",
           "+set-param",
-          "+with-param",
-          "+xgenlisting"
+          "+sublist",
+          "+with-param"
         ],
         "math_commands": [
 
@@ -13068,7 +12896,7 @@
         ],
         "published_on": "2022-04-17",
         "documents": [
-          "./docs/figbox-doc/manual.pdf"
+
         ],
         "fonts": [
 
@@ -13077,19 +12905,10 @@
 
         ],
         "inline_commands": [
-          "\\fig-abs-pos",
-          "\\fig-block",
-          "\\fig-center",
-          "\\fig-inline",
-          "\\fig-on-left",
-          "\\fig-on-right"
+
         ],
         "block_commands": [
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right"
+
         ],
         "math_commands": [
 
@@ -13134,7 +12953,7 @@
         ],
         "published_on": "2021-05-19",
         "documents": [
-          "./docs/figbox-doc/manual.pdf"
+
         ],
         "fonts": [
 
@@ -13143,19 +12962,10 @@
 
         ],
         "inline_commands": [
-          "\\fig-abs-pos",
-          "\\fig-block",
-          "\\fig-center",
-          "\\fig-inline",
-          "\\fig-on-left",
-          "\\fig-on-right"
+
         ],
         "block_commands": [
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right"
+
         ],
         "math_commands": [
 
@@ -13200,7 +13010,7 @@
         ],
         "published_on": "2021-04-29",
         "documents": [
-          "./docs/figbox-doc/manual.pdf"
+
         ],
         "fonts": [
 
@@ -13209,19 +13019,10 @@
 
         ],
         "inline_commands": [
-          "\\fig-abs-pos",
-          "\\fig-block",
-          "\\fig-center",
-          "\\fig-inline",
-          "\\fig-on-left",
-          "\\fig-on-right"
+
         ],
         "block_commands": [
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right"
+
         ],
         "math_commands": [
 
@@ -13266,7 +13067,7 @@
         ],
         "published_on": "2021-02-28",
         "documents": [
-          "./docs/figbox-doc/manual.pdf"
+
         ],
         "fonts": [
 
@@ -13275,19 +13076,10 @@
 
         ],
         "inline_commands": [
-          "\\fig-abs-pos",
-          "\\fig-block",
-          "\\fig-center",
-          "\\fig-inline",
-          "\\fig-on-left",
-          "\\fig-on-right"
+
         ],
         "block_commands": [
-          "+fig-abs-pos",
-          "+fig-block",
-          "+fig-center",
-          "+fig-on-left",
-          "+fig-on-right"
+
         ],
         "math_commands": [
 
@@ -23044,7 +22836,7 @@
         ],
         "published_on": "2022-03-30",
         "documents": [
-
+          "./docs/xpath-doc/xpath-doc.pdf"
         ],
         "fonts": [
 
