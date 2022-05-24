@@ -18967,8 +18967,68 @@
   {
     "name": "satysfi-matrixcd",
     "type": "Library",
-    "last_update": "2021-10-07",
+    "last_update": "2022-05-24",
     "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "A package for SATySFi to draw commutative diagrams",
+        "description": "A package for SATySFi to draw commutative diagrams",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-matrixcd/"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-matrixcd/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.3.0\" & < \"1.5\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.0\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-05-24",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\matrixcd-t"
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+          "\\arrow",
+          "\\cr",
+          "\\matrixcd",
+          "\\matrixcd-m"
+        ]
+      },
       {
         "version": "0.0.3",
         "synopsis": "A package for SATySFi to draw commutative diagrams",
@@ -19143,6 +19203,75 @@
           "\\cr",
           "\\matrixcd",
           "\\matrixcd-m"
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-matrixcd-doc",
+    "type": "Document",
+    "last_update": "2022-05-24",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "synopsis": "Document of MatrixCD",
+        "description": "Document of MatrixCD package",
+        "maintainer": [
+          "Noriyuki Abe"
+        ],
+        "authors": [
+          "Noriyuki Abe"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/abenori/satysfi-matrixcd/"
+        ],
+        "bug_reports": [
+          "https://github.com/abenori/satysfi-matrixcd/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.3.0\" & < \"1.5\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.0\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-matrixcd",
+            "constraint": "= \"0.1.0\""
+          }
+        ],
+        "published_on": "2022-05-24",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
         ]
       }
     ],
