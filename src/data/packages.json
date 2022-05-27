@@ -22928,8 +22928,61 @@
   {
     "name": "satysfi-xpath",
     "type": "Library",
-    "last_update": "2022-03-30",
+    "last_update": "2022-05-27",
     "versions": [
+      {
+        "version": "0.3.0",
+        "synopsis": "Advanced path algorithms in SATySFi",
+        "description": "Advanced path algorithms in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-xpath"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-xpath/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-05-27",
+        "documents": [
+          "./docs/xpath-doc/xpath-doc.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.2.0",
         "synopsis": "Advanced path algorithms in SATySFi",
@@ -22989,8 +23042,65 @@
   {
     "name": "satysfi-xpath-doc",
     "type": "Document",
-    "last_update": "2022-03-30",
+    "last_update": "2022-05-27",
     "versions": [
+      {
+        "version": "0.3.0",
+        "synopsis": "Docs of advanced path algorithms in SATySFi",
+        "description": "Docs of advanced path algorithms in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-xpath"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-xpath/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-xpath",
+            "constraint": "= \"0.3.0\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-05-27",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.2.0",
         "synopsis": "Docs of advanced path algorithms in SATySFi",
@@ -23029,6 +23139,71 @@
           }
         ],
         "published_on": "2022-03-30",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-xpath-gr",
+    "type": "Library",
+    "last_update": "2022-05-27",
+    "versions": [
+      {
+        "version": "0.3.0",
+        "synopsis": "Advanced path algorithms in SATySFi",
+        "description": "Advanced path algorithms in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-xpath"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-xpath/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-xpath",
+            "constraint": "= \"0.3.0\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-05-27",
         "documents": [
 
         ],
