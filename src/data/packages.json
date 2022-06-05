@@ -6858,6 +6858,144 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-chemfml",
+    "type": "Library",
+    "last_update": "2022-06-05",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "synopsis": "A SATySFi Package for chemical formulas",
+        "description": "\nThis is a SATySFi package for drawing chemical reaction formulas\n",
+        "maintainer": [
+          "Amadeus_vn <git@amas.dev>"
+        ],
+        "authors": [
+          "Amadeus_vn <git@amas.dev>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/gw31415/satysfi-chemfml"
+        ],
+        "bug_reports": [
+          "https://github.com/gw31415/satysfi-chemfml/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.7\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2022-06-05",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-chemfml-doc",
+    "type": "Document",
+    "last_update": "2022-06-05",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "synopsis": "Document of a SATySFi Package for chemical formulas",
+        "description": "\nThe package `chemfml` is a SATySFi package for drawing chemical reaction formulas.\nThis package is a document of chemfml\n",
+        "maintainer": [
+          "Amadeus_vn <git@amas.dev>"
+        ],
+        "authors": [
+          "Amadeus_vn <git@amas.dev>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/gw31415/satysfi-chemfml"
+        ],
+        "bug_reports": [
+          "https://github.com/gw31415/satysfi-chemfml/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-chemfml",
+            "constraint": "= \"1.0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.1.2\" & < \"2\""
+          }
+        ],
+        "published_on": "2022-06-05",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-class-cv",
     "type": "Class",
     "last_update": "2022-01-22",
