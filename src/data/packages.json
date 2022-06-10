@@ -10982,6 +10982,156 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-csvtable",
+    "type": "Library",
+    "last_update": "2022-06-11",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "A SATySFi package to embed CSV into tables",
+        "description": "\nA SATySFi package to embed CSV into tables.\n",
+        "maintainer": [
+          "Wataru Otsubo <urataw421@gmail.com>"
+        ],
+        "authors": [
+          "Wataru Otsubo <urataw421@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/qwjyh/satysfi-csvtable"
+        ],
+        "bug_reports": [
+          "https://github.com/qwjyh/satysfi-csvtable/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.7\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-csv",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.1.2\""
+          }
+        ],
+        "published_on": "2022-06-11",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-csvtable-doc",
+    "type": "Document",
+    "last_update": "2022-06-11",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Document of SATySFi package to embed CSV into tables",
+        "description": "\nDocument of SATySFi package to embed CSV into tables.\n",
+        "maintainer": [
+          "Wataru Otsubo <urataw421@gmail.com>"
+        ],
+        "authors": [
+          "Wataru Otsubo <urataw421@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/qwjyh/satysfi-csvtable"
+        ],
+        "bug_reports": [
+          "https://github.com/qwjyh/satysfi-csvtable/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.7\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-csvtable",
+            "constraint": "= \"1.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-csv",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.1.2\""
+          }
+        ],
+        "published_on": "2022-06-11",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-debug-show-value",
     "type": "Library",
     "last_update": "2021-02-07",
