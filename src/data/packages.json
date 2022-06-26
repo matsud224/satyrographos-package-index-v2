@@ -15072,6 +15072,132 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-fonts-ibm-plex-sans-jp",
+    "type": "Font",
+    "last_update": "2022-06-26",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "SATySFi Font Package for IBM Plex typeface",
+        "description": "\nSATySFi Font Package for IBM Plex typeface\n",
+        "maintainer": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "authors": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "license": [
+          "OFL-1.1"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-fonts-ibm-plex-sans-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-fonts-ibm-plex-sans-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-06-26",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-fonts-ibm-plex-sans-jp-doc",
+    "type": "Document",
+    "last_update": "2022-06-26",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "synopsis": "Docs for SATySFi Font Package for IBM Plex typeface",
+        "description": "\nDocs for SATySFi Font Package for IBM Plex typeface\n",
+        "maintainer": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "authors": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "license": [
+          "OFL-1.1"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-fonts-ibm-plex-sans-jp"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-fonts-ibm-plex-sans-jp/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-fonts-ibm-plex-sans-jp",
+            "constraint": "= \"1.0.0\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.1.2\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2022-06-26",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-fonts-inconsolata",
     "type": "Font",
     "last_update": "2021-01-24",
