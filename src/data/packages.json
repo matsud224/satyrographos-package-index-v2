@@ -15531,6 +15531,136 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-fonts-material-icons",
+    "type": "Font",
+    "last_update": "2022-07-27",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "synopsis": "SATySFi Font Package for Google Material Icons",
+        "description": "\nSATySFi Font Package for Google Material Icons\n",
+        "maintainer": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "authors": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "license": [
+          "Apache-2.0"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-fonts-material-icons"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-fonts-material-icons/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2022-07-27",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-fonts-material-icons-doc",
+    "type": "Document",
+    "last_update": "2022-07-27",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "synopsis": "Docs for SATySFi Font Package for Google Material Icons",
+        "description": "\nDocs for SATySFi Font Package for Google Material Icons\n",
+        "maintainer": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "authors": [
+          "Mogami Shinichi <cmonaqa@gmail.com>"
+        ],
+        "license": [
+          "Apache-2.0"
+        ],
+        "homepage": [
+          "https://github.com/monaqa/satysfi-fonts-material-icons"
+        ],
+        "bug_reports": [
+          "https://github.com/monaqa/satysfi-fonts-material-icons/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-fonts-material-icons",
+            "constraint": "= \"1.0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.0.0\" & < \"2.0.0\""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ">= \"1.1.2\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2022-07-27",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-fonts-noto-emoji",
     "type": "Font",
     "last_update": "2020-03-23",
