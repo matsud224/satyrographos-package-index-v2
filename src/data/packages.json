@@ -19422,8 +19422,149 @@
   {
     "name": "satysfi-latexcmds",
     "type": "Library",
-    "last_update": "2022-05-28",
+    "last_update": "2023-01-11",
     "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "LaTeX-like commands in SATySFi",
+        "description": "LaTeX-like commands in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2023-01-11",
+        "documents": [
+          "./docs/latexcmds-doc/latexcmds-doc.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\Fss",
+          "\\clearpage",
+          "\\colorbox",
+          "\\doublebox",
+          "\\fbox",
+          "\\fontsize",
+          "\\framebox",
+          "\\hfill",
+          "\\hquad",
+          "\\hskip",
+          "\\hspace",
+          "\\linebreak",
+          "\\makebox",
+          "\\mbox",
+          "\\movebox",
+          "\\newpage",
+          "\\normal-overangle",
+          "\\normal-overbrace",
+          "\\normal-overparen",
+          "\\normal-overset",
+          "\\normal-oversqbracket",
+          "\\normal-underangle",
+          "\\normal-underbrace",
+          "\\normal-underparen",
+          "\\normal-underset",
+          "\\normal-undersqbracket",
+          "\\ovalbox",
+          "\\pagebreak",
+          "\\parbox",
+          "\\phantom",
+          "\\qquad",
+          "\\quad",
+          "\\raisebox",
+          "\\resizebox",
+          "\\rfontsize",
+          "\\rotatebox",
+          "\\rquad",
+          "\\scalebox",
+          "\\shadowbox",
+          "\\text-middle",
+          "\\textbf",
+          "\\textcolor",
+          "\\textit",
+          "\\vskip",
+          "\\vspace"
+        ],
+        "block_commands": [
+          "+centering",
+          "+centerings",
+          "+clearpage",
+          "+flushleft",
+          "+flushlefts",
+          "+flushright",
+          "+flushrights",
+          "+fontsize",
+          "+newpage",
+          "+pagebreak",
+          "+rfontsize",
+          "+screen",
+          "+shadowbox",
+          "+textcolor",
+          "+vskip",
+          "+vspace"
+        ],
+        "math_commands": [
+          "\\hbar",
+          "\\hspace",
+          "\\math-middle",
+          "\\mathclose",
+          "\\mathinner",
+          "\\mathopen",
+          "\\mcolorbox",
+          "\\mfontsize",
+          "\\mhquad",
+          "\\mqquad",
+          "\\mquad",
+          "\\mrfontsize",
+          "\\mrquad",
+          "\\mskip",
+          "\\mspace",
+          "\\mtextcolor",
+          "\\normalphi",
+          "\\overangle",
+          "\\overbrace",
+          "\\overparen",
+          "\\overset",
+          "\\oversqbracket",
+          "\\phi",
+          "\\text",
+          "\\underangle",
+          "\\underbrace",
+          "\\underparen",
+          "\\underset",
+          "\\undersqbracket",
+          "\\varphi"
+        ]
+      },
       {
         "version": "0.1.1",
         "synopsis": "LaTeX-like commands in SATySFi",
@@ -19712,8 +19853,61 @@
   {
     "name": "satysfi-latexcmds-doc",
     "type": "Document",
-    "last_update": "2022-05-28",
+    "last_update": "2023-01-11",
     "versions": [
+      {
+        "version": "0.1.2",
+        "synopsis": "LaTeX-like commands in SATySFi",
+        "description": "LaTeX-like commands in SATySFi",
+        "maintainer": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "authors": [
+          "Yasuo Ozu <yasuo@ozu.email>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds"
+        ],
+        "bug_reports": [
+          "https://github.com/yasuo-ozu/satysfi-latexcmds/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          }
+        ],
+        "published_on": "2023-01-11",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.1",
         "synopsis": "LaTeX-like commands in SATySFi",
