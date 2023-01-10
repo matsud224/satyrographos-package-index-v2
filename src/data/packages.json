@@ -18652,7 +18652,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.1\""
           },
           {
             "name": "satysfi-dist",
@@ -18724,7 +18724,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3+dev2019.02.13\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -18793,7 +18793,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -18855,7 +18855,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -19176,7 +19176,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -19235,7 +19235,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20108,7 +20108,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20246,7 +20246,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20311,7 +20311,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20457,7 +20457,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20522,7 +20522,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20601,7 +20601,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20666,7 +20666,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
           },
           {
             "name": "satysfi-dist",
@@ -20736,7 +20736,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20800,7 +20800,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.3\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -20861,7 +20861,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satysfi-dist",
@@ -21105,7 +21105,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satysfi-base",
@@ -21174,7 +21174,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -21254,7 +21254,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -21319,7 +21319,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -21445,7 +21445,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -21510,7 +21510,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -21902,7 +21902,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22300,7 +22300,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22418,7 +22418,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22491,7 +22491,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22557,7 +22557,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22622,7 +22622,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22696,7 +22696,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -22761,7 +22761,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satysfi-dist",
@@ -22881,7 +22881,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.5\" & < \"0.1\""
           },
           {
             "name": "satysfi-dist",
@@ -22995,7 +22995,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -23109,7 +23109,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.4\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.4\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -23239,7 +23239,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -23304,7 +23304,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.6\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -23373,7 +23373,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.1\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.1\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
@@ -23487,7 +23487,7 @@
         "dependencies": [
           {
             "name": "satysfi",
-            "constraint": ">= \"0.0.1\" & < \"0.0.8\""
+            "constraint": ">= \"0.0.1\" & < \"0.1\""
           },
           {
             "name": "satyrographos",
