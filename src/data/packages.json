@@ -7760,8 +7760,91 @@
   {
     "name": "satysfi-class-cv",
     "type": "Class",
-    "last_update": "2022-01-22",
+    "last_update": "2023-02-23",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "SATySFi class file for Curriculum Vitae",
+        "description": "\nSATySFi class file for Curriculum Vitae\n",
+        "maintainer": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "authors": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/MasWag/cv-satysfi"
+        ],
+        "bug_reports": [
+          "https://github.com/MasWag/cv-satysfi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.2.1\" & < \"2.0\""
+          },
+          {
+            "name": "satysfi-fonts-asana-math",
+            "constraint": ">= \"000.958+1+satysfi0.0.4\""
+          },
+          {
+            "name": "satysfi-parallel",
+            "constraint": ">= \"0.1.0\" & < \"0.3\""
+          }
+        ],
+        "published_on": "2023-02-23",
+        "documents": [
+          "./docs/class-cv-doc/manual.pdf"
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+          "\\bold",
+          "\\book-title",
+          "\\cite",
+          "\\dfn",
+          "\\dummy",
+          "\\emph",
+          "\\enumerate-with-gap",
+          "\\footnote",
+          "\\index",
+          "\\listing-with-gap",
+          "\\promote-linebreak",
+          "\\roman",
+          "\\rule",
+          "\\url"
+        ],
+        "block_commands": [
+          "+description",
+          "+enumerate-with-gap",
+          "+listing-with-gap",
+          "+p",
+          "+p-noindent",
+          "+publications",
+          "+section",
+          "+skill-groups",
+          "+subsection",
+          "+tabbedblock"
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "SATySFi class file for Curriculum Vitae",
@@ -7851,8 +7934,61 @@
   {
     "name": "satysfi-class-cv-doc",
     "type": "Document",
-    "last_update": "2022-01-22",
+    "last_update": "2023-02-23",
     "versions": [
+      {
+        "version": "0.1.1",
+        "synopsis": "Documentation of a class for CV",
+        "description": "Documentation of a class for CV.",
+        "maintainer": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "authors": [
+          "Masaki Waga <masakiwaga@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/MasWag/cv-satysfi"
+        ],
+        "bug_reports": [
+          "https://github.com/MasWag/cv-satysfi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.3\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2023-02-23",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.1.0",
         "synopsis": "Documentation of a class for CV",
