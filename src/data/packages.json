@@ -3378,6 +3378,156 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-actuarial",
+    "type": "Library",
+    "last_update": "2023-02-26",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "synopsis": "Halo system implementation for actuarial notations in SATySFi",
+        "description": "\nHalo system implementation for actuarial notations in SATySFi.\n",
+        "maintainer": [
+          "Arakur <arakur65536@gmail.com>"
+        ],
+        "authors": [
+          "Arakur <arakur65536@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/arakur/satysfi-actuarial"
+        ],
+        "bug_reports": [
+          "https://github.com/arakur/satysfi-actuarial/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2023-02-26",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-actuarial-doc",
+    "type": "Document",
+    "last_update": "2023-02-26",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "synopsis": "Documentation of satysfi-actuarial",
+        "description": "\nDocumentation of satysfi-actuarial.\n",
+        "maintainer": [
+          "Arakur <arakur65536@gmail.com>"
+        ],
+        "authors": [
+          "Arakur <arakur65536@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/arakur/satysfi-actuarial"
+        ],
+        "bug_reports": [
+          "https://github.com/arakur/satysfi-actuarial/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.6\" & < \"0.1\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-actuarial",
+            "constraint": "= \"0.0.1\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-easytable",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-enumitem",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-code-printer",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-bibyfi",
+            "constraint": ""
+          }
+        ],
+        "published_on": "2023-02-26",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-algorithm",
     "type": "Library",
     "last_update": "2022-05-22",
