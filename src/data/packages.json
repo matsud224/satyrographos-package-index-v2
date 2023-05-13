@@ -14878,7 +14878,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ">= \"1.4.0\""
+            "constraint": ">= \"1.4.0\" & < \"2.0\""
           }
         ],
         "published_on": "2022-04-17",
@@ -15118,7 +15118,7 @@
           },
           {
             "name": "satysfi-base",
-            "constraint": ">= \"1.4.0\""
+            "constraint": ">= \"1.4.0\" & < \"2.0\""
           },
           {
             "name": "satysfi-easytable",
@@ -25656,6 +25656,144 @@
           }
         ],
         "published_on": "2021-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-xml",
+    "type": "Library",
+    "last_update": "2023-05-14",
+    "versions": [
+      {
+        "version": "1.0.3",
+        "synopsis": "XML parser with SATySFi",
+        "description": "\nXML parser with SATySFi.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/satysfi-xml"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/satysfi-xml/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"1.0\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0\""
+          }
+        ],
+        "published_on": "2023-05-14",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
+    "name": "satysfi-xml-doc",
+    "type": "Document",
+    "last_update": "2023-05-14",
+    "versions": [
+      {
+        "version": "1.0.3",
+        "synopsis": "Document of SATySFi-xml",
+        "description": "\nDocument of SATySFi-xml.\n",
+        "maintainer": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "authors": [
+          "Naoki Kaneko <puripuri2100@gmail.com>"
+        ],
+        "license": [
+          "MIT"
+        ],
+        "homepage": [
+          "https://github.com/puripuri2100/satysfi-xml"
+        ],
+        "bug_reports": [
+          "https://github.com/puripuri2100/satysfi-xml/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"1.0\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-xml",
+            "constraint": "= \"1.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0\""
+          },
+          {
+            "name": "satysfi-code-printer",
+            "constraint": ">= \"1.1.1\" & < \"2.0\""
+          }
+        ],
+        "published_on": "2023-05-14",
         "documents": [
 
         ],
