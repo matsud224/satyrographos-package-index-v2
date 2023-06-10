@@ -18,7 +18,7 @@
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
-    "gatsby": "^2.31.1",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-source-filesystem": "^2.10.0",
     "gatsby-transformer-json": "^2.10.0",
