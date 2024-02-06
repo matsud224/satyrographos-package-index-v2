@@ -661,8 +661,109 @@
   {
     "name": "satysfi",
     "type": "Satysfi",
-    "last_update": "2023-10-23",
+    "last_update": "2024-02-07",
     "versions": [
+      {
+        "version": "0.0.11",
+        "synopsis": "A statically-typed, functional typesetting system",
+        "description": "\nSATySFi is a typesetting system equipped with a statically-typed, functional programming language. It consists mainly of two “layers” ― the text layer and the program layer. The former is for writing documents in LaTeX-like syntax. The latter, which has OCaml-like syntax, is for defining functions and commands. SATySFi enables you to write documents markuped with flexible commands of your own making. In addition, its informative type error reporting will be a good help to your writing.",
+        "maintainer": [
+          "Takashi Suwa"
+        ],
+        "authors": [
+          "Takashi Suwa"
+        ],
+        "license": [
+
+        ],
+        "homepage": [
+          "https://github.com/gfngfn/SATySFi"
+        ],
+        "bug_reports": [
+          "https://github.com/gfngfn/SATySFi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "ocaml",
+            "constraint": ">= \"4.12.0\" & < \"5.0.0\""
+          },
+          {
+            "name": "batteries",
+            "constraint": ">= \"3.6.0\" & < \"4.0.0\""
+          },
+          {
+            "name": "camlimages",
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
+          },
+          {
+            "name": "camlpdf",
+            "constraint": "= \"2.3.1+satysfi\""
+          },
+          {
+            "name": "core_kernel",
+            "constraint": ">= \"v0.15\" & < \"v0.16\""
+          },
+          {
+            "name": "cppo",
+            "constraint": "build & >= \"1.6.4\" & < \"1.7.0\""
+          },
+          {
+            "name": "dune",
+            "constraint": "build"
+          },
+          {
+            "name": "menhir",
+            "constraint": ""
+          },
+          {
+            "name": "ocamlfind",
+            "constraint": "build"
+          },
+          {
+            "name": "otfed",
+            "constraint": ">= \"0.3.1\" & < \"0.4\""
+          },
+          {
+            "name": "ppx_deriving",
+            "constraint": ">= \"5.2.1\" & < \"6.0.0\""
+          },
+          {
+            "name": "re",
+            "constraint": "build & >= \"1.10.4\" & < \"2.0.0\""
+          },
+          {
+            "name": "uutf",
+            "constraint": ">= \"1.0.3\" & < \"2.0.0\""
+          },
+          {
+            "name": "yojson-with-position",
+            "constraint": "= \"1.4.2+satysfi\""
+          },
+          {
+            "name": "omd",
+            "constraint": ">= \"1.3.2\" & < \"2.0.0~\""
+          }
+        ],
+        "published_on": "2024-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.0.10",
         "synopsis": "A statically-typed, functional typesetting system",
@@ -685,15 +786,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.12.0\""
+            "constraint": ">= \"4.12.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -725,15 +826,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -786,15 +887,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.12.0\""
+            "constraint": ">= \"4.12.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -826,15 +927,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -887,15 +988,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -927,15 +1028,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -988,15 +1089,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1028,15 +1129,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1089,15 +1190,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1129,15 +1230,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1190,15 +1291,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1230,15 +1331,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1291,15 +1392,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1331,15 +1432,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1392,15 +1493,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1432,15 +1533,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1493,15 +1594,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1533,15 +1634,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1594,15 +1695,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.10.0\""
+            "constraint": ">= \"4.10.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1634,15 +1735,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1695,15 +1796,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1735,15 +1836,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1796,15 +1897,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1836,15 +1937,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1897,15 +1998,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -1937,15 +2038,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -1998,15 +2099,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2038,15 +2139,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -2099,15 +2200,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2139,15 +2240,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -2200,15 +2301,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2240,15 +2341,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson-with-position",
@@ -2301,15 +2402,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2341,15 +2442,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2402,15 +2503,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.08.0\""
+            "constraint": ">= \"4.08.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2442,15 +2543,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2503,15 +2604,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2543,15 +2644,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2604,15 +2705,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2644,15 +2745,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2705,15 +2806,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2745,15 +2846,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2806,15 +2907,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2846,15 +2947,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -2907,15 +3008,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -2947,15 +3048,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3008,15 +3109,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3048,15 +3149,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3109,15 +3210,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3149,15 +3250,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3210,15 +3311,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3250,15 +3351,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3311,15 +3412,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3351,15 +3452,15 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "re",
-            "constraint": "build"
+            "constraint": "build & < \"2.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3412,15 +3513,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3452,11 +3553,11 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -3505,15 +3606,15 @@
         "dependencies": [
           {
             "name": "ocaml",
-            "constraint": ">= \"4.06.0\""
+            "constraint": ">= \"4.06.0\" & < \"5.0.0\""
           },
           {
             "name": "batteries",
-            "constraint": ""
+            "constraint": "< \"4.0.0\""
           },
           {
             "name": "camlimages",
-            "constraint": ">= \"5.0.1\""
+            "constraint": ">= \"5.0.1\" & < \"5.0.5\""
           },
           {
             "name": "camlpdf",
@@ -3545,11 +3646,11 @@
           },
           {
             "name": "ppx_deriving",
-            "constraint": ""
+            "constraint": "< \"6.0.0\""
           },
           {
             "name": "uutf",
-            "constraint": ""
+            "constraint": "< \"2.0.0\""
           },
           {
             "name": "yojson",
@@ -13474,8 +13575,53 @@
   {
     "name": "satysfi-dist",
     "type": "Library",
-    "last_update": "2023-10-23",
+    "last_update": "2024-02-07",
     "versions": [
+      {
+        "version": "0.0.11",
+        "synopsis": "Standard library of SATySFi",
+        "description": "\nProvides the standard library of SATySFi",
+        "maintainer": [
+          "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>"
+        ],
+        "authors": [
+          "gfngfn"
+        ],
+        "license": [
+
+        ],
+        "homepage": [
+          "https://github.com/gfngfn/SATySFi"
+        ],
+        "bug_reports": [
+          "https://github.com/gfngfn/SATySFi/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": "= \"0.0.11\""
+          }
+        ],
+        "published_on": "2024-02-07",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      },
       {
         "version": "0.0.10",
         "synopsis": "Standard library of SATySFi",
