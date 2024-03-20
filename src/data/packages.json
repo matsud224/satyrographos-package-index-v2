@@ -22281,6 +22281,71 @@
     "is_archived": false
   },
   {
+    "name": "satysfi-footnote-scheme-ext",
+    "type": "Library",
+    "last_update": "2024-03-20",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "synopsis": "A SATySFi package to have a floating boxes at the bottom of pages",
+        "description": "\nA SATySFi package to have a floating boxes at the bottom of pages.\n",
+        "maintainer": [
+          "Jin Sano <sano@ueda.info.waseda.ac.jp>"
+        ],
+        "authors": [
+          "Jin Sano <sano@ueda.info.waseda.ac.jp>"
+        ],
+        "license": [
+          "LGPL-3.0-or-later"
+        ],
+        "homepage": [
+          "https://github.com/sano-jin/satysfi-footnote-scheme-ext"
+        ],
+        "bug_reports": [
+          "https://github.com/sano-jin/satysfi-footnote-scheme-ext/issues"
+        ],
+        "dependencies": [
+          {
+            "name": "satysfi",
+            "constraint": ">= \"0.0.5\" & < \"0.0.8\""
+          },
+          {
+            "name": "satyrographos",
+            "constraint": ">= \"0.0.2.6\" & < \"0.0.3\""
+          },
+          {
+            "name": "satysfi-dist",
+            "constraint": ""
+          },
+          {
+            "name": "satysfi-base",
+            "constraint": ">= \"1.4.0\" & < \"2.0.0\""
+          }
+        ],
+        "published_on": "2024-03-20",
+        "documents": [
+
+        ],
+        "fonts": [
+
+        ],
+        "tags": [
+
+        ],
+        "inline_commands": [
+
+        ],
+        "block_commands": [
+
+        ],
+        "math_commands": [
+
+        ]
+      }
+    ],
+    "is_archived": false
+  },
+  {
     "name": "satysfi-fss",
     "type": "Library",
     "last_update": "2020-12-11",
